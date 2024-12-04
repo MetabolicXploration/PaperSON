@@ -1,0 +1,121 @@
+{
+    "dev": {
+        "notes" : [
+            "#TODO: double check with paper", 
+            "#TODO: Create automatic tests, reproduce table/plots (visually)", 
+            "#TODO: Add fig1",
+            "#TODO: Add fig2",
+            "#TODO: Add fig3",
+            "#TODO: Add table3",
+            "#TODO: Add fig4",
+            "#TODO: Add fig5",
+            "#TODO: Add fig6",
+            "#TODO: Add table4",
+        ]
+    },
+
+    "data" : {
+        "table_1" : {
+
+            "meta" : {
+                "desc" : "Concentrations of biomass, glucose, acetate and ammonium and volumetric CTR and OTR during steady-state growth of E. coli TG1 at various dilution rates in glucose-limited continuous cultures. Data consistency was analysed by determination of the carbon and nitrogen recoveries by applying reactor mass balances."
+            },
+
+            "data" : {
+                "#TODO" : "Check data symbols with paper",
+                "D" : {
+                    "desc" : "Dilution", 
+                    "unit" : "1/ hr", 
+                    "val" : [0.044, 0.066, 0.134, 0.150, 0.170, 0.203, 0.265, 0.280, 0.300, 0.347, 0.375, 0.388, 0.397, 0.410, 0.415]
+                },
+                "Biomass" : {
+                    "desc" : "Cell density", 
+                    "unit" : "gDW/ L",
+                    "val" : [5.07, 5.05, 5.29, 5.24, 5.23, 5.41, 5.28, 5.53, 5.53, 5.61, 5.69, 5.88, 5.27, 3.82, 1.05]
+                },
+                "Glucose" : {
+                    "desc" : "Glucose effluent conc", 
+                    "unit" : "g/ L",  
+                    "val" : [0.000, 0.000, 0.000, 0.000, 0.000, 0.000, 0.000, 0.000, 0.000, 0.229, 0.295, 0.259, 0.398, 1.822, 6.048]
+                },
+                "Acetate" : {
+                    "desc" : "Acetic acid effluent conc", 
+                    "unit" : "g/ L", 
+                    "val" : [0.000, 0.000, 0.000, 0.000, 0.000, 0.000, 0.000, 0.000, 0.000, 0.000, 0.048, 0.051, 0.062, 1.140, 1.500]
+                },
+                "Ammonium" : {
+                    "desc" : "Ammoniate effluent conc", 
+                    "unit" : "g/ L", 
+                    "val" : [1.709, 1.688, 1.652, 1.650, 1.656, 1.629, 1.632, 1.620, 1.612, 1.617, 1.590, 1.556, 1.635, 1.835, 2.245]
+                },
+                "CTR" : {
+                    "desc" : "Carbon dioxide transfer rate", 
+                    "unit" : "g/ L hr", 
+                    "val" : [0.286, 0.440, 0.924, 0.915, 1.113, 1.276, 1.536, 1.676, 1.795, 1.905, 1.888, 1.971, 2.015, 0.462, 0.207]
+                },
+                "OTR" : {
+                    "desc" : "Oxygen transfer rate", 
+                    "unit" : "g/ L hr", 
+                    "val" : [0.222, 0.288, 0.576, 0.615, 0.896, 0.950, 1.044, 1.226, 1.312, 1.357, 1.373, 1.434, 1.387, 0.330, 0.147]
+                },
+                "RC" : {
+                    "desc" : "Carbon recovery", 
+                    "unit" : "%", 
+                    "val" : [96, 97, 101, 95, 98, 98, 93, 97, 97, 96, 95, 97, 93, 76, 89]
+                },
+                "RN" : {
+                    "desc" : "Nitrogen recovery", 
+                    "unit" : "%", 
+                    "val" : [99, 98, 98, 98, 98, 98, 97, 98, 98, 99, 98, 98, 97, 98, 99]
+                }
+            }
+        },
+
+        "tabla_2" : {
+            "meta" : {
+                "desc" : "Table 2. Biomass formation rate and the specific rates of glucose uptake, carbon dioxide evolution, oxygen uptake, acetate formation and ammonium uptake during steady-state growth of E. coli TG1 at various dilution rates in glucose-limited continuous cultures. RBiomass, Biomass formation rate; rGlucose, glucose uptake rate; rCO2 , carbon dioxide evolution rate; rO2 , oxygen uptake rate; rAcetate, acetate formation rate; rNH4 , ammonium uptake rate."
+            },
+
+            "data" : {
+                "#TODO" : "Check data symbols with paper",
+
+                "D" : {
+                    "desc" : "Dilution", 
+                    "unit" : "1/ hr", 
+                    "val" : [0.044, 0.066, 0.134, 0.150, 0.170, 0.203, 0.265, 0.280, 0.300, 0.347, 0.375, 0.388, 0.397]
+                },
+                "RBiomass" : {
+                    "desc" : "Biomass formation rate", 
+                    "unit" : "g/ L hr", 
+                    "val" : [0.223, 0.333, 0.709, 0.785, 0.889, 1.098, 1.399, 
+                    1.548, 1.659, 1.945, 2.132, 2.281, 2.092]
+                },
+                "rGlucose" : {
+                    "desc" : "glucose uptake rate", 
+                    "unit" : "g/ g hr", 
+                    "val" : [0.087, 0.131, 0.253, 0.287, 0.325, 0.375, 0.502, 0.506, 0.542, 0.605, 0.640, 0.643, 0.723]
+                },
+                "rCO2" : {
+                    "desc" : "carbon dioxide evolution rate", 
+                    "unit" : "g/ g hr", 
+                    "val" : [0.056, 0.087, 0.175, 0.175, 0.213, 0.236, 0.291, 0.303, 0.325, 0.340, 0.332, 0.335, 0.382]
+                },
+                "rO2" : {
+                    "desc" : "oxygen uptake rate", 
+                    "unit" : "g/ g hr", 
+                    "val" : [0.0437, 0.0570, 0.1089, 0.1175, 0.1713, 0.1757, 0.1978, 0.2216, 0.2372, 0.2421, 0.2415, 0.2438, 0.2633]
+                },
+                "rAcetate" : {
+                    "desc" : "acetate formation rate", 
+                    "unit" : "g/ g hr",
+                    "val" : [0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0032, 0.0034, 0.0047]
+                },
+                "rNH4" : {
+                    "desc" : "ammonium uptake rate", 
+                    "unit" : "g/ g hr",
+                    "val" : [0.0060, 0.0093, 0.0190, 0.0215, 0.0242, 0.0289, 0.0385, 0.0395, 0.0427, 0.0485, 0.0534, 0.0557, 0.0577]
+                }
+            }
+        }
+    }
+}
