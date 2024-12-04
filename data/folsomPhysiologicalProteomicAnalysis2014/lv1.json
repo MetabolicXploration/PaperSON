@@ -1,0 +1,108 @@
+{   
+    "dev": {
+        "notes" : [
+            "#TODO: double check with paper", 
+            "#TODO: Create automatic tests, reproduce table/plots (visually)",
+            "#TODO: Add figure 1",
+            "#TODO: Add figure 2",
+            "#TODO: Add figure 3",
+            "#TODO: Add figure 4",
+            "#TODO: Add table 1",
+            "#TODO: Add table 3",
+            "#TODO: Add table 4",
+            "#TODO: Add figure 5"
+
+        ]
+    },
+    
+    "data" : {
+
+        "Supp_zjb999093237sd2" : {
+            "meta" : {
+                "link" : "https://journals.asm.org/doi/suppl/10.1128/jb.01606-14/suppl_file/zjb999093237sd2.xlsx"
+            }, 
+            "data": "#TODO"
+        },
+
+        "Supp_zjb999093237so1" : {
+            "meta" : {
+                "link": "https://journals.asm.org/doi/suppl/10.1128/jb.01606-14/suppl_file/zjb999093237so1.pdf"
+            }, 
+            "data": "#TODO"
+        },
+
+
+        "Supp_table_2" : { 
+            "meta" : {
+                "source" : ""
+            },
+            "data" : {
+                "D": {
+                    "unit" : "1/h",
+                    "val" : [0.1, 0.2, 0.3, 0.4],
+                    "err" : [0.0, 0.0, 0.0, 0.0]
+                },
+                "μ" : { 
+                    "unit" : "1/h",
+                    "val" : [0.1, 0.2, 0.3, 0.4],
+                    "err" : [0.0, 0.0, 0.0, 0.0]
+                }, 
+                "YX_glc" : {
+                    "unit" : "Cmmol/Cmmol glc",
+                    "val" : [0.426, 0.525, 0.458, 0.459],
+                    "err" : [0.032, 0.028, 0.034, 0.038]
+                },
+                "Ypyr_glc" : {
+                    "unit" : "Cmmol/Cmmol glc",
+                    "val" : [0.0, 0.0, 0.0, 0.0],
+                    "err" : [0.0, 0.0, 0.0, 0.0]
+                },
+                "Ysucc_glc" : {
+                    "unit" : "Cmmol/Cmmol glc",
+                    "val" : [0.004, 0.003, 0.0, 0.0],
+                    "err" : [0.001, 0.001, 0.0, 0.0]
+                },
+                "Ylac_glc" : {
+                    "unit" : "Cmmol/Cmmol glc",
+                    "val" : [0.013, 0.003, 0.026, 0.023],
+                    "err" : [0.003, 0.001, 0.002, 0.003]
+                },
+                "Yform_glc" : {
+                    "unit" : "Cmmol/Cmmol glc",
+                    "val" : [0.041, 0.005, 0.001, 0.002],
+                    "err" : [0.015, 0.001, 0.000, 0.002]
+                },
+                "Yac_glc" : {
+                    "unit" : "Cmmol/Cmmol glc",
+                    "val" : [0.000, 0.000, 0.001, 0.004],
+                    "err" : [0.000, 0.000, 0.001, 0.002]
+                },
+                "Yco2_glc" : {
+                    "unit" : "Cmmol/Cmmol glc",
+                    "val" : [0.515, 0.465, 0.514, 0.512],
+                    "err" : [0.051, 0.031, 0.037, 0.047]
+                },
+
+                "uglc" : {
+                    "unit" : "Cmmol/gCDW-h",
+                    "val" : [9.1, 14.8, 25.5, 33.9],
+                    "err" : [0.68, 0.78, 1.87, 2.79]
+                },
+                "uO2" : {
+                    "unit" : "Cmmol/gCDW-h",
+                    "val" : [4.74, 6.64, 12.68, 16.82],
+                    "err" : [0.826, 0.786, 1.85, 2.93]
+                }
+            }
+        }, 
+
+
+        "medium" : {
+            "glc": {
+                "conc" : 2.2,
+                "unit" : "mM"
+            } 
+        }
+    }
+    
+}
