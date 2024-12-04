@@ -1,2 +1,15 @@
 # PaperSON
-A digital archive of papers data. It is focus on data that is not easily digitized. For instance figures and tables. 
+
+A digital archive of data from papers. It is focused on data that is not digitized yet in a computer friendly format. For instance figures and tables. 
+
+## Incuded papers
+
+- folsomPhysiologicalProteomicAnalysis2014
+- folsomPhysiologicalBiomassElemental2015
+- kayserMetabolicFluxAnalysis2005
+
+## TODOs
+
+- formalize a quality testing protocole
+    - reproduce simple figures or tables.
+    - create automatic test suite.
