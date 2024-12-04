@@ -1,0 +1,147 @@
+{
+    "dev": {
+        "notes" : [
+            "#TODO: double check with paper", 
+            "#TODO: Create automatic tests, reproduce table/plots (visually)",
+        ]
+    },
+
+    "data" : {
+        "Supp2" : {
+            "meta" : {
+                "source" : "Sumpplementary file 00118s2.xlsx"
+            }, 
+            "data" : {
+                "D" : {
+                    "unit" : "1/h",
+                    "val" : [0.1, 0.2, 0.3, 0.4],
+                    "err" : [0.0, 0.0, 0.0, 0.0]
+                },
+                "YX_glc" : {
+                    "unit" : "Cmmol/Cmmol glc",
+                    "val" : [0.140, 0.196, 0.186, 0.260],
+                    "err" : [0.032, 0.015, 0.063, 0.049]
+                },
+                "Ypyr_glc" : {
+                    "unit" : "Cmmol/Cmmol glc",
+                    "val" : [0.003, 0.0, 0.0, 0.0],
+                    "err" : [0.002, 0.0, 0.0, 0.0]
+                },
+                "Ysucc_glc" : {
+                    "unit" : "Cmmol/Cmmol glc",
+                    "val" : [0.003, 0.000, 0.000, 0.000],
+                    "err" : [0.003, 0.00, 0.0, 0.0]
+                },
+                "Ylac_glc" : {
+                    "unit" : "Cmmol/Cmmol glc",
+                    "val" : [0.078, 0.047, 0.026, 0.026],
+                    "err" : [0.02, 0.005, 0.01, 0.005]
+                },
+                "Yform_glc" : {
+                    "unit" : "Cmmol/Cmmol glc",
+                    "val" : [0.007, 0.0002, 0.0, 0.002],
+                    "err" : [0.004, 0.00009, 0.000, 0.001]
+                },
+                "Yac_glc" : {
+                    "unit" : "Cmmol/Cmmol glc",
+                    "val" : [0.310, 0.262, 0.183, 0.224],
+                    "err" : [0.073, 0.019, 0.065, 0.043]
+                },
+                "Yco2_glc" : {
+                    "unit" : "mol Co2/Cmmol glc",
+                    "val" : [0.460, 0.495, 0.605, 0.488],
+                    "err" : [0.134, 0.04, 0.138, 0.098]
+                },
+                "Yo2_glc" : {
+                    "unit" : "mol o2/Cmmol glc",
+                    "val" : [0.459, 0.487, 0.598, 0.479],
+                    "err" : [0.133, 0.039, 0.136, 0.097]
+                },
+
+                "qglc" : {
+                    "unit" : "Cmmol/gCDW-h",
+                    "val" : [27.8, 39.7, 62.8, 59.9],
+                    "err" : [6.41, 3.1, 21.3, 11.2]
+                },
+                "qO2" : {
+                    "unit" : "mmol o2/gCDW-h",
+                    "val" : [12.77, 19.33, 37.58, 28.68],
+                    "err" : [6.65, 3.05, 21.28, 11.18]
+                }
+            }
+        }, 
+
+        "Supp4" : {
+            "meta" : {
+                "source" : "Sumpplementary file 00118s4.xlsx"
+            }, 
+            "data" : {
+                "D" : {
+                    "unit" : "1/h",
+                    "val" : [0.1, 0.2, 0.3, 0.4],
+                    "err" : [0.0, 0.0, 0.0, 0.0]
+                },
+                "Y_X/N" : {
+                    "unit" : "g/g_N",
+                    "val" : [9.22, 9.84, 8.82, 8.81],
+                    "err" : [0.0, 0.0, 0.0, 0.0]
+                },
+                "Y_X/glc" : {
+                    "unit" : "g/g_glc",
+                    "val" : [0.12, 0.17, 0.16, 0.22],
+                    "err" : [0.0, 0.0, 0.0, 0.0]
+                },
+                "qglc" : {
+                    "unit" : "mmol/ gCDW h",
+                    "val" : [4.6, 6.6, 10.5, 10.0],
+                    "err" : [0.0, 0.0, 0.0, 0.0]
+                },
+                "qac" : {
+                    "unit" : "mmol/ gCDW h",
+                    "val" : [4.3, 5.2, 5.7, 6.71],
+                    "err" : [0.0, 0.0, 0.0, 0.0]
+                },
+                "qpyr" : {
+                    "unit" : "mmol/ gCDW h",
+                    "val" : [0.03, 0.0, 0.0, 0.0],
+                    "err" : [0.0, 0.0, 0.0, 0.0]
+                },
+                "qo2" : {
+                    "unit" : "mmol/ gCDW h",
+                    "val" : [12.8, 19.33, 37.6, 28.7],
+                    "err" : [0.0, 0.0, 0.0, 0.0]
+                },
+                "qco2" : {
+                    "unit" : "mmol/ gCDW h",
+                    "val" : [12.8, 19.6, 38.0, 29.2],
+                    "err" : [0.0, 0.0, 0.0, 0.0]
+                }
+            }
+        }, 
+
+
+        "medium" : {
+            "meta" : {
+                "desc" : "M9 minima medium, all in mM (Ammonium-limited)"
+            }, 
+            "data" : {
+                "nh4" : {
+                    "conc" : 1.31,
+                    "unit" : "mM"
+                },
+                "fe" : {
+                    "conc" : 18.7,
+                    "unit" : "mM",
+                    "dev.note" : "#TODO: Check this number, it is equal to glc"
+                },
+                "glc" : {
+                    "conc" : 18.7,
+                    "unit" : "mM"
+                }
+            }
+        }, 
+
+
+
+    }
+}
