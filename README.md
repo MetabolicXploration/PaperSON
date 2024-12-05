@@ -7,6 +7,7 @@ A digital archive of data from papers. It is focused on data that is not digitiz
 - folsomPhysiologicalProteomicAnalysis2014
 - folsomPhysiologicalBiomassElemental2015
 - kayserMetabolicFluxAnalysis2005
+- nanchenNonlinearDependencyIntracellular2006
 
 ## TODOs
 

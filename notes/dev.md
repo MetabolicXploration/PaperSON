@@ -1,8 +1,8 @@
 ## v1 Design ideas
 
-### lv1
+### raw
 
-lv1 it is a free structure level. Its only goal is the introduction of the data as coherent with the paper as posible. That means that by reading the paper you should be able to underestand what the 'lv1.json' file contain. This includes the ids of variables, thee units, the source, etc. 
+'raw' it is a free structure level. Its only goal is the introduction of the data as coherent with the paper as posible. That means that by reading the paper you should be able to underestand what the 'raw.json' file contain. This includes the ids of variables, thee units, the source, etc. 
 
 For instance:
 ```
@@ -20,7 +20,7 @@ should contain the date of 'table2' of the manuscript, 'F1' should be the same s
 
 #### About nesting depth
 
-It is recommended to use nesting only when it is necessary for making the data structure clearer. Also, try not to mix different 'kind' of data, nesting can be used to separate them. Anyway, remember, 'lv1' data is structure free. 
+It is recommended to use nesting only when it is necessary for making the data structure clearer. Also, try not to mix different 'kind' of data, nesting can be used to separate them. Anyway, remember, 'raw' data is structure free. 
 
 For instance:
 
