@@ -1,0 +1,131 @@
+Growth rate (1/h),Yield,Biomass Yield (gDW/g_glc),Glucose uptake rate,Acetate secretion rate,Normalized acetate overflow rate,Rate unit,Strain,Reference,PMID
+0.21,0.53,,2.66,,,mmol/gDW/h,BW2113,Peebo et al. (2015),25712329
+0.36,0.56,,4.36,,,mmol/gDW/h,BW2113,Peebo et al. (2015),25712329
+0.51,0.55,,6.24,,,mmol/gDW/h,BW2113,Peebo et al. (2015),25712329
+0.2,0.41,0.34,3.1,0.0,,mmol/gDW/h,BW25113,Renilla et al. (2012),21881893
+0.04,0.33,0.27,,,,mmol/gDW/h,MG1655,Nanchen et al. (2006),16461663
+0.05,0.41,0.34,,,,mmol/gDW/h,MG1655 ,Nanchen et al. (2006),16461663
+0.05,0.28,0.23,,,,mmol/gDW/h,MG1655 ,Nanchen et al. (2006),16461663
+0.06,0.34,0.28,,,,mmol/gDW/h,MG1655,Nanchen et al. (2006),16461663
+0.08,0.34,0.29,,,,mmol/gDW/h,MG1655 ,Nanchen et al. (2006),16461663
+0.1,0.38,0.32,,,,mmol/gDW/h,MG1655 ,Nanchen et al. (2006),16461663
+0.11,0.43,0.36,,,,mmol/gDW/h,MG1655,Nanchen et al. (2006),16461663
+0.11,0.39,0.32,,,,mmol/gDW/h,MG1655 ,Nanchen et al. (2006),16461663
+0.12,0.42,0.35,,,,mmol/gDW/h,MG1655 ,Nanchen et al. (2006),16461663
+0.19,0.45,0.37,,,,mmol/gDW/h,MG1655,Nanchen et al. (2006),16461663
+0.21,0.45,0.37,,,,mmol/gDW/h,MG1655 ,Nanchen et al. (2006),16461663
+0.21,0.46,0.38,,,,mmol/gDW/h,MG1655 ,Nanchen et al. (2006),16461663
+0.29,0.45,0.38,,,,mmol/gDW/h,MG1655,Nanchen et al. (2006),16461663
+0.3,0.46,0.38,,,,mmol/gDW/h,MG1655 ,Nanchen et al. (2006),16461663
+0.32,0.46,0.38,,,,mmol/gDW/h,MG1655 ,Nanchen et al. (2006),16461663
+0.4,0.48,0.4,,,,mmol/gDW/h,MG1655,Nanchen et al. (2006),16461663
+0.41,0.48,0.4,,,,mmol/gDW/h,MG1655 ,Nanchen et al. (2006),16461663
+0.41,0.47,0.39,,,,mmol/gDW/h,MG1655 ,Nanchen et al. (2006),16461663
+0.51,0.5,0.42,,,,mmol/gDW/h,MG1655,Nanchen et al. (2006),16461663
+0.55,0.5,0.42,,,,mmol/gDW/h,MG1655 ,Nanchen et al. (2006),16461663
+0.59,0.5,0.41,,,,mmol/gDW/h,MG1655 ,Nanchen et al. (2006),16461663
+0.69,0.45,0.38,,,,mmol/gDW/h,MG1655 ,Nanchen et al. (2006),16461663
+0.24,0.48,0.4,,,,mmol/gDW/h,MG1655,Valgepea et al. (2010),21122111
+0.3,0.49,0.41,,,,mmol/gDW/h,MG1655,Valgepea et al. (2010),21122111
+0.4,0.5,0.42,,,,mmol/gDW/h,MG1655,Valgepea et al. (2010),21122111
+0.51,0.49,0.41,,,,mmol/gDW/h,MG1655,Valgepea et al. (2010),21122111
+0.11,0.5,0.42,,,,mmol/gDW/h,MG1655,Valgepea et al. (2011),21726468
+0.12,0.48,0.4,,,,mmol/gDW/h,MG1655,Valgepea et al. (2011),21726468
+0.13,0.48,0.4,,,,mmol/gDW/h,MG1655,Valgepea et al. (2011),21726468
+0.14,0.48,0.4,,,,mmol/gDW/h,MG1655,Valgepea et al. (2011),21726468
+0.15,0.49,0.41,,,,mmol/gDW/h,MG1655,Valgepea et al. (2011),21726468
+0.16,0.49,0.41,,,,mmol/gDW/h,MG1655,Valgepea et al. (2011),21726468
+0.17,0.49,0.41,,,,mmol/gDW/h,MG1655,Valgepea et al. (2011),21726468
+0.18,0.5,0.41,,,,mmol/gDW/h,MG1655,Valgepea et al. (2011),21726468
+0.2,0.49,0.41,,,,mmol/gDW/h,MG1655,Valgepea et al. (2011),21726468
+0.19,0.5,0.41,,,,mmol/gDW/h,MG1655,Valgepea et al. (2011),21726468
+0.21,0.48,0.4,,,,mmol/gDW/h,MG1655,Valgepea et al. (2011),21726468
+0.22,0.47,0.39,,,,mmol/gDW/h,MG1655,Valgepea et al. (2011),21726468
+0.23,0.47,0.39,,,,mmol/gDW/h,MG1655,Valgepea et al. (2011),21726468
+0.24,0.47,0.4,,,,mmol/gDW/h,MG1655,Valgepea et al. (2011),21726468
+0.25,0.48,0.4,,,,mmol/gDW/h,MG1655,Valgepea et al. (2011),21726468
+0.26,0.48,0.4,,,,mmol/gDW/h,MG1655,Valgepea et al. (2011),21726468
+0.27,0.48,0.4,,,,mmol/gDW/h,MG1655,Valgepea et al. (2011),21726468
+0.28,0.49,0.41,,,,mmol/gDW/h,MG1655,Valgepea et al. (2011),21726468
+0.29,0.49,0.41,,,,mmol/gDW/h,MG1655,Valgepea et al. (2011),21726468
+0.3,0.49,0.41,,,,mmol/gDW/h,MG1655,Valgepea et al. (2011),21726468
+0.31,0.49,0.41,,,,mmol/gDW/h,MG1655,Valgepea et al. (2011),21726468
+0.32,0.49,0.41,,,,mmol/gDW/h,MG1655,Valgepea et al. (2011),21726468
+0.33,0.5,0.41,,,,mmol/gDW/h,MG1655,Valgepea et al. (2011),21726468
+0.34,0.5,0.42,,,,mmol/gDW/h,MG1655,Valgepea et al. (2011),21726468
+0.35,0.5,0.42,,,,mmol/gDW/h,MG1655,Valgepea et al. (2011),21726468
+0.36,0.5,0.42,,,,mmol/gDW/h,MG1655,Valgepea et al. (2011),21726468
+0.37,0.51,0.42,,,,mmol/gDW/h,MG1655,Valgepea et al. (2011),21726468
+0.38,0.51,0.42,,,,mmol/gDW/h,MG1655,Valgepea et al. (2011),21726468
+0.39,0.51,0.42,,,,mmol/gDW/h,MG1655,Valgepea et al. (2011),21726468
+0.4,0.51,0.42,,,,mmol/gDW/h,MG1655,Valgepea et al. (2011),21726468
+0.41,0.5,0.42,,,,mmol/gDW/h,MG1655,Valgepea et al. (2011),21726468
+0.42,0.51,0.42,,,,mmol/gDW/h,MG1655,Valgepea et al. (2011),21726468
+0.43,0.5,0.42,,,,mmol/gDW/h,MG1655,Valgepea et al. (2011),21726468
+0.44,0.5,0.42,,,,mmol/gDW/h,MG1655,Valgepea et al. (2011),21726468
+0.45,0.49,0.41,,,,mmol/gDW/h,MG1655,Valgepea et al. (2011),21726468
+0.46,0.49,0.41,,,,mmol/gDW/h,MG1655,Valgepea et al. (2011),21726468
+0.47,0.49,0.41,,,,mmol/gDW/h,MG1655,Valgepea et al. (2011),21726468
+0.1,0.51,0.43,9.03,,,Cmmol/gDW/h,MG1655,Folsom et al. (2014),24837288
+0.2,0.63,0.52,14.19,,,Cmmol/gDW/h,MG1655,Folsom et al. (2014),24837288
+0.3,0.55,0.46,25.38,,,Cmmol/gDW/h,MG1655,Folsom et al. (2014),24837288
+0.4,0.55,0.46,33.98,,,Cmmol/gDW/h,MG1655,Folsom et al. (2014),24837288
+0.05,0.5,0.42,0.12,,,g/gDW/h,MG1655,Vemuri et al. (2006),16672514
+0.1,0.56,0.47,0.22,,,g/gDW/h,MG1655,Vemuri et al. (2006),16672514
+0.19,0.59,0.49,0.39,,,g/gDW/h,MG1655,Vemuri et al. (2006),16672514
+0.3,0.59,0.49,0.6,,,g/gDW/h,MG1655,Vemuri et al. (2006),16672514
+0.41,0.58,0.48,0.85,,,g/gDW/h,MG1655,Vemuri et al. (2006),16672514
+0.49,0.55,0.46,1.07,,,g/gDW/h,MG1655,Vemuri et al. (2006),16672514
+0.6,0.51,0.42,1.42,,,g/gDW/h,MG1655,Vemuri et al. (2006),16672514
+0.04,0.61,0.51,0.09,,,g/gDW/h,TG1,Kayser et al. (2005),15758216
+0.07,0.61,0.51,0.13,,,g/gDW/h,TG1,Kayser et al. (2005),15758216
+0.13,0.64,0.53,0.25,,,g/gDW/h,TG1,Kayser et al. (2005),15758216
+0.15,0.62,0.52,0.29,,,g/gDW/h,TG1,Kayser et al. (2005),15758216
+0.17,0.62,0.52,0.33,,,g/gDW/h,TG1,Kayser et al. (2005),15758216
+0.2,0.65,0.54,0.37,,,g/gDW/h,TG1,Kayser et al. (2005),15758216
+0.26,0.64,0.53,0.5,,,g/gDW/h,TG1,Kayser et al. (2005),15758216
+0.28,0.66,0.55,0.51,,,g/gDW/h,TG1,Kayser et al. (2005),15758216
+0.3,0.66,0.55,0.54,,,g/gDW/h,TG1,Kayser et al. (2005),15758216
+0.35,0.68,0.57,0.6,,,g/gDW/h,TG1,Kayser et al. (2005),15758216
+0.37,0.71,0.59,0.64,,,g/gDW/h,TG1,Kayser et al. (2005),15758216
+0.39,0.72,0.6,0.64,,,g/gDW/h,TG1,Kayser et al. (2005),15758216
+0.4,0.66,0.55,0.72,,,g/gDW/h,TG1,Kayser et al. (2005),15758216
+0.06,0.33,,1.28,,,mmol/gDW/h,W3110,Varma and Palsson (1994),7986045
+0.19,0.4,,3.21,,,mmol/gDW/h,W3110,Varma and Palsson (1994),7986045
+0.25,0.45,,3.72,,,mmol/gDW/h,W3110,Varma and Palsson (1994),7986045
+0.28,0.46,,4.1,,,mmol/gDW/h,W3110,Varma and Palsson (1994),7986045
+0.27,0.37,,5.0,,,mmol/gDW/h,W3110,Varma and Palsson (1994),7986045
+0.35,0.46,,5.19,,,mmol/gDW/h,W3110,Varma and Palsson (1994),7986045
+0.39,0.44,,5.96,,,mmol/gDW/h,W3110,Varma and Palsson (1994),7986045
+0.45,0.43,,7.12,,,mmol/gDW/h,W3110,Varma and Palsson (1994),7986045
+0.5,0.47,,7.24,,,mmol/gDW/h,W3110,Varma and Palsson (1994),7986045
+0.48,0.43,,7.56,,,mmol/gDW/h,W3110,Varma and Palsson (1994),7986045
+0.62,0.48,,8.78,,,mmol/gDW/h,W3110,Varma and Palsson (1994),7986045
+0.69,0.43,,10.96,,,mmol/gDW/h,W3110,Varma and Palsson (1994),7986045
+0.35,0.64,,,,,mmol/gDW/h,W3550,Paalme et al. (1995),11.1016/0167-7012(95)00064-X
+0.5,0.63,,,,,mmol/gDW/h,W3550,Paalme et al. (1995),11.1016/0167-7012(95)00064-X
+0.2,0.48,0.4,2.8,0.0,0.0,mmol/gDW/h,MG1655,Sauer et al. (1999),10542169
+0.3,0.55,0.46,,,,mmol/gDW/h,MG1655,Franchini et al. (2015),26204448
+0.3,0.44,0.37,,,,mmol/gDW/h,MG1655 - mutant,Franchini et al. (2015),26204448
+0.16,0.4,0.33,,,,mmol/gDW/h,MG1655 - mutant,Franchini et al. (2015),26204448
+0.14,0.37,0.31,,,,mmol/gDW/h,MG1655 - mutant,Franchini et al. (2015),26204448
+0.05,0.5,0.42,,0.0,,mmol/gDW/h,MG1655,Vemuri et al. (2006),16672514
+0.1,0.56,0.47,,0.0,,mmol/gDW/h,MG1655,Vemuri et al. (2006),16672514
+0.19,0.59,0.49,,0.0,,mmol/gDW/h,MG1655,Vemuri et al. (2006),16672514
+0.3,0.59,0.49,,0.0,,mmol/gDW/h,MG1655,Vemuri et al. (2006),16672514
+0.41,0.58,0.48,,0.21,,mmol/gDW/h,MG1655,Vemuri et al. (2006),16672514
+0.49,0.55,0.46,,2.8,,mmol/gDW/h,MG1655,Vemuri et al. (2006),16672514
+0.6,0.51,0.42,,9.17,,mmol/gDW/h,MG1655,Vemuri et al. (2006),16672514
+0.1,0.46,,,,,mmol/gDW/h,MG1655 WT,Waegeman et al. (2011),21481254
+0.12,0.42,,,,,mmol/gDW/h,MG1655 - mutant,Waegeman et al. (2011),21481254
+0.09,0.43,,,,,mmol/gDW/h,MG1655 - mutant,Waegeman et al. (2011),21481254
+0.09,0.52,,,,,mmol/gDW/h,MG1655 - mutant,Waegeman et al. (2011),21481254
+0.1,0.42,,1.6,,,mmol/gDW/h,MG1655,Esquerre et al. (2014),24243845
+0.2,0.44,,3.11,,,mmol/gDW/h,MG1655,Esquerre et al. (2014),24243845
+0.3,0.46,,4.43,,,mmol/gDW/h,MG1655,Esquerre et al. (2014),24243845
+0.39,0.51,,5.17,,,mmol/gDW/h,MG1655,Esquerre et al. (2014),24243845
+0.23,0.56,0.47,2.7,0.0,0.0,mmol/gDW/h,BW25113 -WT,Castano-Cerezo et al. (2014),25518064
+0.19,0.35,0.29,3.68,0.63,0.06,mmol/gDW/h,BW25113 - mutant,Castano-Cerezo et al. (2014),25518064
+0.23,0.58,0.48,2.64,0.0,0.0,mmol/gDW/h,BW25113 - mutant,Castano-Cerezo et al. (2014),25518064
+0.19,0.49,0.41,2.55,0.62,0.08,mmol/gDW/h,BW25113 - mutant,Castano-Cerezo et al. (2014),25518064
+0.23,0.54,0.45,2.85,0.0,0.0,mmol/gDW/h,BW25113 - mutant,Castano-Cerezo et al. (2014),25518064
