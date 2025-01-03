@@ -7,9 +7,9 @@ end
 let
     csvdir = joinpath(@__DIR__, "proc")
     
-    csvfile = joinpath(csvdir, "Batch-elife-79815-supp1-v2.csv")
-    # csvfile = joinpath(csvdir, "Batch-elife-79815-supp2-v2.csv")
+    # csvfile = joinpath(csvdir, "Batch-elife-79815-supp1-v2.csv")
     # csvfile = joinpath(csvdir, "Chemostat-elife-79815-supp1-v2.csv")
+    csvfile = joinpath(csvdir, "Batch-elife-79815-supp2-v2.csv")
     
     
     df = CSV.read(csvfile, DataFrame; delim = ',', stringtype=String)

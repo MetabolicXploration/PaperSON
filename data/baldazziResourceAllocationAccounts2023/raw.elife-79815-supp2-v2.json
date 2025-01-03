@@ -1,0 +1,35 @@
+{
+    "meta" : {
+        "source" : "elife-79815-supp2-v2.xlsx", 
+        "desc" : "Supplementary file S2 : Reported rate-yield pairs for different E. coli strains grown on glycerol minimal medium, in batch culture",
+        "PaperSON.notes" : [
+            "The tables are stored by columns"
+        ]
+    },
+    "data" : {
+        "Glycerol uptake rate" : {
+            "data" : [33.9,33.3,35.5,34.3,30.3,31.4,24.8,null,null,null,8.3,11.6,11.3,6.7,10.0,14.0,28.0,11.18,18.4,18.58,17.98,18.48,11.18,18.58,18.48]
+        },
+        "Yield" : {
+            "data" : [0.59,0.55,0.5,0.58,0.62,0.6,0.72,0.56,0.65,0.67,0.38,0.43,0.44,0.28,0.34,0.68,0.57,0.54,0.54,0.53,0.58,0.55,0.54,0.53,0.55]
+        },
+        "Rate unit" : {
+            "data" : ["Cmmol/gDW/h","Cmmol/gDW/h","Cmmol/gDW/h","Cmmol/gDW/h","Cmmol/gDW/h","Cmmol/gDW/h","Cmmol/gDW/h","gL-1h-1OD600-1","gL-1h-1OD600-1","gL-1h-1OD600-1","mmol/gDW/h","mmol/gDW/h","mmol/gDW/h","mmol/gDW/h","mmol/gDW/h","mo/kgDW/h","CmMOD-1h-1","mmol/gDW/h","mmol/gDW/h","mmol/gDW/h","mmol/gDW/h","mmol/gDW/h","mmol/gDW/h","mmol/gDW/h","mmol/gDW/h"]
+        },
+        "Reference" : {
+            "data" : ["Gerosa et al. (2015)","Martinez-Goméz et al. (2012)","Martinez-Goméz et al. (2012)","Martinez-Goméz et al. (2012)","Martinez-Goméz et al. (2012)","Martinez-Goméz et al. (2012)","Martinez-Goméz et al. (2012)","Cheng et al (2014)","Cheng et al (2014)","Andersen & von Meyenburg (1980)","Conrad et al. (2010)","Conrad et al. (2010)","Conrad et al. (2010)","Conrad et al. (2010)","Conrad et al. (2010)","Holms (1996)","Basan et al. (2015)","Monk  et al. (2017)","Monk  et al. (2017)","Monk  et al. (2017)","Monk  et al. (2017)","Monk  et al. (2017)","Sandberg et al. 2017","Sandberg et al. 2017","Sandberg et al. 2017"]
+        },
+        "Growth rate (1/h)" : {
+            "data" : [0.49,0.45,0.44,0.49,0.46,0.46,0.44,0.23,0.37,0.87,0.23,0.37,0.37,0.14,0.25,0.7,0.72,0.44,0.73,0.73,0.77,0.75,0.44,0.73,0.75]
+        },
+        "Strain" : {
+            "data" : ["BW25113","JM101 - mutant","JM101 - mutant","JM101 - WT","JM101 - mutant","JM101 - mutant","JM101 - mutant","MG1655 -WT","MG1655 - mutant ","CP14","MG1655- WT","MG1655 - mutant ","MG1655 - mutant ","MG1655 - mutant ","MG1655 - mutant ","ML308 ","NCM3722","MG1655- WT","MG1655-ALE","MG1655-ALE","MG1655-ALE","MG1655-ALE","MG1655- WT","MG1655-ALE","MG1655-ALE"]
+        },
+        "Acetate outflow rate" : {
+            "data" : [null,null,null,null,null,null,null,null,null,null,0.91,0.81,0.23,1.07,1.1,null,0.07,0.0,5.14,5.26,3.1,3.25,0.0,5.26,3.25]
+        },
+        "PMID" : {
+            "data" : [27136056,22513097,22513097,22513097,22513097,22513097,22513097,24481126,24481126,6998942,21057108,21057108,21057108,21057108,21057108,8988566,26632588,29020004,29020004,29020004,29020004,29020004,28455337,28455337,28455337]
+        }
+    }
+}
