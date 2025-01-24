@@ -18,6 +18,10 @@ For instance:
 
 should contain the date of 'table2' of the manuscript, 'F1' should be the same symbol used in the table, and "hours" should be the units expressed in the table as well.  
 
+#### File naming
+
+Raw files must start with "raw". For instance "raw.elife-79815-supp1-v2.json"
+
 #### About tables
 
 It is recommended that tables are as flat as possible. A flat table is one which do not have multicolumn or multirow sections. For making a flat table you can add new columns to the original table.
