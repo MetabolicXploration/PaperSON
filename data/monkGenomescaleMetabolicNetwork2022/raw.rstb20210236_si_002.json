@@ -1,0 +1,55 @@
+{
+    "dev": {
+        "notes" : [
+            "#TODO: double check with paper", 
+            "#TODO: Create automatic tests, reproduce table/plots (visually)",
+            "#TODO: replicate figure 3a"
+        ]
+    },
+    
+    "meta" : {
+        "source" : "Supplementary file 'rstb20210236_si_002.xlsx'"
+    }, 
+    
+    "data" : {
+
+        "Reaction_Info" : {
+            "meta" : {
+                "desc" : "Presence (1) or absence (0) or reactions (rows) by strain models (columns)", 
+                "desc.columns" : {
+                    "Reaction ID" : "An unique id for the reaction",
+                    "Reaction" : "The reaction equation",
+                    "Reaction Name" : "Name of the reaction",
+                    "Reaction Count" : "Count of the number of strains where this reaction is present (sum of the row)",
+                    "Core/Accessory" : "Whether a given reaction is core or accessory",
+                    "Subsystem" : "The classified metabolic subsystem of the reaction",
+                    "Next 222 Columns": "Correspond to each of the strains"
+                }, 
+                "format" : "ascii tab separated values"
+            }, 
+            "data" : {
+                "file" : "raw.rstb20210236_si_002-Reaction_Info.tsv"
+            }
+        },
+
+        "GPRs" : {
+            "meta" : {
+                "desc" : "Gene-protein-reaction relationships for each reaction (rows) across of the models (columns)", 
+                "desc.columns" : {
+                    "Reaction ID" : "An unique id for the reaction",
+                    "Reaction" : "The reaction equation",
+                    "Reaction Name" : "Name of the reaction",
+                    "Reaction Count" : "Count of the number of strains where this reaction is present (sum of the row)",
+                    "Core/Accessory" : "Whether a given reaction is core or accessory",
+                    "Subsystem" : "The classified metabolic subsystem of the reaction", 
+                    "Next 222 Columns": "Correspond to each of the strains"
+                }, 
+                "format" : "ascii tab separated values"
+            },
+            "data" : {
+                "file" : "raw.rstb20210236_si_002-GPRs.tsv"
+            }
+        }
+        
+    }
+}

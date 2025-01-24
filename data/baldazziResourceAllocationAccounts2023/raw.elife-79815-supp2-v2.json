@@ -12,6 +12,9 @@
             "data" : [33.9,33.3,35.5,34.3,30.3,31.4,24.8,null,null,null,8.3,11.6,11.3,6.7,10.0,14.0,28.0,11.18,18.4,18.58,17.98,18.48,11.18,18.58,18.48]
         },
         "Yield" : {
+            "desc" : [
+                "The growth yield is defined as the ratio of the net biomass synthesis rate (µ/β) and the substrate uptake rate {v_mc}. Yields are dimensionless and vary between 0 and 1. They express the fraction of carbon taken up by the cells that is included in the biomass, a definition often used in ecology and biotechnology"
+            ], 
             "data" : [0.59,0.55,0.5,0.58,0.62,0.6,0.72,0.56,0.65,0.67,0.38,0.43,0.44,0.28,0.34,0.68,0.57,0.54,0.54,0.53,0.58,0.55,0.54,0.53,0.55]
         },
         "Rate unit" : {
