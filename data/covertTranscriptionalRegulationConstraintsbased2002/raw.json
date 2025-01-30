@@ -1,0 +1,74 @@
+{
+    "dev": {
+        "notes" : [
+            "#TODO: double check with paper", 
+            "#TODO: Create automatic tests, reproduce table/plots (visually)"
+        ]
+    },
+
+    "data" : {
+
+        "Figure 3" : {
+            "meta" : {
+                "source" : "Figure 3 from document",
+                "caption" : "FIG. 3. Aerobic growth on acetate with glucose reutilization. A, three time plots showing experimental data obtained by Varma and Palsson (5) as well as the corresponding simulations performed using FBA and rFBA. In the acetate plot, the regulatory/metabolic model predictions differ from that of the regulatory plot alone as shown. B, a table containing the parameters required to generate the time plots. C, in silico arrays showing the up- or down-regulation of selected genes or activity of regulatory proteins in the regulatory network (dark gray, gene transcription/protein activity; light gray, transcriptional repression/protein inactivity). Data from Oh and Liao (36) showing the experimentally determined transcriptional fold changes for certain genes (acetate: glucose) are shown where applicable. Note that the regulation of CRP is represented by a complex set of Boolean statements (see supplemental material). As a result, CRP activity is represented here as GLC or AC to denote when glucose or acetate is accepted by the system, respectively."
+            }, 
+
+            "data" : {
+                "A" : {
+                    "Glucose" : {
+                        "meta" : {
+                            "x label" : "Time (hrs)",
+                            "y label" : "Concentration (mM)"
+                        }, 
+                        "data" : {
+                            "Exp" : {
+                                "x" : [
+                                    0.0, 1.6326127076822434, 2.490487263906563, 2.994865213955387, 3.4794926095084384, 4.146140255796242, 4.665176949210814, 5.181303524659245, 5.751077118484227, 6.296286967379652, 6.823785421476475, 7.255800777845954, 7.871118469902041, 8.267140902807455, 8.789111350391192, 9.286078992668003, 9.75480781856946, 10.277286802642479
+                                ], 
+                                "y" : [
+                                    10.832903411910229, 10.77546883791824, 10.450158000574548, 10.213954264116182, 10.088555701434707, 9.705350295939468, 8.969944278384904, 8.418531176326741, 7.30790169064176, 6.234360792115878, 4.369508856816579, 2.204785838590127, 0.6578284477007414, 0.0, 0.0, 0.0, 0.0, 0.0
+                                ]
+                            }
+                        }
+                    },
+
+                    "Acetate" : {
+                        "meta" : {
+                            "x label" : "Time (hrs)",
+                            "y label" : "Concentration (mM)"
+                        }, 
+                        "data" : {
+                            "Exp" : {
+                                "x" : [
+                                    "#TODO"
+                                ], 
+                                "y" : [ 
+                                    "#TODO"
+                                ]
+                            }
+                        }
+                    },
+
+                    "Biomass" : {
+                        "meta" : {
+                            "x label" : "Time (hrs)",
+                            "y label" : "Concentration (mM)",
+                            "note" : "I think this is a mistake, that the unit of Biomass is (g L^{-1})"
+                        }, 
+                        "data" : {
+                            "Exp" : {
+                                "x" : [
+                                    "#TODO"
+                                ], 
+                                "y" : [
+                                    "#TODO"
+                                ]
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
