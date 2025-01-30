@@ -1,0 +1,20 @@
+{
+    "Supplementary Table 2" : {
+        
+        "meta" : {
+            "desc" : "Relative and absolute fluxes during aerobic batch growth on glucose in wild-type E. coli BW25113 and the 91 knockout mutants",
+            "source" : "Supplementary file msb20119-sup-0002.xls"
+        }, 
+
+        "data" : {
+            
+            "SHAKE FLASK" : {
+                "file" : "raw.msb20119-sup-0002.shake-flask.json"
+            },
+
+            "DEEP WELL PLATE" : {
+                "file" : "raw.msb20119-sup-0002.deep-well-plate.json"
+            }
+        }
+    }
+}

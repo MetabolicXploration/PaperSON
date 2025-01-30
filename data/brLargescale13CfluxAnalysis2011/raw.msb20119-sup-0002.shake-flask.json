@@ -1,0 +1,595 @@
+{
+    "SHAKE FLASK" : {
+
+        "WILD TYPE - 13C constrained flux analysis" : {
+
+            "Physiology" : {
+                
+                "Biomass yield": {
+                    "unit": "(g/g)",
+                    "val": 0.4
+                },
+                "Specific glucose uptake rate": {
+                    "unit": "(mmol/g/h)",
+                    "val": 8.26
+                },
+                "Specific growth rate": {
+                    "unit": "(h-1)",
+                    "val": 0.61
+                },
+                "Specific acetate secretion rate": {
+                    "unit": "(mmol/g/h)",
+                    "val": 4.89
+                }
+            }, 
+
+            "13C-Determined flux ratios" : {
+                "Glycolysis": {
+                    "(Serine through glycolysis)": {
+                        "val": 0.77,
+                        "95% confidence interval": 0.01
+                    }
+                },
+                "ED pathway": {
+                    "(PYR through ED)": {
+                        "val": 0.07,
+                        "95% confidence interval": 0.02
+                    }
+                },
+                "PP pathway": {
+                    "(PEP through PP pathway, upper bound)": {
+                        "val": 0.2,
+                        "95% confidence interval": 0.07
+                    }
+                },
+                "Gluco-neogenesis": {
+                    "(PEP from oxaloacetate)": {
+                        "val": 0.02,
+                        "95% confidence interval": 0.0
+                    },
+                    "(PYR from MAL, upper bound)": {
+                        "val": 0.04,
+                        "95% confidence interval": 0.02
+                    },
+                    "(PYR from MAL, lower bound)": {
+                        "val": 0.01,
+                        "95% confidence interval": 0.0
+                    }
+                },
+                "TCA cycle": {
+                    "(Oxaloacetate through TCA cycle)": {
+                        "val": 0.32,
+                        "95% confidence interval": 0.01
+                    }
+                }
+            },
+
+            "Absolute fluxes" : {
+
+                "meta" : {
+                    "desc" : "Determined by 13C-constrained flux analysis or (where indicated) by whole isotopologue modelling"
+                }, 
+                "data" : {
+                    "pts": {
+                        "rxn": "GLC>G6P",
+                        "unit": "(mmol/g/h)",
+                        "val": 8.13,
+                        "95% confidence interval": 0.34
+                    },
+                    "zwf": {
+                        "rxn": "G6P>6PDG",
+                        "unit": "(mmol/g/h)",
+                        "val": 2.39,
+                        "95% confidence interval": 0.3
+                    },
+                    "gnd": {
+                        "rxn": "6PDG>R5P",
+                        "unit": "(mmol/g/h)",
+                        "val": 1.65,
+                        "95% confidence interval": 0.44
+                    },
+                    "pgi": {
+                        "rxn": "G6P>F6P",
+                        "unit": "(mmol/g/h)",
+                        "val": 5.71,
+                        "95% confidence interval": 0.39
+                    },
+                    "edd, eda": {
+                        "rxn": "6PDG>PYR+G3P",
+                        "unit": "(mmol/g/h)",
+                        "val": 0.74,
+                        "95% confidence interval": 0.65
+                    },
+                    "pfk, fba": {
+                        "rxn": "F6P>2 T3P",
+                        "unit": "(mmol/g/h)",
+                        "val": 6.46,
+                        "95% confidence interval": 0.62
+                    },
+                    "tktA": {
+                        "rxn": "2 P5P > S7P + T3P",
+                        "unit": "(mmol/g/h)",
+                        "val": 0.53,
+                        "95% confidence interval": 0.15
+                    },
+                    "tktB": {
+                        "rxn": "P5P + E4P + F6P + T3P",
+                        "unit": "(mmol/g/h)",
+                        "val": 0.27,
+                        "95% confidence interval": 0.15
+                    },
+                    "tal": {
+                        "rxn": "S7P + T3P = E4P + F6P",
+                        "unit": "(mmol/g/h)",
+                        "val": 0.53,
+                        "95% confidence interval": 0.15
+                    },
+                    "gap, pgk": {
+                        "rxn": "T3P > PGA",
+                        "unit": "(mmol/g/h)",
+                        "val": 13.87,
+                        "95% confidence interval": 0.84
+                    },
+                    "eno": {
+                        "rxn": "PGA > PEP",
+                        "unit": "(mmol/g/h)",
+                        "val": 12.94,
+                        "95% confidence interval": 0.84
+                    },
+                    "pyk": {
+                        "rxn": "PEP > PYR",
+                        "unit": "(mmol/g/h)",
+                        "val": 9.99,
+                        "95% confidence interval": 0.98
+                    },
+                    "pdh": {
+                        "rxn": "PYR > AcCoA",
+                        "unit": "(mmol/g/h)",
+                        "val": 9.14,
+                        "95% confidence interval": 0.64
+                    },
+                    "glta, can": {
+                        "rxn": "OAA + AcCoA > ICT",
+                        "unit": "(mmol/g/h)",
+                        "val": 2.2,
+                        "95% confidence interval": 0.45
+                    },
+                    "icd": {
+                        "rxn": "ICT > OGA + CO2",
+                        "unit": "(mmol/g/h)",
+                        "val": 2.2,
+                        "95% confidence interval": 0.45
+                    },
+                    "suc": {
+                        "rxn": "OGA > SUC + CO2",
+                        "unit": "(mmol/g/h)",
+                        "val": 1.29,
+                        "95% confidence interval": 0.44
+                    },
+                    "sdh, fum": {
+                        "rxn": "SUC > MAL",
+                        "unit": "(mmol/g/h)",
+                        "val": 1.29,
+                        "95% confidence interval": 0.44
+                    },
+                    "mdh": {
+                        "rxn": "MAL > OAA",
+                        "unit": "(mmol/g/h)",
+                        "val": 0.81,
+                        "95% confidence interval": 0.5
+                    },
+                    "mae": {
+                        "rxn": "MAL > PYR",
+                        "unit": "(mmol/g/h)",
+                        "val": 0.48,
+                        "95% confidence interval": 0.73
+                    },
+                    "pck": {
+                        "rxn": "OAA > PEP",
+                        "unit": "(mmol/g/h)",
+                        "val": 0.23,
+                        "95% confidence interval": 0.26
+                    },
+                    "pcc": {
+                        "rxn": "PEP > OAA",
+                        "unit": "(mmol/g/h)",
+                        "val": 2.64,
+                        "95% confidence interval": 0.78
+                    },
+                    "pta, acka": {
+                        "rxn": "AceCoA > Acetate",
+                        "unit": "(mmol/g/h)",
+                        "val": 5.48,
+                        "95% confidence interval": 0.57
+                    },
+                    "acea, aceb": {
+                        "rxn": "AceCoA + ICT > SUC + MAL",
+                        "unit": "(mmol/g/h)",
+                        "val": 0.0,
+                        "95% confidence interval": 0.0
+                    }
+                }                        
+            }
+        }, 
+
+        "WILD TYPE DUPLICATE - 13C constrained flux analysis" : {
+
+            "Physiology" : {
+                "Biomass yield": {
+                    "unit": "(g/g)",
+                    "val": 0.4
+                },
+                "Specific glucose uptake rate": {
+                    "unit": "(mmol/g/h)",
+                    "val": 8.26
+                },
+                "Specific growth rate": {
+                    "unit": "(h-1)",
+                    "val": 0.61
+                },
+                "Specific acetate secretion rate": {
+                    "unit": "(mmol/g/h)",
+                    "val": 4.89
+                }
+            }, 
+
+            "13C-Determined flux ratios" : {
+                "Glycolysis": {
+                    "(Serine through glycolysis)": {
+                        "val": 0.8,
+                        "95% confidence interval": 0.01
+                    }
+                },
+                "ED pathway": {
+                    "(PYR through ED)": {
+                        "val": 0.07,
+                        "95% confidence interval": 0.03
+                    }
+                },
+                "PP pathway": {
+                    "(PEP through PP pathway, upper bound)": {
+                        "val": 0.21,
+                        "95% confidence interval": 0.07
+                    }
+                },
+                "Gluco-neogenesis": {
+                    "(PEP from oxaloacetate)": {
+                        "val": 0.03,
+                        "95% confidence interval": 0.01
+                    },
+                    "(PYR from MAL, upper bound)": {
+                        "val": 0.05,
+                        "95% confidence interval": 0.05
+                    },
+                    "(PYR from MAL, lower bound)": {
+                        "val": 0.02,
+                        "95% confidence interval": 0.03
+                    }
+                },
+                "TCA cycle": {
+                    "(Oxaloacetate through TCA cycle)": {
+                        "val": 0.32,
+                        "95% confidence interval": 0.02
+                    }
+                }
+            }, 
+
+            "Absolute fluxes" : {
+                "meta" : {
+                    "desc" : "Determined by 13C-constrained flux analysis or (where indicated) by whole isotopologue modelling"
+                }, 
+
+                "data" : {
+                    "pts": {
+                        "rxn": "GLC>G6P",
+                        "unit": "(mmol/g/h)",
+                        "val": 8.13,
+                        "95% confidence interval": 0.43
+                    },
+                    "zwf": {
+                        "rxn": "G6P>6PDG",
+                        "unit": "(mmol/g/h)",
+                        "val": 2.19,
+                        "95% confidence interval": 0.19
+                    },
+                    "gnd": {
+                        "rxn": "6PDG>R5P",
+                        "unit": "(mmol/g/h)",
+                        "val": 1.4,
+                        "95% confidence interval": 0.23
+                    },
+                    "pgi": {
+                        "rxn": "G6P>F6P",
+                        "unit": "(mmol/g/h)",
+                        "val": 5.91,
+                        "95% confidence interval": 0.36
+                    },
+                    "edd, eda": {
+                        "rxn": "6PDG>PYR+G3P",
+                        "unit": "(mmol/g/h)",
+                        "val": 0.79,
+                        "95% confidence interval": 0.35
+                    },
+                    "pfk, fba": {
+                        "rxn": "F6P>2 T3P",
+                        "unit": "(mmol/g/h)",
+                        "val": 6.49,
+                        "95% confidence interval": 0.45
+                    },
+                    "tktA": {
+                        "rxn": "2 P5P > S7P + T3P",
+                        "unit": "(mmol/g/h)",
+                        "val": 0.44,
+                        "95% confidence interval": 0.08
+                    },
+                    "tktB": {
+                        "rxn": "P5P + E4P + F6P + T3P",
+                        "unit": "(mmol/g/h)",
+                        "val": 0.19,
+                        "95% confidence interval": 0.08
+                    },
+                    "tal": {
+                        "rxn": "S7P + T3P = E4P + F6P",
+                        "unit": "(mmol/g/h)",
+                        "val": 0.44,
+                        "95% confidence interval": 0.08
+                    },
+                    "gap, pgk": {
+                        "rxn": "T3P > PGA",
+                        "unit": "(mmol/g/h)",
+                        "val": 13.89,
+                        "95% confidence interval": 0.84
+                    },
+                    "eno": {
+                        "rxn": "PGA > PEP",
+                        "unit": "(mmol/g/h)",
+                        "val": 12.97,
+                        "95% confidence interval": 0.84
+                    },
+                    "pyk": {
+                        "rxn": "PEP > PYR",
+                        "unit": "(mmol/g/h)",
+                        "val": 9.91,
+                        "95% confidence interval": 0.94
+                    },
+                    "pdh": {
+                        "rxn": "PYR > AcCoA",
+                        "unit": "(mmol/g/h)",
+                        "val": 9.21,
+                        "95% confidence interval": 0.85
+                    },
+                    "glta, can": {
+                        "rxn": "OAA + AcCoA > ICT",
+                        "unit": "(mmol/g/h)",
+                        "val": 2.29,
+                        "95% confidence interval": 0.32
+                    },
+                    "icd": {
+                        "rxn": "ICT > OGA + CO2",
+                        "unit": "(mmol/g/h)",
+                        "val": 2.29,
+                        "95% confidence interval": 0.32
+                    },
+                    "suc": {
+                        "rxn": "OGA > SUC + CO2",
+                        "unit": "(mmol/g/h)",
+                        "val": 1.38,
+                        "95% confidence interval": 0.3
+                    },
+                    "sdh, fum": {
+                        "rxn": "SUC > MAL",
+                        "unit": "(mmol/g/h)",
+                        "val": 1.38,
+                        "95% confidence interval": 0.3
+                    },
+                    "mdh": {
+                        "rxn": "MAL > OAA",
+                        "unit": "(mmol/g/h)",
+                        "val": 0.79,
+                        "95% confidence interval": 0.33
+                    },
+                    "mae": {
+                        "rxn": "MAL > PYR",
+                        "unit": "(mmol/g/h)",
+                        "val": 0.58,
+                        "95% confidence interval": 0.56
+                    },
+                    "pck": {
+                        "rxn": "OAA > PEP",
+                        "unit": "(mmol/g/h)",
+                        "val": 0.4,
+                        "95% confidence interval": 0.14
+                    },
+                    "pcc": {
+                        "rxn": "PEP > OAA",
+                        "unit": "(mmol/g/h)",
+                        "val": 2.92,
+                        "95% confidence interval": 0.59
+                    },
+                    "pta, acka": {
+                        "rxn": "AceCoA > Acetate",
+                        "unit": "(mmol/g/h)",
+                        "val": 5.47,
+                        "95% confidence interval": 0.86
+                    },
+                    "acea, aceb": {
+                        "rxn": "AceCoA + ICT > SUC + MAL",
+                        "unit": "(mmol/g/h)",
+                        "val": 0.0,
+                        "95% confidence interval": 0.0
+                    }
+                }                        
+            }
+        }, 
+
+        "WILD TYPE - Whole isotopologue balancing control" : {
+
+            "Physiology" : {
+                
+                "Biomass yield": {
+                    "unit": "(g/g)",
+                    "val": 0.4
+                },
+                "Specific glucose uptake rate": {
+                    "unit": "(mmol/g/h)",
+                    "val": 8.26
+                },
+                "Specific growth rate": {
+                    "unit": "(h-1)",
+                    "val": 0.61
+                },
+                "Specific acetate secretion rate": {
+                    "unit": "(mmol/g/h)",
+                    "val": 4.89
+                }
+            }, 
+
+            "Absolute fluxes" : {
+                "meta" : {
+                    "desc" : "Determined by 13C-constrained flux analysis or (where indicated) by whole isotopologue modelling"
+                }, 
+
+                "data" : {
+                    "pts": {
+                        "rxn": "GLC>G6P",
+                        "unit": "(mmol/g/h)",
+                        "val": 8.13,
+                        "95% confidence interval": 0.02
+                    },
+                    "zwf": {
+                        "rxn": "G6P>6PDG",
+                        "unit": "(mmol/g/h)",
+                        "val": 3.19,
+                        "95% confidence interval": 0.13
+                    },
+                    "gnd": {
+                        "rxn": "6PDG>R5P",
+                        "unit": "(mmol/g/h)",
+                        "val": 2.63,
+                        "95% confidence interval": 0.06
+                    },
+                    "pgi": {
+                        "rxn": "G6P>F6P",
+                        "unit": "(mmol/g/h)",
+                        "val": 4.87,
+                        "95% confidence interval": 0.15
+                    },
+                    "edd, eda": {
+                        "rxn": "6PDG>PYR+G3P",
+                        "unit": "(mmol/g/h)",
+                        "val": 0.56,
+                        "95% confidence interval": 0.05
+                    },
+                    "pfk, fba": {
+                        "rxn": "F6P>2 T3P",
+                        "unit": "(mmol/g/h)",
+                        "val": 5.97,
+                        "95% confidence interval": 0.07
+                    },
+                    "tktA": {
+                        "rxn": "2 P5P > S7P + T3P",
+                        "unit": "(mmol/g/h)",
+                        "val": 0.95,
+                        "95% confidence interval": 0.09
+                    },
+                    "tktB": {
+                        "rxn": "P5P + E4P + F6P + T3P",
+                        "unit": "(mmol/g/h)",
+                        "val": 0.72,
+                        "95% confidence interval": 0.04
+                    },
+                    "tal": {
+                        "rxn": "S7P + T3P = E4P + F6P",
+                        "unit": "(mmol/g/h)",
+                        "val": 0.95,
+                        "95% confidence interval": 0.04
+                    },
+                    "gap, pgk": {
+                        "rxn": "T3P > PGA",
+                        "unit": "(mmol/g/h)",
+                        "val": 11.51,
+                        "95% confidence interval": 0.13
+                    },
+                    "eno": {
+                        "rxn": "PGA > PEP",
+                        "unit": "(mmol/g/h)",
+                        "val": 11.51,
+                        "95% confidence interval": 0.13
+                    },
+                    "pyk": {
+                        "rxn": "PEP > PYR",
+                        "unit": "(mmol/g/h)",
+                        "val": 12.39,
+                        "95% confidence interval": 0.23
+                    },
+                    "pdh": {
+                        "rxn": "PYR > AcCoA",
+                        "unit": "(mmol/g/h)",
+                        "val": 8.45,
+                        "95% confidence interval": 0.06
+                    },
+                    "glta, can": {
+                        "rxn": "OAA + AcCoA > ICT",
+                        "unit": "(mmol/g/h)",
+                        "val": 2.1,
+                        "95% confidence interval": 0.06
+                    },
+                    "icd": {
+                        "rxn": "ICT > OGA + CO2",
+                        "unit": "(mmol/g/h)",
+                        "val": 2.1,
+                        "95% confidence interval": 0.06
+                    },
+                    "suc": {
+                        "rxn": "OGA > SUC + CO2",
+                        "unit": "(mmol/g/h)",
+                        "val": 1.28,
+                        "95% confidence interval": 0.06
+                    },
+                    "sdh, fum": {
+                        "rxn": "SUC > MAL",
+                        "unit": "(mmol/g/h)",
+                        "val": 1.28,
+                        "95% confidence interval": 0.06
+                    },
+                    "mdh": {
+                        "rxn": "MAL > OAA",
+                        "unit": "(mmol/g/h)",
+                        "val": 0.98,
+                        "95% confidence interval": 0.22
+                    },
+                    "mae": {
+                        "rxn": "MAL > PYR",
+                        "unit": "(mmol/g/h)",
+                        "val": 0.31,
+                        "95% confidence interval": 0.23
+                    },
+                    "pck": {
+                        "rxn": "OAA > PEP",
+                        "unit": "(mmol/g/h)",
+                        "val": 1.37,
+                        "95% confidence interval": 0.17
+                    },
+                    "pcc": {
+                        "rxn": "PEP > OAA",
+                        "unit": "(mmol/g/h)",
+                        "val": 3.51,
+                        "95% confidence interval": 0.19
+                    },
+                    "pta, acka": {
+                        "rxn": "AceCoA > Acetate",
+                        "unit": "(mmol/g/h)",
+                        "val": 4.92,
+                        "95% confidence interval": 0.0
+                    },
+                    "acea, aceb": {
+                        "rxn": "AceCoA + ICT > SUC + MAL",
+                        "unit": "(mmol/g/h)",
+                        "val": 0.0,
+                        "95% confidence interval": 0.0
+                    }
+                }                        
+            }
+        }
+    }
+}
