@@ -1,0 +1,161 @@
+{
+    "dev": {
+        "notes" : [
+            "#TODO: double check with paper", 
+            "#TODO: Create automatic tests, reproduce table/plots (visually)"
+        ]
+    },
+
+    "data" : {
+
+        "Fig 1" : {
+            "meta" : {
+                "caption" : "FIG. 1. Growth of E. coli MG1655 in Luria-Bertani broth. An overnight culture was diluted 5,000-fold in Luria-Bertani broth and cultivated at 37°C with vigorous aeration. (A) The OD600 (triangles) and cell concentration (crosses) were measured periodically. (B) The ratio of the OD600 to the cell concentration was calculated at each point and multiplied by 10^9."
+            }, 
+
+            "data" : {
+
+                "A" : {
+
+                    "meta" : {
+                        "x label" : "Time (min)",
+                        "y1 label" : "DO_{600}",
+                        "y2 label" : "Cells/ml"
+                    },
+
+                    "data" : {
+
+                        "OD" : {
+                            "x" : [
+                                33.3243146846781, 60.95903105986781, 90.62316723201108, 105.77786963899041, 121.01803779475387, 130.92991569826876, 141.4829881822374, 150.8205577434774, 160.8958010306032, 170.66271398149212, 180.7140949092141, 195.31257601556797, 211.18955130108804, 225.4970727943733, 240.14878531785885, 269.9570358144317, 297.76966779238103, 329.3833542508279, 359.29735126318286, 419.13680638359153, 478.98718536083794
+                            ], 
+                            "y" : [
+                                0.007675098463013431, 0.02054513056058642, 0.05970016455114339, 0.10575415213796166, 0.16813581743645323, 0.23794409622687052, 0.3211405235068389, 0.40526312544766446, 0.506906306881791, 0.6598764000645476, 0.8001437724540348, 1.0903143007118026, 1.6636510272630207, 1.909227977668428, 2.477109384485731, 3.6351889314101946, 4.764777350516971, 5.312853483773093, 6.1940140605322584, 6.7528658338738525, 6.737627834992948
+                            ]
+                        }, 
+                        "Biomass" : {
+
+                            "x" : [
+                                106.07858909136493, 121.56843900771983, 130.93457176839632, 141.141796735677, 151.66773865717147, 160.6066322137375, 171.01048660409822, 180.60548311950728, 195.47500123117237, 210.65992332407592, 225.08711477362095, 240.254531833641, 270.28913897026234, 300.00780488678436, 330.41525579285263, 359.71183104434755, 419.47025263657434, 478.9791267779248
+                            ], 
+                            "y" : [
+                                16223492.280100824, 26810490.619295184, 34916933.99704523, 52480290.70642536, 81396126.9445862, 127695011.56606224, 218405930.64224333, 274229874.3850248, 547048965.063114, 660550005.7481478, 896684955.4507003, 1459231399.0990193, 2583327515.882278, 3378822732.338316, 3500082180.688497, 3815510376.0469365, 4421435464.923644, 4579428566.796057
+                            ]
+                        }
+                    }
+                }, 
+
+                "B" : {
+
+                    "meta" : {
+                        "x label" : "DO_{600}",
+                        "y label" : "Mass/Cell"
+                    },
+
+                    "data" : {
+                        "x" : [
+                            0.116599685632017, 0.1815668887040932, 0.25726682255068267, 0.33327741823901125, 0.42266355043973486, 0.5314871218857816, 0.6948896187591791, 0.8380353284888657, 1.1128653243975766, 1.6810978074904264, 2.00132294709447
+                        ], 
+                        "y" : [
+                            6.566580414218171, 6.6640972304732085, 7.0241060717688955, 6.156041768103911, 4.489936090510824, 4.128728373483147, 3.2473367330652816, 3.1207797117859806, 2.2081096347086744, 2.637490115674169, 2.2832992895009943
+                        ]
+                    }
+                }
+            }
+        }, 
+
+        "Fig 2" : {
+            "meta" : {
+                "caption" : "FIG. 2. Growth response to D-glucose in exhausted Luria-Bertani medium. Filter-sterilized LB* medium was supplemented with various concentrations of D-glucose, inoculated with MG1655, and incubated for 24 h at 37°C with vigorous aeration. The OD600 of each culture was measured."
+            },
+
+            "data" : {
+                
+                "meta" : {
+                    "x label" : "DO_{600}",
+                    "y label" : "[Glucose], %"
+                },
+
+                "data" : {
+                    "x" : [
+                        0.0, 0.010700865672490623, 0.019743507456320294, 0.05028807889457717, 0.10001117828197091, 0.19990156668244422, 0.40004168742750057
+                    ],
+                    "y" : [
+                        0.0, 0.12766222179679598, 0.2724770062981047, 0.990520257127739, 2.4654635914967757, 2.8847148605306936, 2.5967393411524924
+                    ]
+                }
+            }
+        }, 
+
+        "Fig 3" : {
+
+            "meta" : {
+                "caption" : "FIG. 3. Bioassay for L-leucine. A culture of a leu-82::Tn10 derivative of MG1655 was grown in M63 glucose minimal medium containing L-leucine. Cells were resuspended in M63 and diluted 4,000-fold into M63 glucose containing increasing concentrations of L-leucine (A) or of Luria-Bertani broth (LB) (B)."
+            }, 
+
+            "data" : {
+
+                "A" : {
+
+                    "meta" : {
+                        "x label" : "[L-Leucine] (\\mu M)",
+                        "y label" : ""
+                    }, 
+                    "data" : {
+                        "x" : [
+                            0.4997068160612044, 0.9892184627651827, 4.845147292638889, 9.93952830278574, 19.931140885110516, 51.58184366036186, 102.79035215789536, 196.97980239806452, 509.9230248297478, 1024.2444787146246
+                        ], 
+                        "y" : [
+                            0.004939404806742059, 0.011592397630059672, 0.047890336479782775, 0.09925240111788186, 0.18377878859713934, 0.4384194839601677, 0.7441589312139851, 1.3614484055951461, 2.0396940824960565, 1.8161872662147691
+                        ]
+                    }
+
+                }, 
+
+                "B" : {
+
+                    "meta" : {
+                        "x label" : "[LB]",
+                        "y label" : ""
+                    }, 
+                    "data" : {
+                        "x" : [
+                            0.0001950100634996268, 0.0005010665549776306, 0.0010014675183771754, 0.001990629016443969, 0.004901000966938872, 0.009892483834898809, 0.019606654768614135, 0.05034490744109002
+                        ], 
+                        "y" : [
+                            0.01216941384277662, 0.031184276980658794, 0.06833246285175207, 0.1663100047626554, 0.39202469863656564, 0.8256585003968466, 2.090876234534991, 2.736939571686462
+                        ]
+                    }
+
+                }
+
+            }
+
+        }, 
+
+        "Table 1" : {
+
+            "meta" : {
+                "caption" : "TABLE 1. Composition of Luria-Bertani broth",
+                "footnotes" : "^a All alleles were introduced into the MG1655 background by P1vir transduction. ^b Bioassays were carried out essentially as described in the legend to Fig. 3, by using appropriate mutants of MG1655 and measuring the growth yield (final OD600) as a function of the concentration of the required nutrient (calibration curve) and of Luria-Bertani broth (bioassay). ^c The hydrolysis and HPLC analysis of the amino acids in Luria-Bertani broth were carried out by the Service de Chimie Organique of the Institut Pasteur, Paris, France. ^d ND, not determined. We did not have auxotrophs for L-alanine or L-aspartate. ^e Little or no growth was observed at L-asparagine concentrations below 50 M (which gave a final OD600 of 1.2), possibly because of poor transport. ^f Tryptophan is unstable and tends to disappear from the medium, especially if the latter is not protected from light. ^g Tryptophan is destroyed by acid hydrolysis. ^h The medium contained an excess of L-isoleucine, which the strain also requires. This also obviates the strain's sensitivity to L-valine. The growth response to exogenous L-valine was greater than linear. The values shown were calculated from the minimal concentration allowing saturation. ^i Calculated from the response to D-glucose (see text)."
+            }, 
+
+            "data" : {
+                "Metabolite(s)" : [
+                    "L-Alanine", "L-Arginine", "L-Asparagine", "L-Aspartate", "L-Asp + L-Asn", "L-Cysteine", "L-Glutamic acid", "L-Glutamine", "L-Glu + L-Gln", "Glycine", "L-Histidine", "L-Isoleucine", "L-Leucine", "L-Lysine", "L-Methionine", "L-Phenylalanine", "L-Proline", "L-Serine", "L-Threonine", "L-Tryptophan", "L-Tyrosine", "L-Valine", "Purines", "Pyrimidines", "Sugars"
+                ], 
+                "Allele conferring auxotrophy^a" : [
+                    "-", "argA::Tn10", "asnA31 asnB50::Tn5", "-", "-", "cysG", "Δ(gltA-sucB)::Spc^r", "glnA1857", "-", "glyA42::Tn5", "hisG213::Tn10", "ilvA454", "leu-82::Tn10", "lysA::Tn10", "metA", "pheA18::Tn10", "proC46::Tn5", "serB22", "thrA34::Tn10", "trp::Tn5", "tyrA16::Tn10", "ilvD691::Tn10", "purK79::Tn10", "purC46", "hemA::kan"
+                ],
+                "Concn (mM) determined by" : {
+                    "E. coli^b" : [
+                        "ND^d", 2.0, "\\le 2.1^e", "ND^d", "-", 1.7, 11.2, 0.6, "-", 18, 0.75, 2.3, 7.9, 3.8, 2.0, 2.4, 1.4, 7.5, 5.2, "\\le1.1^f", 1.0, "\\le9.5^h", 0.3, 0.2, "<0.1^i"
+                    ], 
+                    "HPLC^c" : [
+                        5.8, 2.8, "-" , "-", 7.3, 0.4, "-", "-", 19.1, 4.0, 1.4, 5.4, 8.8, 6.8, 5.9, 3.6, 9.5, 5.1, 4.4, "ND^g", 1.4, 7.0, "ND", "ND", "ND"
+                    ]
+                }
+            }
+        }
+    }
+}
