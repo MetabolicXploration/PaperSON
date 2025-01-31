@@ -18,6 +18,21 @@ For instance:
 
 should contain the date of 'table2' of the manuscript, 'F1' should be the same symbol used in the table, and "hours" should be the units expressed in the table as well.  
 
+#### data files
+
+If a raw file is becoming too large, it can refer to other raw file.
+
+For instance:
+
+```
+{
+    "data" : {       
+        "SHAKE FLASK" : {
+            "file" : "raw.msb20119-sup-0002.shake-flask.json"
+        },
+    }
+}
+
 #### File naming
 
 Raw files must start with "raw". For instance "raw.elife-79815-supp1-v2.json"
