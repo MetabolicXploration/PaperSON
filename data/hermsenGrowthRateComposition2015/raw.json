@@ -1,0 +1,105 @@
+{
+    "TODO" : "Check for supplementary materials, otherwise just add the figures/table", 
+
+    "msb145537-sup-0007-sdatafigs3" : {
+        "meta" : {
+            "source" : "Supplementary document msb145537-sup-0007-sdatafigs3.xlsx"
+        }, 
+
+        "data" : {
+       
+            "meta" : {
+                "footnotes": [
+                    "* Variation between replicate experiments was of the order of 5%."
+                ]
+            },
+
+            "data" : {
+                "Fig. S3A" : {
+
+                    "condition (available substrates)" : [
+                        "pyruvate", "xylose	", "pyruvate + xylose", "pyruvate + xylose"
+                    ],
+
+                    "substrate measured" : [
+                        "pyruvate", "xylose", "pyruvate", "xylose"
+                    ],
+
+                    "uptake (mM/OD600/h)*" : [ 
+                        13.0, 4.5, 10.7, 1.9
+                    ],
+
+                    "n" : [
+                        2, 2, 2, 2
+                    ]
+                },
+
+                "Fig. S3B" : {
+
+                    "condition (available substrates)" : [
+                        "succinate", "glucose", "succinate + glucose", "succinate + glucose"
+                    ],
+                    
+                    "substrate measured" : [
+                        "succinate", "glucose", "succinate", "glucose"
+                    ],
+                    
+                    "uptake (mM/OD600/h)*" : [
+                        6.6, 4.6, 1.6, 4.2
+                    ],
+                    
+                    "n" : [
+                        2, 2, 2, 2
+                    ]
+                }, 
+
+                "Fig. S3C" : {
+                    "condition (available substrates)" : [ 
+                        "glycerol", "xylose", "glycerol + xylose", "glycerol + xylose"
+                    ], 
+                    "substrate measured" : [
+                        "glycerol", "xylose", "glycerol", "xylose"
+                    ],
+                    "uptake (mM/OD600/h)*" : [
+                        7.4, 4.5, 1.5, 4.4
+                    ], 
+                    "n" : [
+                        2, 2, 2, 2
+                    ]
+                },
+
+                "Fig. S3D" : {
+                    "condition (available substrates)" : [ 
+                        "glycerol", "glucose", "glycerol + glucose", "glycerol + glucose"
+                    ], 
+                    "substrate measured" : [
+                        "glycerol", "glucose", "glycerol", "glucose"
+                    ],
+                    "uptake (mM/OD600/h)*" : [
+                        7.4, 4.6, -0.1, 4.6
+                    ], 
+                    "n" : [
+                        2, 2, 2, 2
+                    ]
+                },
+
+                "Fig. S3E" : {
+                    "condition (available substrates)" : [ 
+                        "glucose", "xylose", "glucose + xylose", "glucose + xylose"
+                    ], 
+                    "substrate measured" : [
+                        "glucose", "xylose", "glucose", "xylose"
+                    ],
+                    "uptake (mM/OD600/h)*" : [
+                        4.6, 4.5, 4.6, 0.1
+                    ], 
+                    "n" : [
+                        2, 2, 1, 1
+                    ]
+                }			
+            }
+        }
+    }
+
+
+}
