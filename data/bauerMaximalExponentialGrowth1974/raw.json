@@ -1,0 +1,175 @@
+{
+    "dev": {
+        "notes": [
+            "#TODO: double check with paper",
+            "#TODO: Create automatic tests, reproduce table/plots (visually)"
+        ]
+    }, 
+
+    "data" : {
+
+
+        "TABLE I" : {
+            "meta" : {
+                "caption" : "Maximal Exponential Growth Rates at Different Limiting Aeration Conditions",
+                "source" : "Table I main text"
+            }, 
+
+            "data" : {
+                "Growth Time" : {
+                    "vals" : [ 7.3, 8.5, 9.2, 9.7, 10.7 ],
+                    "units" : "hr"
+                }, 
+
+                "Aeration" : {
+                    "vals" : [ 2 , 2 , 2 , 2 , 4 ],
+                    "units" : "liters O_2 / min"
+                },
+
+                "Agitation" : {
+                    "vals" : [ 400, 500, 600, 750, 750 ],
+                    "units" : "rpm"
+                }, 
+
+                "Volume of Culture" : {
+                    "vals" : [ 3800 , 3950 , 4300 , 4350 , 4700 ],
+                    "units" : "ml"
+                }, 
+
+                "Oxygen Absorption Rate" : {
+                    "vals" : [ 147, 260, 347, 410, 562 ],
+                    "units" : "mmol O_2 / liter-hr"
+                },
+
+                "\\bar\\rho" : {
+                    "note" : "maximal total exponential growth rate, g cells per hr per fermentor",
+                    "vals" : [ 19.9, 34.5, 47.5, 59.9, 94.9 ],
+                    "units" : "g dry cells / culture-hr"
+                },
+
+                "O_2 yield" : {
+                    "note" : "No column name in the table",
+                    "vals" : [ 28.1, 29.7, 31.4, 29.5, 28.0 ],
+                    "units" : "mmol O_2 consumed/ g dry cells",
+                    "mean" : 29.4
+                }
+            }
+        }, 
+
+
+        "TABLE II" : {
+            "meta" : {
+                "source" : "Table II main text",
+                "caption" : "Yield Constant for Glucose during Exponential Growth of E. coli"
+            }, 
+
+            "data" : {
+                "Time of Addition of Glucose" : {
+                    "vals" : [ 8.5, 9.6, 10.5 ],
+                    "units" : "hr"
+                },
+
+                "Total Glucose Consumed" : {
+                    "vals" : [ 165 , 315 , 465 ],
+                    "units" : "g"
+                }, 
+
+                "Total Dry Weight of Cells Produced" : {
+                    "vals" : [ 66 , 108 , 160 ],
+                    "units" : "g"
+                }, 
+
+                "Yield Constant" : {
+                    "vals" : [ 0.4, 0.34, 0.34 ],
+                    "units" : "g cells produced / g glucose consumed",
+                    "mean" : 0.36
+                }
+            }
+        }, 
+
+        "Fig 2" : {
+            "meta" : {
+
+            }, 
+
+            "data" : {
+                
+                "Turbidity" : {
+
+                    "meta" : {
+                        "x label" : "Propagation Time, Hours",
+                        "y label" : "Turbidity, Klett Units"
+                    },
+                    "data" : {
+                        "x" : [
+                            3.4579349888326254, 4.984627586626585, 6.23876933277163, 7.294754477456629, 8.200866829013588, 8.666408341623828, 9.433827042362058, 9.914193946855871, 10.651045678479798, 10.976071256021186, 11.413137055612282
+                        ],
+                        "y" : [
+                            1227.8276715731358, 2025.439471713107, 3672.9633098349555, 5705.4328111538125, 11049.470793389355, 14684.778828897746, 18362.648977420286, 23150.64462335138, 32752.242679750412, 34614.75465900161, 38932.89258662881
+                        ]
+                    }
+                }, 
+
+                "Cell count" : {
+                    "meta" : {
+                        "x label" : "Propagation Time, Hours",
+                        "y label" : "Cell count"
+                    },
+                    "data" : {
+                        "x" : [
+                            8.192844743735392, 8.683915046587604, 9.442822469504476, 9.934336575900996, 10.518476180357725, 10.916504078789922
+                        ],
+                        "y" : [
+                            3.755514165670715e14, 4.683936377406229e14, 6.539035078246206e14, 7.573361281552032e14, 1.1588575882840112e15, 1.1052120301645099e15
+                        ]
+                    }
+                }, 
+
+                "Ammonia consummed" : {
+                    "meta" : {
+                        "x label" : "Propagation Time, Hours",
+                        "y label" : "Ammonia, g"
+                    },
+                    "data" : {
+                        "x" : [
+                            3.436716472407355, 4.9154967792302635, 6.1785616663343745, 7.188961126507881, 8.196869234966744, 8.59115842475294, 9.431433192941238, 9.880938940365244, 10.530243698578046, 10.903072297278442, 11.390466091223818
+                        ],
+                        "y" : [
+                            1.215664482210413, 3.2885850210889815, 4.56537750014503, 5.558543584058755, 10.941491756611022, 14.963791287517752, 22.762783495350476, 28.9905005363161, 38.424946709358444, 46.90920357555126, 61.76189672841462
+                        ]
+                    }
+                }, 
+
+                "" : {
+                    "meta" : {
+                        "x label" : "Propagation Time, Hours",
+                        "y label" : ""
+                    },
+                    "data" : {
+                        "x" : [
+
+                        ],
+                        "y" : [
+
+                        ]
+                    }
+                }, 
+
+                "Weight of cells" : {
+                    "meta" : {
+                        "x label" : "Propagation Time, Hours",
+                        "y label" : "Dry weight of cells, g"
+                    },
+                    "data" : {
+                        "x" : [
+                            6.251476571375545, 8.217063977306845, 8.613311618339711, 9.396944278111508, 9.861589778262973, 10.482070841132115, 10.862349959940005
+                        ],
+                        "y" : [
+                            28.17022921625693, 63.55695768698362, 81.80355152688131, 111.40218491100163, 148.27991427343724, 156.55574557690417, 190.55963187235176
+                        ]
+                    }
+                }
+            }
+        }
+    }
+}
