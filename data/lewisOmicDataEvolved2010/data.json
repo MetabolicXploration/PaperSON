@@ -1,0 +1,98 @@
+{
+    "dev": {
+        "notes": [
+            "#TODO: double check with paper",
+            "#TODO: Create automatic tests, reproduce table/plots (visually)"
+        ]
+    }, 
+
+
+    "data" : {
+
+        "Fig 2" : {
+            "meta" : {
+                "caption" : "Figure 2 In adaptive evolution through serial passaging, E. coli evolves to a higher growth rate and biomass yield at exponential growth. Growth rates and substrate uptake rates were acquired for each strain before and after adaptive evolution, as reported earlier (Fong et al, 2005; Charusanti et al, submitted for publication). For growth on (A) glycerol, (B) lactate, and for (C) the Dpgi strain grown on glucose, the evolved strains (red) all improved their growth rate and biomass yield at exponential growth, compared with the unevolved parent strains (blue)."
+            }, 
+
+            "Panel A" : {
+                "meta" : {
+                    "note" : "Glycerol",
+                    "x label" : "Growth rate h^{-1})", 
+                    "y label" : "Biomass yield (gDW per gram substrate)"
+                }, 
+                "data" : {
+                    "Unevolved" : {
+                        "x" : [ 
+                            0.22182595449327908 
+                        ],
+                        "y" : [ 
+                            0.31342497810319003 
+                        ]
+                    }, 
+                    "Evolved" : {
+                        "x" : [ 
+                            0.4595029161347536, 0.5007456317576788, 0.5792753586911303, 0.5389708958666337, 0.5508467101255969, 0.5612828132207643, 0.5795120823216555 
+                        ],
+                        "y" : [
+                            0.3724371342377414, 0.36157153783799434, 0.3652889332997277, 0.3986578215423703, 0.40008894925341665, 0.4024449260714794, 0.43348963330966617                        
+                        ]
+                    }
+                }
+            }, 
+
+            "Panel B" : {
+                "meta" : {
+                    "note" : "Lactate",
+                    "x label" : "Growth rate h^{-1})", 
+                    "y label" : "Biomass yield (gDW per gram substrate)"
+                }, 
+                "data" : {
+                    "Unevolved" : {
+                        "x" : [ 
+                            0.23070433767807075  
+                        ],
+                        "y" : [ 
+                            0.18608511859839524
+                        ]
+                    }, 
+                    "Evolved" : {
+                        "x" : [ 
+                            0.500282388188791, 0.5395958446320697, 0.5307066702407945, 0.5492432685201778, 0.5608430474080416, 0.5883801166429461, 0.5608919201508243 
+                        ],
+                        "y" : [
+                            0.34207210356466544, 0.41435241988878657, 0.4095434899366148, 0.3758132659817299, 0.42089917631643525, 0.4608889497224294, 0.48421087966071097
+                        ]
+                    }
+                }
+            }, 
+
+            "Panel C" : {
+                "meta" : {
+                    "note" : "Δpgi",
+                    "x label" : "Growth rate h^{-1})", 
+                    "y label" : "Biomass yield (gDW per gram substrate)"
+                }, 
+                "data" : {
+                    "Unevolved" : {
+                        "x" : [
+                            0.14079756408560365, 0.13931313706242845, 0.14485742141252334
+                        ],
+                        "y" : [ 
+                            0.42385240849285316, 0.4398571081587667, 0.44840667347976926
+                        ]
+                    }, 
+                    "Evolved" : {
+                        "x" : [ 
+                            0.44347526899889833, 0.45695895341947357, 0.4330551538065609, 0.49934844403633394, 0.5166657587942268, 0.5288984691047303, 0.5512846024463642, 0.5628519719545233, 0.5700835650260854
+                        ],
+                        "y" : [
+                            0.5485836842997704, 0.5417561650176209, 0.5106316479306348, 0.6374700972012813, 0.6499913499566925, 0.6308557928939035, 0.6378984175576402, 0.6630529153510198, 0.7126120495676124
+                        ]
+                    }
+                }
+            }
+        }
+
+
+    }
+}
