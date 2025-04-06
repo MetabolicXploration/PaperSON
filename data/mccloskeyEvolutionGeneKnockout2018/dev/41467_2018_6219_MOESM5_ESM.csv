@@ -1,0 +1,13 @@
+,percent_agreement,,,percent_disagreement,,,
+parent_classes,Average,StdDev,N,Average,StdDev,N,
+Allosteric-Regulation-of-RNAP,18.4,11.2,2,5.3,7.4,2,
+DNA-to-Protein-DNA-Binding-Reactions,44.4,23.9,22,24.8,19.3,22,transcription factor gene expression (that requires small molecule activation) to DNA target gene expression
+Protein-Ligand-DNA-Binding-Reactions,36.5,11.9,22,23.1,8.7,22,metabolite level to transcription factor to DNA target gene expression
+Regulation-of-Enzyme-Activity,26.1,7.1,22,28.6,6.8,22,metabolite level mediated regulation of target enzymatic flux
+Rho-Blocking-Antitermination,25.0,44.7,16,68.8,47.9,16,
+RNA-Mediated-Translation-Regulation,28.8,22.1,22,34.4,12.9,22,small RNA gene expression to target RNA gene expression
+Small-Molecule-Mediated-Attenuation,21.4,42.6,14,0.0,0.0,14,
+Transcriptional-Attenuation,27.3,42.9,22,2.3,10.7,22,
+Transcription-Factor-Binding,52.9,12.5,22,16.3,12.3,22,transcription factor gene expression (that does not require small molecule activation) to DNA target gene expression
+GPR,27.5,17.4,22,11.4,6.8,22,
+RNA-to-Protein,5.4,3.8,22,4.1,2.6,22,regulatory relation between the expression of a TF and the consensus activation profile of the TF

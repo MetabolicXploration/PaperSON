@@ -1,0 +1,57 @@
+{
+    "dev": {
+        "notes": [
+            "#TODO: double check with paper",
+            "#TODO: Create automatic tests, reproduce table/plots (visually)", 
+            "#TODO: process supplementary material files (xlsx)"
+        ]
+    }, 
+
+    "data" : {
+        "Fig S1" : {
+
+            "meta" : {
+                "caption" : "Physiological characteristics of wild-type and 20 knockouts. Growth rate (average ± standard error of the mean) were calculated by combining previously reported measurement (4) and the tracer experiments performed in this study (see Fig. S2). Acetate yield was previously reported (4), with the value for ΔrpiB updated here. Biomass yields were estimated via 13C-MFA here (standard errors shown), in good agreement with directly measured values (4) where a constant dry weight per OD600 is used (0.32 gDW/L/OD600¬). Glucose uptake rates were calculated as the growth rate divided by the biomass yield."
+            },
+
+            "data" : {
+                "Growth Rate (h^{-1})" : {
+                    "PaperSON.notes" : [
+                        "#TODO"
+                    ]
+                }, 
+                "Glucose Uptake Rate (mmol/g_{dw}/h)" : {
+                    "PaperSON.notes" : [
+                        "#TODO"
+                    ]
+                },
+                "Biomas Yield (g/g)" : {
+                    "PaperSON.notes" : [
+                        "#TODO Add errors"
+                    ],
+                    "x" : [
+                        "WT", "glk", "pgm", "pgi", "pfkA", "pfkB", "fbp", "fbaB", "tpiA", "zwt", "pgl", "gnd", "rpe", "sgcE", "rpiB", "tktA", "tktB", "talA", "talB", "edd", "eda" 
+                    ],
+                    "y" : [
+                        0.4064540712822604, 0.3939835836582829, 0.41054414636061554, 0.5191170418155229, 0.35409245264765576, 0.4038373239756091, 0.4033334614730837, 0.4094400068211642, 0.28634670353204766, 0.41206535345892603, 0.33453917696749336, 0.3538209178364884, 0.44735292729793896, 0.4112914865346682, 0.35737193145531465, 0.44548956884739255, 0.39589037601850596, 0.4037965864663654, 0.45414953252979373, 0.4095938473972175, 0.36511162095751737
+                    ]
+                }, 
+                "Acetate Yield (mol/mol)" : {
+                    "PaperSON.notes" : [
+                        "Yield is from glucose",
+                        "#TODO Add errors"
+                    ],
+                    "x" : [
+                        "WT", "glk", "pgm", "pgi", "pfkA", "pfkB", "fbp", "fbaB", "tpiA", "zwt", "pgl", "gnd", "rpe", "sgcE", "rpiB", "tktA", "tktB", "talA", "talB", "edd", "eda" 
+                    ],
+                    "y" : [
+                        0.4512440175446377, 0.4805679832646803, 0.4176415219856269, 0.0, 0.24444367219443228, 0.4827374321274982, 0.4739283983027269, 0.4541417643618093, 0.4881628635559996, 0.244180224618845, 0.5843996892465954, 0.5744086274888792, 0.2993746540044142, 0.45582332773121115, 0.6014585596301675, 0.352024982949823, 0.47702269378014395, 0.46488521827425977, 0.36523866607269617, 0.47117071557348067, 0.5182626978311471
+                    ]
+                }
+            }
+        }
+    }
+
+
+}
+

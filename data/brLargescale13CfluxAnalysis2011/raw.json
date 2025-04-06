@@ -8,12 +8,22 @@
 
         "data" : {
             
-            "SHAKE FLASK" : {
-                "file" : "raw.msb20119-sup-0002.shake-flask.json"
-            },
+            "Glucose" : {
+                "SHAKE FLASK" : {
+                    "file" : "raw.msb20119-sup-0002.shake-flask.json"
+                },
+    
+                "DEEP WELL PLATE" : {
+                    "file" : "raw.msb20119-sup-0002.deep-well-plate.json"
+                }
+            }, 
 
-            "DEEP WELL PLATE" : {
-                "file" : "raw.msb20119-sup-0002.deep-well-plate.json"
+            "Galactose" : {
+                "PaperSON.notes" : [
+                    "#TODO Add msb20119-sup-0003.xlxs supp file data", 
+                    "In the excel, it says 'Specific glucose uptake rate', but it is not, it is Galactose. I check it visually comparing a plot with Fig 7B"
+                ]
+                
             }
         }
     }

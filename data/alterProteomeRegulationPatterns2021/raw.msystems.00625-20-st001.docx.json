@@ -1,0 +1,17 @@
+{
+    "meta" : {
+        "source" : "msystems.00625-20-st001.docx supporting material"
+    }, 
+
+    "data" : {
+        "Substrate" : [
+            "Glucose (aerobic)", "Glucose (aerobic)", 
+            "Galactose", "Glycerol", "Pyruvate", "Xylose (aerobic)", 
+            "Xylose (micro-aerobic)", "Fructose", "Fumarate", "Acetate",
+            "Gluconate", "Succinate", "Mannose", "Glucosamine"
+        ], 
+        "Maximum uptake rate [mmol/gCDW/h]" : [
+            9.8, 20.3, 9.4, 14.9, 53, 14.2, 26.6, 9.6, 26.5, 19.6, 9.5, 24, 6.4, 9.5
+        ]
+    }
+}

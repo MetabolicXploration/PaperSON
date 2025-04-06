@@ -1,0 +1,9 @@
+{
+    "dev": {
+        "notes": [
+            "#TODO: double check with paper",
+            "#TODO: Create automatic tests, reproduce table/plots (visually)", 
+            "#TODO: Add supplementary materials"
+        ]
+    }
+}

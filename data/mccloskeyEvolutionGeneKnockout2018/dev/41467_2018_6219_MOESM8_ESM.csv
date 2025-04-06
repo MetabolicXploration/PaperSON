@@ -1,0 +1,436 @@
+mutation_type,mutation_frequency,mutation_genes,mutation_annotations,mutation_position,sample_name,mutation_locations,mutation_chromosome
+SNP,0.113,,,2302545,Evo04pgiEvo02EP,REP161 (repetitive extragenic palindromic) element; contains 12 REP sequences,1
+SNP,0.12,,,2302702,Evo04pgiEvo02EP,REP161 (repetitive extragenic palindromic) element; contains 12 REP sequences,1
+SNP,0.102,,,2302710,Evo04pgiEvo02EP,REP161 (repetitive extragenic palindromic) element; contains 12 REP sequences,1
+SNP,0.77,cyoA;ampG,cytochrome o ubiquinol oxidase subunit II;muropeptide transporter,450867,Evo04Evo01EP,intergenic;intergenic,1
+SNP,0.118,rsxC,electron transport complex protein required for the reduction of SoxR; predicted membrane-associated NADH oxidoreductase,1706868,Evo04Evo01EP,coding,1
+DEL,1,ydiU,conserved protein; UPF0061 family,1789047,Evo04Evo01EP,coding,1
+DEL,0.118,ygeO,,2994030,Evo04Evo01EP,coding,1
+DEL,0.71,ilvG,,3949557,Evo04Evo01EP,coding,1
+DEL,1,wecA,UDP-GlcNAc:undecaprenylphosphate GlcNAc-1-phosphate transferase,3966528,Evo04Evo01EP,coding,1
+DEL,1,wecA,UDP-GlcNAc:undecaprenylphosphate GlcNAc-1-phosphate transferase,3966694,Evo04Evo01EP,coding,1
+SNP,0.22,,,4294213,Evo04Evo01EP,RIP321 (repetitive extragenic palindromic) element; contains 11 REP sequences and 4 IHF sites,1
+SNP,0.264,,,4294214,Evo04Evo01EP,RIP321 (repetitive extragenic palindromic) element; contains 11 REP sequences and 4 IHF sites,1
+SNP,0.313,,,4294291,Evo04Evo01EP,RIP321 (repetitive extragenic palindromic) element; contains 11 REP sequences and 4 IHF sites,1
+SNP,0.167,,,4294309,Evo04Evo01EP,RIP321 (repetitive extragenic palindromic) element; contains 11 REP sequences and 4 IHF sites,1
+SNP,0.591,cysB,DNA-binding transcriptional dual regulator; O-acetyl-L-serine-binding,1332039,Evo04Evo02EP,coding,1
+SNP,1,insH1,IS5 transposase and trans-activator,2064489,Evo04Evo02EP,coding,1
+MOB,0.5309,wzzB,regulator of length of O-antigen component of lipopolysaccharide chains,2095836,Evo04Evo02EP,coding,1
+DEL,1,wcaJ,colanic biosynthesis UDP-glucose lipid carrier transferase,2119548,Evo04Evo02EP,coding,1
+DEL,1,wecE,TDP-4-oxo-6-deoxy-D-glucose transaminase,3974220,Evo04Evo02EP,coding,1
+INS,1,rplL,50S ribosomal subunit protein L7/L12,4178684,Evo04Evo02EP,coding,1
+SNP,0.238,,,4294213,Evo04Evo02EP,RIP321 (repetitive extragenic palindromic) element; contains 11 REP sequences and 4 IHF sites,1
+SNP,0.223,,,4294214,Evo04Evo02EP,RIP321 (repetitive extragenic palindromic) element; contains 11 REP sequences and 4 IHF sites,1
+SNP,0.301,,,4294291,Evo04Evo02EP,RIP321 (repetitive extragenic palindromic) element; contains 11 REP sequences and 4 IHF sites,1
+SNP,0.215,,,4294309,Evo04Evo02EP,RIP321 (repetitive extragenic palindromic) element; contains 11 REP sequences and 4 IHF sites,1
+SNP,0.121,,,4294326,Evo04Evo02EP,RIP321 (repetitive extragenic palindromic) element; contains 11 REP sequences and 4 IHF sites,1
+SNP,0.101,,,4294327,Evo04Evo02EP,RIP321 (repetitive extragenic palindromic) element; contains 11 REP sequences and 4 IHF sites,1
+SNP,0.106,,,374471,Evo04gndEvo01EP,REP31 (repetitive extragenic palindromic) element; contains 9 REP sequences,1
+SNP,0.113,insL1;entD,IS186 transposase;phosphopantetheinyltransferase component of enterobactin synthase multienzyme complex,608575,Evo04gndEvo01EP,intergenic;intergenic,1
+SNP,0.126,insL1;entD,IS186 transposase;phosphopantetheinyltransferase component of enterobactin synthase multienzyme complex,608577,Evo04gndEvo01EP,intergenic;intergenic,1
+DEL,0.138,ybeR,hypothetical protein,675950,Evo04gndEvo01EP,coding,1
+SNP,0.105,ycdU;serX,putative inner membrane protein,1096381,Evo04gndEvo01EP,intergenic;intergenic,1
+SNP,0.106,ispE,4-diphosphocytidyl-2-C-methylerythritol kinase,1261113,Evo04gndEvo01EP,intergenic,1
+SNP,1,pntA;ydgH,pyridine nucleotide transhydrogenase; alpha subunit;hypothetical protein,1675937,Evo04gndEvo01EP,intergenic;intergenic,1
+SNP,0.134,add;ydgJ,adenosine deaminase;putative oxidoreductase,1701275,Evo04gndEvo01EP,intergenic;intergenic,1
+SNP,0.132,add;ydgJ,adenosine deaminase;putative oxidoreductase,1701276,Evo04gndEvo01EP,intergenic;intergenic,1
+SNP,0.125,chbB;osmE,N;N'-diacetylchitobiose-specific enzyme IIB component of PTS;DNA-binding transcriptional activator,1819659,Evo04gndEvo01EP,intergenic;intergenic,1
+SNP,0.125,chbB;osmE,N;N'-diacetylchitobiose-specific enzyme IIB component of PTS;DNA-binding transcriptional activator,1819662,Evo04gndEvo01EP,intergenic;intergenic,1
+SNP,0.105,chbB;osmE,N;N'-diacetylchitobiose-specific enzyme IIB component of PTS;DNA-binding transcriptional activator,1819666,Evo04gndEvo01EP,intergenic;intergenic,1
+SNP,0.11,chbB;osmE,N;N'-diacetylchitobiose-specific enzyme IIB component of PTS;DNA-binding transcriptional activator,1819670,Evo04gndEvo01EP,intergenic;intergenic,1
+SNP,0.105,chbB;osmE,N;N'-diacetylchitobiose-specific enzyme IIB component of PTS;DNA-binding transcriptional activator,1819673,Evo04gndEvo01EP,intergenic;intergenic,1
+SNP,0.105,chbB;osmE,N;N'-diacetylchitobiose-specific enzyme IIB component of PTS;DNA-binding transcriptional activator,1819675,Evo04gndEvo01EP,intergenic;intergenic,1
+SNP,0.103,chbB;osmE,N;N'-diacetylchitobiose-specific enzyme IIB component of PTS;DNA-binding transcriptional activator,1819677,Evo04gndEvo01EP,intergenic;intergenic,1
+SNP,0.104,chbB;osmE,N;N'-diacetylchitobiose-specific enzyme IIB component of PTS;DNA-binding transcriptional activator,1819680,Evo04gndEvo01EP,intergenic;intergenic,1
+SNP,0.104,chbB;osmE,N;N'-diacetylchitobiose-specific enzyme IIB component of PTS;DNA-binding transcriptional activator,1819681,Evo04gndEvo01EP,intergenic;intergenic,1
+SNP,1,insH1,IS5 transposase and trans-activator,2064489,Evo04gndEvo01EP,coding,1
+SNP,0.117,,,2302820,Evo04gndEvo01EP,REP161 (repetitive extragenic palindromic) element; contains 12 REP sequences,1
+SNP,0.108,,,2302897,Evo04gndEvo01EP,REP161 (repetitive extragenic palindromic) element; contains 12 REP sequences,1
+DEL,1,ilvL,ilvG operon leader peptide,3948365,Evo04gndEvo01EP,coding,1
+SNP,0.139,,,4294213,Evo04gndEvo01EP,RIP321 (repetitive extragenic palindromic) element; contains 11 REP sequences and 4 IHF sites,1
+SNP,0.157,,,4294214,Evo04gndEvo01EP,RIP321 (repetitive extragenic palindromic) element; contains 11 REP sequences and 4 IHF sites,1
+SNP,0.353,,,4294291,Evo04gndEvo01EP,RIP321 (repetitive extragenic palindromic) element; contains 11 REP sequences and 4 IHF sites,1
+SNP,0.166,,,4294309,Evo04gndEvo01EP,RIP321 (repetitive extragenic palindromic) element; contains 11 REP sequences and 4 IHF sites,1
+SNP,0.129,,,4294327,Evo04gndEvo01EP,RIP321 (repetitive extragenic palindromic) element; contains 11 REP sequences and 4 IHF sites,1
+SNP,0.257,rpsA,30S ribosomal subunit protein S1,962205,Evo04gndEvo02EP,coding,1
+SNP,0.324,sulA;sxy,SOS cell division inhibitor;required for expression of CRP-S-dependent promoters,1020179,Evo04gndEvo02EP,intergenic;intergenic,1
+SNP,0.107,rttR,,1286260,Evo04gndEvo02EP,intergenic,1
+SNP,0.637,pntA;ydgH,pyridine nucleotide transhydrogenase; alpha subunit;hypothetical protein,1675937,Evo04gndEvo02EP,intergenic;intergenic,1
+SNP,1,insH1,IS5 transposase and trans-activator,2064489,Evo04gndEvo02EP,coding,1
+SNP,0.158,relA,(p)ppGpp synthetase I/GTP pyrophosphokinase,2910658,Evo04gndEvo02EP,coding,1
+MOB,0.2865,gntR;yhhW,DNA-binding transcriptional repressor;quercetinase activity in vitro,3576781,Evo04gndEvo02EP,intergenic;intergenic,1
+INS,0.35,ilvL;ilvX,ilvG operon leader peptide;hypothetical protein,3948486,Evo04gndEvo02EP,intergenic;intergenic,1
+SNP,0.102,,,4294178,Evo04gndEvo02EP,RIP321 (repetitive extragenic palindromic) element; contains 11 REP sequences and 4 IHF sites,1
+SNP,0.251,,,4294213,Evo04gndEvo02EP,RIP321 (repetitive extragenic palindromic) element; contains 11 REP sequences and 4 IHF sites,1
+SNP,0.266,,,4294214,Evo04gndEvo02EP,RIP321 (repetitive extragenic palindromic) element; contains 11 REP sequences and 4 IHF sites,1
+SNP,0.28,,,4294291,Evo04gndEvo02EP,RIP321 (repetitive extragenic palindromic) element; contains 11 REP sequences and 4 IHF sites,1
+SNP,0.137,,,4294309,Evo04gndEvo02EP,RIP321 (repetitive extragenic palindromic) element; contains 11 REP sequences and 4 IHF sites,1
+SNP,1,pntA;ydgH,pyridine nucleotide transhydrogenase; alpha subunit;hypothetical protein,1676048,Evo04gndEvo03EP,intergenic;intergenic,1
+SNP,0.123,rsxC,electron transport complex protein required for the reduction of SoxR; predicted membrane-associated NADH oxidoreductase,1706954,Evo04gndEvo03EP,coding,1
+SNP,0.101,rsxC,electron transport complex protein required for the reduction of SoxR; predicted membrane-associated NADH oxidoreductase,1706982,Evo04gndEvo03EP,coding,1
+SNP,1,insH1,IS5 transposase and trans-activator,2064489,Evo04gndEvo03EP,coding,1
+SNP,0.12,,,2302820,Evo04gndEvo03EP,REP161 (repetitive extragenic palindromic) element; contains 12 REP sequences,1
+DEL,0.92,ilvG,,3949755,Evo04gndEvo03EP,coding,1
+SNP,0.166,,,4294213,Evo04gndEvo03EP,RIP321 (repetitive extragenic palindromic) element; contains 11 REP sequences and 4 IHF sites,1
+SNP,0.199,,,4294214,Evo04gndEvo03EP,RIP321 (repetitive extragenic palindromic) element; contains 11 REP sequences and 4 IHF sites,1
+SNP,0.342,,,4294291,Evo04gndEvo03EP,RIP321 (repetitive extragenic palindromic) element; contains 11 REP sequences and 4 IHF sites,1
+SNP,0.246,,,4294309,Evo04gndEvo03EP,RIP321 (repetitive extragenic palindromic) element; contains 11 REP sequences and 4 IHF sites,1
+SNP,0.111,,,4294326,Evo04gndEvo03EP,RIP321 (repetitive extragenic palindromic) element; contains 11 REP sequences and 4 IHF sites,1
+SNP,0.11,,,4294327,Evo04gndEvo03EP,RIP321 (repetitive extragenic palindromic) element; contains 11 REP sequences and 4 IHF sites,1
+MOB,0.9801,lon,DNA-binding ATP-dependent protease La,458014,Evo04pgiEvo01EP,intergenic,1
+DEL,1,entB,isochorismatase,627282,Evo04pgiEvo01EP,coding,1
+SNP,1,icd,e14 prophage; isocitrate dehydrogenase; specific for NADP+,1195528,Evo04pgiEvo01EP,cryptic prophage e14,1
+DEL,1,adhE,fused acetaldehyde-CoA dehydrogenase/iron-dependent alcohol dehydrogenase/pyruvate-formate lyase deactivase,1296579,Evo04pgiEvo01EP,coding,1
+DEL,1,yciC,inner membrane protein; UPF0259 family,1311144,Evo04pgiEvo01EP,coding,1
+SNP,1,insH1,IS5 transposase and trans-activator,2064489,Evo04pgiEvo01EP,coding,1
+DEL,1,ackA,acetate kinase A and propionate kinase 2,2412527,Evo04pgiEvo01EP,coding,1
+DEL,1,pta,phosphate acetyltransferase,2412802,Evo04pgiEvo01EP,coding,1
+DEL,1,rseC,RseC protein involved in reduction of the SoxR iron-sulfur cluster,2705580,Evo04pgiEvo01EP,coding,1
+DEL,1,truC,tRNA(Ile1;Asp) pseudouridine(65) synthase,2921131,Evo04pgiEvo01EP,coding,1
+SNP,0.517,rpoD,RNA polymerase; sigma 70 (sigma D) factor,3211456,Evo04pgiEvo01EP,coding,1
+DEL,1,prkB,putative phosphoribulokinase,3482563,Evo04pgiEvo01EP,coding,1
+MOB,0.9941,spf,Spot 42 sRNA antisense regulator of galK translation; Hfq-dependent,4047945,Evo04pgiEvo01EP,coding,1
+SNP,0.14,,,4294213,Evo04pgiEvo01EP,RIP321 (repetitive extragenic palindromic) element; contains 11 REP sequences and 4 IHF sites,1
+SNP,0.149,,,4294214,Evo04pgiEvo01EP,RIP321 (repetitive extragenic palindromic) element; contains 11 REP sequences and 4 IHF sites,1
+SNP,0.338,,,4294291,Evo04pgiEvo01EP,RIP321 (repetitive extragenic palindromic) element; contains 11 REP sequences and 4 IHF sites,1
+SNP,0.203,,,4294309,Evo04pgiEvo01EP,RIP321 (repetitive extragenic palindromic) element; contains 11 REP sequences and 4 IHF sites,1
+SNP,0.162,,,4294214,Evo04pgiEvo03EP,RIP321 (repetitive extragenic palindromic) element; contains 11 REP sequences and 4 IHF sites,1
+MOB,0.1157,prpR;prpB,propionate catabolism operon regulatory protein;2-methylisocitrate lyase,347682,Evo04pgiEvo02EP,intergenic;intergenic,1
+MOB,0.9828,lon,DNA-binding ATP-dependent protease La,458014,Evo04pgiEvo02EP,intergenic,1
+SNP,1,icd,e14 prophage; isocitrate dehydrogenase; specific for NADP+,1195528,Evo04pgiEvo02EP,cryptic prophage e14,1
+SNP,1,insH1,IS5 transposase and trans-activator,2064489,Evo04pgiEvo02EP,coding,1
+DEL,0.132,bcp,peroxiredoxin; thiol peroxidase; thioredoxin-dependent,2598641,Evo04pgiEvo02EP,coding,1
+DEL,0.235,bcp,peroxiredoxin; thiol peroxidase; thioredoxin-dependent,2598890,Evo04pgiEvo02EP,coding,1
+DEL,0.235,bcp,peroxiredoxin; thiol peroxidase; thioredoxin-dependent,2598891,Evo04pgiEvo02EP,coding,1
+DEL,1,,,2763434,Evo04pgiEvo02EP,cryptic prophage CP4-57,1
+SNP,0.165,rpoD,RNA polymerase; sigma 70 (sigma D) factor,3211814,Evo04pgiEvo02EP,coding,1
+SNP,0.153,crp,DNA-binding transcriptional dual regulator,3484736,Evo04pgiEvo02EP,coding,1
+SNP,0.308,yibV;yibU,,3767880,Evo04pgiEvo02EP,intergenic;intergenic,1
+MOB,0.9942,spf,Spot 42 sRNA antisense regulator of galK translation; Hfq-dependent,4047935,Evo04pgiEvo02EP,coding,1
+SNP,1,soxR,DNA-binding transcriptional dual regulator; Fe-S center for redox-sensing,4275843,Evo04pgiEvo02EP,coding,1
+SNP,0.106,,,4294178,Evo04pgiEvo02EP,RIP321 (repetitive extragenic palindromic) element; contains 11 REP sequences and 4 IHF sites,1
+SNP,0.206,,,4294213,Evo04pgiEvo02EP,RIP321 (repetitive extragenic palindromic) element; contains 11 REP sequences and 4 IHF sites,1
+SNP,0.196,,,4294214,Evo04pgiEvo02EP,RIP321 (repetitive extragenic palindromic) element; contains 11 REP sequences and 4 IHF sites,1
+SNP,0.299,,,4294291,Evo04pgiEvo02EP,RIP321 (repetitive extragenic palindromic) element; contains 11 REP sequences and 4 IHF sites,1
+SNP,0.21,,,4294309,Evo04pgiEvo02EP,RIP321 (repetitive extragenic palindromic) element; contains 11 REP sequences and 4 IHF sites,1
+SNP,0.124,,,4294326,Evo04pgiEvo02EP,RIP321 (repetitive extragenic palindromic) element; contains 11 REP sequences and 4 IHF sites,1
+SNP,0.135,,,4294327,Evo04pgiEvo02EP,RIP321 (repetitive extragenic palindromic) element; contains 11 REP sequences and 4 IHF sites,1
+SNP,0.119,,,4324111,Evo04pgiEvo02EP,REP325 (repetitive extragenic palindromic) element; contains 12 REP sequences,1
+MOB,1,lon,DNA-binding ATP-dependent protease La,458014,Evo04pgiEvo03EP,intergenic,1
+SNP,0.191,ycdU;serX,putative inner membrane protein,1096381,Evo04pgiEvo03EP,intergenic;intergenic,1
+SNP,1,icd,e14 prophage; isocitrate dehydrogenase; specific for NADP+,1195528,Evo04pgiEvo03EP,cryptic prophage e14,1
+SNP,0.312,,,4294291,Evo04pgiEvo03EP,RIP321 (repetitive extragenic palindromic) element; contains 11 REP sequences and 4 IHF sites,1
+DEL,1,marC;marR,inner membrane protein; UPF0056 family;DNA-binding transcriptional repressor of multiple antibiotic resistance,1617104,Evo04pgiEvo03EP,intergenic;intergenic,1
+SNP,0.675,zwf;yebK,glucose-6-phosphate 1-dehydrogenase;putative DNA-binding transcriptional regulator,1934672,Evo04pgiEvo03EP,intergenic;intergenic,1
+DEL,0.14,ackA,acetate kinase A and propionate kinase 2,2411533,Evo04pgiEvo03EP,coding,1
+DEL,0.14,ackA,acetate kinase A and propionate kinase 2,2411534,Evo04pgiEvo03EP,coding,1
+DEL,0.14,ackA,acetate kinase A and propionate kinase 2,2411535,Evo04pgiEvo03EP,coding,1
+DEL,0.136,ackA,acetate kinase A and propionate kinase 2,2411536,Evo04pgiEvo03EP,coding,1
+DEL,0.136,ackA,acetate kinase A and propionate kinase 2,2411537,Evo04pgiEvo03EP,coding,1
+DEL,0.136,ackA,acetate kinase A and propionate kinase 2,2411538,Evo04pgiEvo03EP,coding,1
+DEL,0.136,ackA,acetate kinase A and propionate kinase 2,2411539,Evo04pgiEvo03EP,coding,1
+DEL,0.136,ackA,acetate kinase A and propionate kinase 2,2411540,Evo04pgiEvo03EP,coding,1
+DEL,0.136,ackA,acetate kinase A and propionate kinase 2,2411541,Evo04pgiEvo03EP,coding,1
+DEL,0.136,ackA,acetate kinase A and propionate kinase 2,2411542,Evo04pgiEvo03EP,coding,1
+DEL,1,yfeR,putative DNA-binding transcriptional regulator,2524133,Evo04pgiEvo03EP,coding,1
+SNP,0.431,rpoD,RNA polymerase; sigma 70 (sigma D) factor,3211448,Evo04pgiEvo03EP,coding,1
+MOB,0.7456,polA;spf,fused DNA polymerase I 5'->3' polymerase/3'->5' exonuclease/5'->3' exonuclease,4047882,Evo04pgiEvo03EP,intergenic;intergenic,1
+DEL,0.133,spf,Spot 42 sRNA antisense regulator of galK translation; Hfq-dependent,4048013,Evo04pgiEvo03EP,coding,1
+DEL,0.133,spf,Spot 42 sRNA antisense regulator of galK translation; Hfq-dependent,4048014,Evo04pgiEvo03EP,coding,1
+DEL,0.133,spf,Spot 42 sRNA antisense regulator of galK translation; Hfq-dependent,4048015,Evo04pgiEvo03EP,coding,1
+DEL,0.131,spf,Spot 42 sRNA antisense regulator of galK translation; Hfq-dependent,4048016,Evo04pgiEvo03EP,coding,1
+DEL,0.131,spf,Spot 42 sRNA antisense regulator of galK translation; Hfq-dependent,4048017,Evo04pgiEvo03EP,coding,1
+DEL,0.131,spf,Spot 42 sRNA antisense regulator of galK translation; Hfq-dependent,4048018,Evo04pgiEvo03EP,coding,1
+DEL,0.131,spf,Spot 42 sRNA antisense regulator of galK translation; Hfq-dependent,4048019,Evo04pgiEvo03EP,coding,1
+DEL,0.131,spf,Spot 42 sRNA antisense regulator of galK translation; Hfq-dependent,4048020,Evo04pgiEvo03EP,coding,1
+DEL,0.131,spf,Spot 42 sRNA antisense regulator of galK translation; Hfq-dependent,4048021,Evo04pgiEvo03EP,coding,1
+DEL,0.131,spf,Spot 42 sRNA antisense regulator of galK translation; Hfq-dependent,4048022,Evo04pgiEvo03EP,coding,1
+DEL,0.131,spf,Spot 42 sRNA antisense regulator of galK translation; Hfq-dependent,4048023,Evo04pgiEvo03EP,coding,1
+DEL,0.129,spf,Spot 42 sRNA antisense regulator of galK translation; Hfq-dependent,4048024,Evo04pgiEvo03EP,coding,1
+SNP,0.134,,,4294213,Evo04pgiEvo03EP,RIP321 (repetitive extragenic palindromic) element; contains 11 REP sequences and 4 IHF sites,1
+SNP,0.186,,,4294309,Evo04pgiEvo03EP,RIP321 (repetitive extragenic palindromic) element; contains 11 REP sequences and 4 IHF sites,1
+SNP,0.104,,,4294327,Evo04pgiEvo03EP,RIP321 (repetitive extragenic palindromic) element; contains 11 REP sequences and 4 IHF sites,1
+SNP,0.216,alsE,allulose-6-phosphate 3-epimerase,4306378,Evo04pgiEvo03EP,coding,1
+SNP,0.102,rapA,RNA polymerase-associated helicase protein (ATPase and RNA polymerase recycling factor),61802,Evo04pgiEvo04EP,coding,1
+INS,1,rapA,RNA polymerase-associated helicase protein (ATPase and RNA polymerase recycling factor),62752,Evo04pgiEvo04EP,coding,1
+MOB,0.988,lon,DNA-binding ATP-dependent protease La,458014,Evo04pgiEvo04EP,intergenic,1
+DEL,0.27,nagC,DNA-binding transcriptional dual regulator; repressor of N-acetylglucosamine,699923,Evo04pgiEvo04EP,coding,1
+SNP,1,icd,e14 prophage; isocitrate dehydrogenase; specific for NADP+,1195528,Evo04pgiEvo04EP,cryptic prophage e14,1
+DEL,1,ttcA,tRNA 2-thiocytidine biosynthesis protein,1409949,Evo04pgiEvo04EP,cryptic prophage Rac,1
+DEL,1,pntB,pyridine nucleotide transhydrogenase; beta subunit,1673688,Evo04pgiEvo04EP,coding,1
+SNP,0.119,rsxC,electron transport complex protein required for the reduction of SoxR; predicted membrane-associated NADH oxidoreductase,1706871,Evo04pgiEvo04EP,coding,1
+SNP,0.116,rsxC,electron transport complex protein required for the reduction of SoxR; predicted membrane-associated NADH oxidoreductase,1706954,Evo04pgiEvo04EP,coding,1
+SNP,1,insH1,IS5 transposase and trans-activator,2064489,Evo04pgiEvo04EP,coding,1
+SNP,1,rpoD,RNA polymerase; sigma 70 (sigma D) factor,3212437,Evo04pgiEvo04EP,coding,1
+DEL,0.5,yifB,putative bifunctional enzyme and transcriptional regulator,3946467,Evo04pgiEvo04EP,intergenic,1
+SNP,1,polA;spf,fused DNA polymerase I 5'->3' polymerase/3'->5' exonuclease/5'->3' exonuclease,4047909,Evo04pgiEvo04EP,intergenic;intergenic,1
+SNP,0.486,fabR,DNA-binding transcriptional repressor,4158877,Evo04pgiEvo04EP,intergenic,1
+SNP,0.163,,,4294213,Evo04pgiEvo04EP,RIP321 (repetitive extragenic palindromic) element; contains 11 REP sequences and 4 IHF sites,1
+SNP,0.165,,,4294214,Evo04pgiEvo04EP,RIP321 (repetitive extragenic palindromic) element; contains 11 REP sequences and 4 IHF sites,1
+SNP,0.307,,,4294291,Evo04pgiEvo04EP,RIP321 (repetitive extragenic palindromic) element; contains 11 REP sequences and 4 IHF sites,1
+SNP,0.222,,,4294309,Evo04pgiEvo04EP,RIP321 (repetitive extragenic palindromic) element; contains 11 REP sequences and 4 IHF sites,1
+SNP,0.108,,,4294326,Evo04pgiEvo04EP,RIP321 (repetitive extragenic palindromic) element; contains 11 REP sequences and 4 IHF sites,1
+MOB,0.9914,lon,DNA-binding ATP-dependent protease La,458014,Evo04pgiEvo05EP,intergenic,1
+SNP,1,ybfE,conserved protein; LexA-regulated,710759,Evo04pgiEvo05EP,intergenic,1
+SNP,0.139,ycdU;serX,putative inner membrane protein,1096381,Evo04pgiEvo05EP,intergenic;intergenic,1
+SNP,1,icd,e14 prophage; isocitrate dehydrogenase; specific for NADP+,1195528,Evo04pgiEvo05EP,cryptic prophage e14,1
+MOB,0.3391,dauA,C4-dicarboxylic acid transporter,1258983,Evo04pgiEvo05EP,coding,1
+DEL,1,ptsH,phosphohistidinoprotein-hexose phosphotransferase component of PTS system (Hpr),2531421,Evo04pgiEvo05EP,intergenic,1
+DEL,1,rpoD,RNA polymerase; sigma 70 (sigma D) factor,3211592,Evo04pgiEvo05EP,coding,1
+SNP,0.11,yidX,putative lipoproteinC,3873547,Evo04pgiEvo05EP,coding,1
+MOB,0.9206,polA;spf,fused DNA polymerase I 5'->3' polymerase/3'->5' exonuclease/5'->3' exonuclease,4047914,Evo04pgiEvo05EP,intergenic;intergenic,1
+SNP,0.187,,,4294213,Evo04pgiEvo05EP,RIP321 (repetitive extragenic palindromic) element; contains 11 REP sequences and 4 IHF sites,1
+SNP,0.18,,,4294214,Evo04pgiEvo05EP,RIP321 (repetitive extragenic palindromic) element; contains 11 REP sequences and 4 IHF sites,1
+SNP,0.16,,,4294309,Evo04pgiEvo05EP,RIP321 (repetitive extragenic palindromic) element; contains 11 REP sequences and 4 IHF sites,1
+SNP,0.103,,,4294326,Evo04pgiEvo05EP,RIP321 (repetitive extragenic palindromic) element; contains 11 REP sequences and 4 IHF sites,1
+DEL,1,rapA,RNA polymerase-associated helicase protein (ATPase and RNA polymerase recycling factor),62820,Evo04pgiEvo06EP,coding,1
+DEL,0.845,rapA,RNA polymerase-associated helicase protein (ATPase and RNA polymerase recycling factor),62830,Evo04pgiEvo06EP,coding,1
+DEL,0.845,rapA,RNA polymerase-associated helicase protein (ATPase and RNA polymerase recycling factor),62831,Evo04pgiEvo06EP,coding,1
+DEL,0.859,rapA,RNA polymerase-associated helicase protein (ATPase and RNA polymerase recycling factor),62832,Evo04pgiEvo06EP,coding,1
+DEL,0.859,rapA,RNA polymerase-associated helicase protein (ATPase and RNA polymerase recycling factor),62833,Evo04pgiEvo06EP,coding,1
+INS,0.141,rapA,RNA polymerase-associated helicase protein (ATPase and RNA polymerase recycling factor),62834,Evo04pgiEvo06EP,coding,1
+INS,0.141,rapA,RNA polymerase-associated helicase protein (ATPase and RNA polymerase recycling factor),62835,Evo04pgiEvo06EP,coding,1
+MOB,0.6696,ycbC,conserved protein; DUF218 superfamily,972494,Evo04pgiEvo06EP,coding,1
+SNP,1,icd,e14 prophage; isocitrate dehydrogenase; specific for NADP+,1195528,Evo04pgiEvo06EP,cryptic prophage e14,1
+SNP,0.135,rttR,,1286197,Evo04pgiEvo06EP,intergenic,1
+SNP,1,zwf,glucose-6-phosphate 1-dehydrogenase,1934332,Evo04pgiEvo06EP,coding,1
+SNP,1,insH1,IS5 transposase and trans-activator,2064489,Evo04pgiEvo06EP,coding,1
+SNP,0.116,,,2302820,Evo04pgiEvo06EP,REP161 (repetitive extragenic palindromic) element; contains 12 REP sequences,1
+SNP,0.124,crp,DNA-binding transcriptional dual regulator,3484730,Evo04pgiEvo06EP,coding,1
+MOB,1,malT,DNA-binding transcriptional activator for the mal regulon and maltotriose-ATP-binding protein,3551125,Evo04pgiEvo06EP,coding,1
+MOB,0.9627,spf,Spot 42 sRNA antisense regulator of galK translation; Hfq-dependent,4047926,Evo04pgiEvo06EP,coding,1
+SNP,0.101,,,4294178,Evo04pgiEvo06EP,RIP321 (repetitive extragenic palindromic) element; contains 11 REP sequences and 4 IHF sites,1
+SNP,0.212,,,4294213,Evo04pgiEvo06EP,RIP321 (repetitive extragenic palindromic) element; contains 11 REP sequences and 4 IHF sites,1
+SNP,0.234,,,4294214,Evo04pgiEvo06EP,RIP321 (repetitive extragenic palindromic) element; contains 11 REP sequences and 4 IHF sites,1
+SNP,0.26,,,4294291,Evo04pgiEvo06EP,RIP321 (repetitive extragenic palindromic) element; contains 11 REP sequences and 4 IHF sites,1
+SNP,0.115,,,4294309,Evo04pgiEvo06EP,RIP321 (repetitive extragenic palindromic) element; contains 11 REP sequences and 4 IHF sites,1
+SNP,0.186,ycdU;serX,putative inner membrane protein,1096381,Evo04pgiEvo07EP,intergenic;intergenic,1
+DEL,0.156,csgC,curli assembly protein,1104164,Evo04pgiEvo07EP,intergenic,1
+MOB,0.3209,opgG,osmoregulated periplasmic glucan (OPG) biosynthesis periplasmic protein,1109382,Evo04pgiEvo07EP,coding,1
+SNP,0.112,opgH,membrane glycosyltransferase,1111131,Evo04pgiEvo07EP,coding,1
+SNP,1,insH1,IS5 transposase and trans-activator,2064489,Evo04pgiEvo07EP,coding,1
+SNP,0.106,,,2302820,Evo04pgiEvo07EP,REP161 (repetitive extragenic palindromic) element; contains 12 REP sequences,1
+MOB,0.9832,crr,glucose-specific enzyme IIA component of PTS,2534334,Evo04pgiEvo07EP,coding,1
+DEL,1,galR,DNA-binding transcriptional repressor,2975584,Evo04pgiEvo07EP,coding,1
+INS,0.154,yicT;setC,putative arabinose efflux transporter,3834624,Evo04pgiEvo07EP,intergenic;intergenic,1
+SNP,0.105,yifN,,3958014,Evo04pgiEvo07EP,intergenic,1
+SNP,1,sthA,pyridine nucleotide transhydrogenase; soluble,4158136,Evo04pgiEvo07EP,coding,1
+SNP,1,fabR,DNA-binding transcriptional repressor,4158877,Evo04pgiEvo07EP,intergenic,1
+SNP,0.244,,,4294213,Evo04pgiEvo07EP,RIP321 (repetitive extragenic palindromic) element; contains 11 REP sequences and 4 IHF sites,1
+SNP,0.244,,,4294214,Evo04pgiEvo07EP,RIP321 (repetitive extragenic palindromic) element; contains 11 REP sequences and 4 IHF sites,1
+SNP,0.302,,,4294291,Evo04pgiEvo07EP,RIP321 (repetitive extragenic palindromic) element; contains 11 REP sequences and 4 IHF sites,1
+SNP,1,icd,e14 prophage; isocitrate dehydrogenase; specific for NADP+,1195528,Evo04pgiEvo08EP,cryptic prophage e14,1
+MOB,0.9877,yebK,putative DNA-binding transcriptional regulator,1935160,Evo04pgiEvo08EP,coding,1
+DEL,1,yecJ;azuC,hypothetical protein;hypothetical protein,1985816,Evo04pgiEvo08EP,intergenic;intergenic,1
+SNP,1,insH1,IS5 transposase and trans-activator,2064489,Evo04pgiEvo08EP,coding,1
+MOB,0.2,polA;spf,fused DNA polymerase I 5'->3' polymerase/3'->5' exonuclease/5'->3' exonuclease,4047914,Evo04pgiEvo08EP,intergenic;intergenic,1
+MOB,0.9708,spf,Spot 42 sRNA antisense regulator of galK translation; Hfq-dependent,4047936,Evo04pgiEvo08EP,coding,1
+SNP,1,rpoC,RNA polymerase; beta prime subunit,4184109,Evo04pgiEvo08EP,coding,1
+SNP,0.161,,,4294213,Evo04pgiEvo08EP,RIP321 (repetitive extragenic palindromic) element; contains 11 REP sequences and 4 IHF sites,1
+SNP,0.17,,,4294214,Evo04pgiEvo08EP,RIP321 (repetitive extragenic palindromic) element; contains 11 REP sequences and 4 IHF sites,1
+SNP,0.364,,,4294291,Evo04pgiEvo08EP,RIP321 (repetitive extragenic palindromic) element; contains 11 REP sequences and 4 IHF sites,1
+SNP,0.136,,,4294309,Evo04pgiEvo08EP,RIP321 (repetitive extragenic palindromic) element; contains 11 REP sequences and 4 IHF sites,1
+DEL,1,ftsI,transpeptidase involved in septal peptidoglycan synthesis (penicillin-binding protein 3),92844,Evo04ptsHIcrrEvo01EP,coding,1
+DEL,0.136,frmR;yaiO,regulator protein that represses frmRAB operon;outer membrane protein,379237,Evo04ptsHIcrrEvo01EP,intergenic;intergenic,1
+SNP,0.114,ydbA,,1464225,Evo04ptsHIcrrEvo01EP,coding,1
+SNP,0.555,lsrK,autoinducer-2 (AI-2) kinase,1596928,Evo04ptsHIcrrEvo01EP,coding,1
+SNP,1,insH1,IS5 transposase and trans-activator,2064489,Evo04ptsHIcrrEvo01EP,coding,1
+SNP,0.128,,,2302820,Evo04ptsHIcrrEvo01EP,REP161 (repetitive extragenic palindromic) element; contains 12 REP sequences,1
+SNP,1,rcsB,DNA-binding response regulator in two-component regulatory system with RcsC and YojN,2314415,Evo04ptsHIcrrEvo01EP,coding,1
+SNP,1,rcsB,DNA-binding response regulator in two-component regulatory system with RcsC and YojN,2314782,Evo04ptsHIcrrEvo01EP,coding,1
+AMP,1,argY,tRNA-Arg,2816219,Evo04ptsHIcrrEvo01EP,coding,1
+SNP,0.9,nlpI,lipoprotein involved in osmotic sensitivity and filamentation,3306126,Evo04ptsHIcrrEvo01EP,coding,1
+DEL,1,yrfF,inner membrane protein,3525680,Evo04ptsHIcrrEvo01EP,coding,1
+SNP,0.157,rhsB,rhsB element core protein RshB,3617901,Evo04ptsHIcrrEvo01EP,coding,1
+SNP,0.174,rhsB,rhsB element core protein RshB,3617905,Evo04ptsHIcrrEvo01EP,coding,1
+SNP,0.143,rhsB,rhsB element core protein RshB,3617906,Evo04ptsHIcrrEvo01EP,coding,1
+SNP,0.143,rhsB,rhsB element core protein RshB,3617909,Evo04ptsHIcrrEvo01EP,coding,1
+SNP,0.146,rhsB,rhsB element core protein RshB,3617910,Evo04ptsHIcrrEvo01EP,coding,1
+SNP,0.143,rhsB,rhsB element core protein RshB,3617914,Evo04ptsHIcrrEvo01EP,coding,1
+SNP,0.179,rhsB,rhsB element core protein RshB,3617938,Evo04ptsHIcrrEvo01EP,coding,1
+DEL,1,cyaA,adenylate cyclase,3990540,Evo04ptsHIcrrEvo01EP,coding,1
+DEL,0.877,cpxA,sensory histidine kinase in two-component regulatory system with CpxR,4101677,Evo04ptsHIcrrEvo01EP,coding,1
+SNP,0.191,,,4294213,Evo04ptsHIcrrEvo01EP,RIP321 (repetitive extragenic palindromic) element; contains 11 REP sequences and 4 IHF sites,1
+SNP,0.211,,,4294214,Evo04ptsHIcrrEvo01EP,RIP321 (repetitive extragenic palindromic) element; contains 11 REP sequences and 4 IHF sites,1
+SNP,0.344,,,4294291,Evo04ptsHIcrrEvo01EP,RIP321 (repetitive extragenic palindromic) element; contains 11 REP sequences and 4 IHF sites,1
+SNP,0.204,,,4294309,Evo04ptsHIcrrEvo01EP,RIP321 (repetitive extragenic palindromic) element; contains 11 REP sequences and 4 IHF sites,1
+SNP,0.113,,,4294326,Evo04ptsHIcrrEvo01EP,RIP321 (repetitive extragenic palindromic) element; contains 11 REP sequences and 4 IHF sites,1
+SNP,0.132,,,4294327,Evo04ptsHIcrrEvo01EP,RIP321 (repetitive extragenic palindromic) element; contains 11 REP sequences and 4 IHF sites,1
+SNP,0.2,ycdU;serX,putative inner membrane protein,1096381,Evo04ptsHIcrrEvo02EP,intergenic;intergenic,1
+INS,0.111,ycjM,putative glucosyltransferase,1368059,Evo04ptsHIcrrEvo02EP,intergenic,1
+SNP,0.11,ydbA,,1464300,Evo04ptsHIcrrEvo02EP,coding,1
+SNP,0.118,rsxC,electron transport complex protein required for the reduction of SoxR; predicted membrane-associated NADH oxidoreductase,1706868,Evo04ptsHIcrrEvo02EP,coding,1
+SNP,0.154,rsxC,electron transport complex protein required for the reduction of SoxR; predicted membrane-associated NADH oxidoreductase,1706871,Evo04ptsHIcrrEvo02EP,coding,1
+MOB,1,rcsA,DNA-binding transcriptional activator; co-regulator with RcsB,2022179,Evo04ptsHIcrrEvo02EP,coding,1
+SNP,1,insH1,IS5 transposase and trans-activator,2064489,Evo04ptsHIcrrEvo02EP,coding,1
+SNP,0.135,,,2302820,Evo04ptsHIcrrEvo02EP,REP161 (repetitive extragenic palindromic) element; contains 12 REP sequences,1
+SNP,1,glk;yfeO,glucokinase;putative ion channel protein,2507519,Evo04ptsHIcrrEvo02EP,intergenic;intergenic,1
+SNP,1,galP,D-galactose transporter,3086117,Evo04ptsHIcrrEvo02EP,intergenic,1
+MOB,0.9949,nudE;yrfF,adenosine nucleotide hydrolase; substrates include Ap3A; Ap2A; ADP-ribose; NADH;inner membrane protein,3524471,Evo04ptsHIcrrEvo02EP,intergenic;intergenic,1
+SNP,0.124,,,4294178,Evo04ptsHIcrrEvo02EP,RIP321 (repetitive extragenic palindromic) element; contains 11 REP sequences and 4 IHF sites,1
+SNP,0.249,,,4294213,Evo04ptsHIcrrEvo02EP,RIP321 (repetitive extragenic palindromic) element; contains 11 REP sequences and 4 IHF sites,1
+SNP,0.259,,,4294214,Evo04ptsHIcrrEvo02EP,RIP321 (repetitive extragenic palindromic) element; contains 11 REP sequences and 4 IHF sites,1
+SNP,0.294,,,4294291,Evo04ptsHIcrrEvo02EP,RIP321 (repetitive extragenic palindromic) element; contains 11 REP sequences and 4 IHF sites,1
+SNP,0.207,,,4294309,Evo04ptsHIcrrEvo02EP,RIP321 (repetitive extragenic palindromic) element; contains 11 REP sequences and 4 IHF sites,1
+SNP,0.117,,,4294326,Evo04ptsHIcrrEvo02EP,RIP321 (repetitive extragenic palindromic) element; contains 11 REP sequences and 4 IHF sites,1
+SNP,0.132,,,4294327,Evo04ptsHIcrrEvo02EP,RIP321 (repetitive extragenic palindromic) element; contains 11 REP sequences and 4 IHF sites,1
+INS,0.738,araA,L-arabinose isomerase,67887,Evo04ptsHIcrrEvo03EP,coding,1
+INS,0.738,araA,L-arabinose isomerase,67887,Evo04ptsHIcrrEvo03EP,coding,1
+SNP,0.111,ycdU;serX,putative inner membrane protein,1096381,Evo04ptsHIcrrEvo03EP,intergenic;intergenic,1
+DEL,1,fliR;rcsA,flagellar export pore protein;DNA-binding transcriptional activator; co-regulator with RcsB,2021820,Evo04ptsHIcrrEvo03EP,intergenic;intergenic,1
+SNP,1,insH1,IS5 transposase and trans-activator,2064489,Evo04ptsHIcrrEvo03EP,coding,1
+SNP,1,rcsB,DNA-binding response regulator in two-component regulatory system with RcsC and YojN,2314703,Evo04ptsHIcrrEvo03EP,coding,1
+SNP,0.143,ptsP,fused PTS enzyme: PEP-protein phosphotransferase (enzyme I)/GAF domain containing protein,2965555,Evo04ptsHIcrrEvo03EP,coding,1
+SNP,1,yrfF,inner membrane protein,3525613,Evo04ptsHIcrrEvo03EP,coding,1
+DEL,1,rbbA,fused ribosome-associated ATPase: ATP-binding protein/ATP-binding protein/predicted membrane protein,3626546,Evo04ptsHIcrrEvo03EP,coding,1
+MOB,1,cyaA,adenylate cyclase,3990728,Evo04ptsHIcrrEvo03EP,coding,1
+SNP,0.372,rpoC,RNA polymerase; beta prime subunit,4184285,Evo04ptsHIcrrEvo03EP,coding,1
+SNP,0.122,,,4294083,Evo04ptsHIcrrEvo03EP,RIP321 (repetitive extragenic palindromic) element; contains 11 REP sequences and 4 IHF sites,1
+SNP,0.188,,,4294213,Evo04ptsHIcrrEvo03EP,RIP321 (repetitive extragenic palindromic) element; contains 11 REP sequences and 4 IHF sites,1
+SNP,0.22,,,4294214,Evo04ptsHIcrrEvo03EP,RIP321 (repetitive extragenic palindromic) element; contains 11 REP sequences and 4 IHF sites,1
+SNP,0.188,,,4294291,Evo04ptsHIcrrEvo03EP,RIP321 (repetitive extragenic palindromic) element; contains 11 REP sequences and 4 IHF sites,1
+SNP,0.11,,,4294309,Evo04ptsHIcrrEvo03EP,RIP321 (repetitive extragenic palindromic) element; contains 11 REP sequences and 4 IHF sites,1
+SNP,0.116,,,4294327,Evo04ptsHIcrrEvo03EP,RIP321 (repetitive extragenic palindromic) element; contains 11 REP sequences and 4 IHF sites,1
+SNP,0.106,,,348866,Evo04ptsHIcrrEvo04EP,REP25 (repetitive extragenic palindromic) element; contains 8 REP sequences,1
+SNP,1,nagC,DNA-binding transcriptional dual regulator; repressor of N-acetylglucosamine,700171,Evo04ptsHIcrrEvo04EP,coding,1
+SNP,0.124,ycdU;serX,putative inner membrane protein,1096381,Evo04ptsHIcrrEvo04EP,intergenic;intergenic,1
+SNP,1,insH1,IS5 transposase and trans-activator,2064489,Evo04ptsHIcrrEvo04EP,coding,1
+SNP,0.119,,,2302820,Evo04ptsHIcrrEvo04EP,REP161 (repetitive extragenic palindromic) element; contains 12 REP sequences,1
+MOB,0.991,rcsD,phosphotransfer intermediate protein in two-component regulatory system with RcsBC,2311562,Evo04ptsHIcrrEvo04EP,coding,1
+SNP,1,glk;yfeO,glucokinase;putative ion channel protein,2507493,Evo04ptsHIcrrEvo04EP,intergenic;intergenic,1
+SNP,1,galR,DNA-binding transcriptional repressor,2975602,Evo04ptsHIcrrEvo04EP,coding,1
+MOB,0.9944,nudE;yrfF,adenosine nucleotide hydrolase; substrates include Ap3A; Ap2A; ADP-ribose; NADH;inner membrane protein,3524471,Evo04ptsHIcrrEvo04EP,intergenic;intergenic,1
+DEL,1,yibV,,3767689,Evo04ptsHIcrrEvo04EP,coding,1
+SNP,0.112,,,4294213,Evo04ptsHIcrrEvo04EP,RIP321 (repetitive extragenic palindromic) element; contains 11 REP sequences and 4 IHF sites,1
+SNP,0.139,,,4294214,Evo04ptsHIcrrEvo04EP,RIP321 (repetitive extragenic palindromic) element; contains 11 REP sequences and 4 IHF sites,1
+SNP,0.437,,,4294291,Evo04ptsHIcrrEvo04EP,RIP321 (repetitive extragenic palindromic) element; contains 11 REP sequences and 4 IHF sites,1
+SNP,0.275,,,4294309,Evo04ptsHIcrrEvo04EP,RIP321 (repetitive extragenic palindromic) element; contains 11 REP sequences and 4 IHF sites,1
+SNP,0.181,,,4294326,Evo04ptsHIcrrEvo04EP,RIP321 (repetitive extragenic palindromic) element; contains 11 REP sequences and 4 IHF sites,1
+SNP,0.169,,,4294327,Evo04ptsHIcrrEvo04EP,RIP321 (repetitive extragenic palindromic) element; contains 11 REP sequences and 4 IHF sites,1
+INS,1,glnD,uridylyltransferase,186134,Evo04sdhCBEvo02EP,coding,1
+SNP,0.605,sucA,2-oxoglutarate decarboxylase; thiamin-requiring,758999,Evo04sdhCBEvo02EP,coding,1
+SNP,0.11,sucA,2-oxoglutarate decarboxylase; thiamin-requiring,760645,Evo04sdhCBEvo02EP,coding,1
+SNP,0.362,glnD,uridylyltransferase,186409,Evo04sdhCBEvo03EP,coding,1
+DEL,1,sucA,2-oxoglutarate decarboxylase; thiamin-requiring,758719,Evo04sdhCBEvo03EP,coding,1
+SNP,0.156,sucA,2-oxoglutarate decarboxylase; thiamin-requiring,759129,Evo04sdhCBEvo03EP,coding,1
+DEL,0.13,caiF,DNA-binding transcriptional activator,34112,Evo04tpiAEvo01EP,intergenic,1
+MOB,1,htrE,putative outer membrane usher protein,153986,Evo04tpiAEvo01EP,coding,1
+SNP,0.529,phoB,DNA-binding response regulator in two-component regulatory system with PhoR (or CreC),416615,Evo04tpiAEvo01EP,coding,1
+DEL,0.532,phoR,sensory histidine kinase in two-component regulatory system with PhoB,417652,Evo04tpiAEvo01EP,coding,1
+SNP,0.129,nagC,DNA-binding transcriptional dual regulator; repressor of N-acetylglucosamine,700621,Evo04tpiAEvo01EP,coding,1
+SNP,0.465,nagA,N-acetylglucosamine-6-phosphate deacetylase,701289,Evo04tpiAEvo01EP,coding,1
+SNP,1,ptsG,fused glucose-specific PTS enzymes: IIB component/IIC component,1157607,Evo04tpiAEvo01EP,coding,1
+SNP,0.513,icd,e14 prophage; isocitrate dehydrogenase; specific for NADP+,1195443,Evo04tpiAEvo01EP,cryptic prophage e14,1
+SNP,0.475,icd,e14 prophage; isocitrate dehydrogenase; specific for NADP+,1195455,Evo04tpiAEvo01EP,cryptic prophage e14,1
+SNP,0.486,icd,e14 prophage; isocitrate dehydrogenase; specific for NADP+,1195468,Evo04tpiAEvo01EP,cryptic prophage e14,1
+SNP,0.494,icd,e14 prophage; isocitrate dehydrogenase; specific for NADP+,1195470,Evo04tpiAEvo01EP,cryptic prophage e14,1
+SNP,0.448,icd,e14 prophage; isocitrate dehydrogenase; specific for NADP+,1195500,Evo04tpiAEvo01EP,cryptic prophage e14,1
+SNP,0.448,icd,e14 prophage; isocitrate dehydrogenase; specific for NADP+,1195503,Evo04tpiAEvo01EP,cryptic prophage e14,1
+SNP,0.448,icd,e14 prophage; isocitrate dehydrogenase; specific for NADP+,1195506,Evo04tpiAEvo01EP,cryptic prophage e14,1
+SNP,0.361,icd,e14 prophage; isocitrate dehydrogenase; specific for NADP+,1195515,Evo04tpiAEvo01EP,cryptic prophage e14,1
+SNP,0.386,icd,e14 prophage; isocitrate dehydrogenase; specific for NADP+,1195527,Evo04tpiAEvo01EP,cryptic prophage e14,1
+SNP,0.365,icd,e14 prophage; isocitrate dehydrogenase; specific for NADP+,1195539,Evo04tpiAEvo01EP,cryptic prophage e14,1
+SNP,0.319,icd,e14 prophage; isocitrate dehydrogenase; specific for NADP+,1195548,Evo04tpiAEvo01EP,cryptic prophage e14,1
+SNP,0.281,icd,e14 prophage; isocitrate dehydrogenase; specific for NADP+,1195575,Evo04tpiAEvo01EP,cryptic prophage e14,1
+DEL,0.133,ydbC,putative oxidoreductase; NAD(P)-binding,1472327,Evo04tpiAEvo01EP,coding,1
+DEL,1,nemR,transcriptional repressor for the nem operon; NEM-inactivated,1724531,Evo04tpiAEvo01EP,coding,1
+DEL,0.114,ydiP;ydiQ,putative DNA-binding transcriptional regulator;putative electron transfer flavoprotein subunit,1777372,Evo04tpiAEvo01EP,intergenic;intergenic,1
+MOB,0.7969,menC,O-succinylbenzoyl-CoA synthase,2373850,Evo04tpiAEvo01EP,coding,1
+SNP,0.135,glk;yfeO,glucokinase;putative ion channel protein,2507499,Evo04tpiAEvo01EP,intergenic;intergenic,1
+INS,1,galR,DNA-binding transcriptional repressor,2975617,Evo04tpiAEvo01EP,coding,1
+INS,0.472,galP,D-galactose transporter,3086279,Evo04tpiAEvo01EP,intergenic,1
+DEL,1,pstA,phosphate transporter subunit,3907335,Evo04tpiAEvo01EP,coding,1
+SNP,1,rrfB,5S ribosomal RNA of rrnB operon,4169671,Evo04tpiAEvo01EP,coding,1
+INS,0.125,rpoC,RNA polymerase; beta prime subunit,4187531,Evo04tpiAEvo01EP,coding,1
+SNP,0.32,,,4294213,Evo04tpiAEvo01EP,RIP321 (repetitive extragenic palindromic) element; contains 11 REP sequences and 4 IHF sites,1
+SNP,0.348,,,4294214,Evo04tpiAEvo01EP,RIP321 (repetitive extragenic palindromic) element; contains 11 REP sequences and 4 IHF sites,1
+DEL,1,phoB,DNA-binding response regulator in two-component regulatory system with PhoR (or CreC),416592,Evo04tpiAEvo02EP,coding,1
+INS,0.937,nagC,DNA-binding transcriptional dual regulator; repressor of N-acetylglucosamine,700601,Evo04tpiAEvo02EP,coding,1
+SNP,1,nagE,fused N-acetyl glucosamine specific PTS enzyme: IIC; IIB; and IIA components,703231,Evo04tpiAEvo02EP,coding,1
+SNP,0.102,rttR,,1286260,Evo04tpiAEvo02EP,intergenic,1
+SNP,0.104,rsxC,electron transport complex protein required for the reduction of SoxR; predicted membrane-associated NADH oxidoreductase,1706868,Evo04tpiAEvo02EP,coding,1
+SNP,0.11,rsxC,electron transport complex protein required for the reduction of SoxR; predicted membrane-associated NADH oxidoreductase,1706871,Evo04tpiAEvo02EP,coding,1
+SNP,1,nemR,transcriptional repressor for the nem operon; NEM-inactivated,1724193,Evo04tpiAEvo02EP,coding,1
+MOB,0.9751,pykF,pyruvate kinase I,1753779,Evo04tpiAEvo02EP,coding,1
+SNP,1,insH1,IS5 transposase and trans-activator,2064489,Evo04tpiAEvo02EP,coding,1
+SNP,0.268,,,4294291,Evo04tpiAEvo04EP,RIP321 (repetitive extragenic palindromic) element; contains 11 REP sequences and 4 IHF sites,1
+DEL,1,pstA,phosphate transporter subunit,3907335,Evo04tpiAEvo02EP,coding,1
+SNP,1,rrfB,5S ribosomal RNA of rrnB operon,4169671,Evo04tpiAEvo02EP,coding,1
+SNP,0.171,,,4294309,Evo04tpiAEvo02EP,RIP321 (repetitive extragenic palindromic) element; contains 11 REP sequences and 4 IHF sites,1
+SNP,0.118,,,4323971,Evo04tpiAEvo02EP,REP325 (repetitive extragenic palindromic) element; contains 12 REP sequences,1
+SNP,1,rrfB,5S ribosomal RNA of rrnB operon,4169671,Evo04tpiAEvo03EP,coding,1
+DEL,1,sbcD;phoB,exonuclease; dsDNA; ATP-dependent;DNA-binding response regulator in two-component regulatory system with PhoR (or CreC),416288,Evo04tpiAEvo03EP,intergenic;intergenic,1
+DEL,1,phoB,DNA-binding response regulator in two-component regulatory system with PhoR (or CreC),416480,Evo04tpiAEvo03EP,coding,1
+DEL,0.613,phoB,DNA-binding response regulator in two-component regulatory system with PhoR (or CreC),416975,Evo04tpiAEvo03EP,coding,1
+SNP,0.257,nagA,N-acetylglucosamine-6-phosphate deacetylase,701529,Evo04tpiAEvo03EP,coding,1
+DEL,0.348,nagA,N-acetylglucosamine-6-phosphate deacetylase,701553,Evo04tpiAEvo03EP,coding,1
+SNP,0.168,nagA,N-acetylglucosamine-6-phosphate deacetylase,701613,Evo04tpiAEvo03EP,coding,1
+INS,1,ptsG,fused glucose-specific PTS enzymes: IIB component/IIC component,1158505,Evo04tpiAEvo03EP,coding,1
+SNP,1,ydhL;nemR,hypothetical protein;transcriptional repressor for the nem operon; NEM-inactivated,1724028,Evo04tpiAEvo03EP,intergenic;intergenic,1
+DEL,0.148,pykF,pyruvate kinase I,1755004,Evo04tpiAEvo03EP,coding,1
+SNP,0.11,glpT;glpA,sn-glycerol-3-phosphate transporter;sn-glycerol-3-phosphate dehydrogenase (anaerobic); large subunit; FAD/NAD(P)-binding,2350583,Evo04tpiAEvo03EP,intergenic;intergenic,1
+MOB,0.1495,menE,O-succinylbenzoate-CoA ligase,2372971,Evo04tpiAEvo03EP,coding,1
+MOB,0.469,menC,O-succinylbenzoyl-CoA synthase,2373850,Evo04tpiAEvo03EP,coding,1
+SNP,1,galR,DNA-binding transcriptional repressor,2974931,Evo04tpiAEvo03EP,coding,1
+DEL,1,bcsA,cellulose synthase; catalytic subunit,3691745,Evo04tpiAEvo03EP,coding,1
+SNP,1,nemR,transcriptional repressor for the nem operon; NEM-inactivated,1724414,Evo04tpiAEvo04EP,coding,1
+SNP,0.136,yidX,putative lipoproteinC,3873548,Evo04tpiAEvo03EP,coding,1
+DEL,1,pstA,phosphate transporter subunit,3907335,Evo04tpiAEvo03EP,coding,1
+MOB,0.2612,rsmG,16S rRNA m(7)G527 methyltransferase; SAM-dependent; glucose-inhibited cell-division protein,3920652,Evo04tpiAEvo03EP,intergenic,1
+SNP,0.108,rpoB,RNA polymerase; beta subunit,4179874,Evo04tpiAEvo03EP,coding,1
+SNP,0.211,,,4294213,Evo04tpiAEvo03EP,RIP321 (repetitive extragenic palindromic) element; contains 11 REP sequences and 4 IHF sites,1
+SNP,0.249,,,4294214,Evo04tpiAEvo03EP,RIP321 (repetitive extragenic palindromic) element; contains 11 REP sequences and 4 IHF sites,1
+SNP,0.189,,,4294309,Evo04tpiAEvo03EP,RIP321 (repetitive extragenic palindromic) element; contains 11 REP sequences and 4 IHF sites,1
+DEL,1,phoR,sensory histidine kinase in two-component regulatory system with PhoB,418184,Evo04tpiAEvo04EP,coding,1
+MOB,0.9534,nagC,DNA-binding transcriptional dual regulator; repressor of N-acetylglucosamine,699820,Evo04tpiAEvo04EP,coding,1
+SNP,1,nagE,fused N-acetyl glucosamine specific PTS enzyme: IIC; IIB; and IIA components,703306,Evo04tpiAEvo04EP,coding,1
+SNP,1,pykF,pyruvate kinase I,1754398,Evo04tpiAEvo04EP,coding,1
+SNP,1,insH1,IS5 transposase and trans-activator,2064489,Evo04tpiAEvo04EP,coding,1
+DEL,1,ypdA,putative sensory kinase in two-component system with YpdB,2497761,Evo04tpiAEvo04EP,coding,1
+DEL,1,murA,UDP-N-acetylglucosamine 1-carboxyvinyltransferase,3334172,Evo04tpiAEvo04EP,coding,1
+DEL,1,yheS,fused predicted transporter subunits of ABC superfamily: ATP-binding components,3479477,Evo04tpiAEvo04EP,coding,1
+SNP,0.112,yidX,putative lipoproteinC,3873550,Evo04tpiAEvo04EP,coding,1
+DEL,1,pstA,phosphate transporter subunit,3907335,Evo04tpiAEvo04EP,coding,1
+SNP,0.237,rrlB,23S ribosomal RNA of rrnB operon,4169250,Evo04tpiAEvo04EP,coding,1
+SNP,0.244,rrlB,23S ribosomal RNA of rrnB operon,4169251,Evo04tpiAEvo04EP,coding,1
+SNP,1,rrfB,5S ribosomal RNA of rrnB operon,4169671,Evo04tpiAEvo04EP,coding,1
+INS,1,rpoC,RNA polymerase; beta prime subunit,4187506,Evo04tpiAEvo04EP,coding,1
+INS,0.124,rpoC,RNA polymerase; beta prime subunit,4187506,Evo04tpiAEvo04EP,coding,1
+INS,0.124,rpoC,RNA polymerase; beta prime subunit,4187506,Evo04tpiAEvo04EP,coding,1
+INS,0.658,rpoC,RNA polymerase; beta prime subunit,4187535,Evo04tpiAEvo04EP,coding,1
+SNP,0.161,,,4294213,Evo04tpiAEvo04EP,RIP321 (repetitive extragenic palindromic) element; contains 11 REP sequences and 4 IHF sites,1
+SNP,0.185,,,4294214,Evo04tpiAEvo04EP,RIP321 (repetitive extragenic palindromic) element; contains 11 REP sequences and 4 IHF sites,1
+SNP,0.139,,,4294309,Evo04tpiAEvo04EP,RIP321 (repetitive extragenic palindromic) element; contains 11 REP sequences and 4 IHF sites,1
+DEL,1,leuV;leuP,,4604190,Evo04tpiAEvo04EP,intergenic;intergenic,1
+DEL,1,allD,ureidoglycolate dehydrogenase,544893,Evo04sdhCBEvo01EP,coding,1
+SNP,0.435,mrdB,cell wall shape-determining protein,665079,Evo04sdhCBEvo01EP,coding,1
+SNP,0.528,sucA,2-oxoglutarate decarboxylase; thiamin-requiring,757920,Evo04sdhCBEvo01EP,intergenic,1
+DEL,1,sucB,dihydrolipoyltranssuccinase,761551,Evo04sdhCBEvo01EP,coding,1
+SNP,0.102,rttR,,1286097,Evo04sdhCBEvo01EP,intergenic,1
+SNP,1,insH1,IS5 transposase and trans-activator,2064489,Evo04sdhCBEvo01EP,coding,1
+MOB,0.3333,iap,aminopeptidase in alkaline phosphatase isozyme conversion,2874700,Evo04sdhCBEvo01EP,coding,1
+SNP,0.121,nanT,sialic acid transporter,3370206,Evo04sdhCBEvo01EP,coding,1
+SNP,0.169,,,4294213,Evo04sdhCBEvo01EP,RIP321 (repetitive extragenic palindromic) element; contains 11 REP sequences and 4 IHF sites,1
+SNP,0.183,,,4294214,Evo04sdhCBEvo01EP,RIP321 (repetitive extragenic palindromic) element; contains 11 REP sequences and 4 IHF sites,1
+SNP,0.29,,,4294291,Evo04sdhCBEvo01EP,RIP321 (repetitive extragenic palindromic) element; contains 11 REP sequences and 4 IHF sites,1
+SNP,0.202,,,4294309,Evo04sdhCBEvo01EP,RIP321 (repetitive extragenic palindromic) element; contains 11 REP sequences and 4 IHF sites,1
+SNP,0.116,,,4294326,Evo04sdhCBEvo01EP,RIP321 (repetitive extragenic palindromic) element; contains 11 REP sequences and 4 IHF sites,1
+SNP,0.116,,,4294327,Evo04sdhCBEvo01EP,RIP321 (repetitive extragenic palindromic) element; contains 11 REP sequences and 4 IHF sites,1
+DEL,1,yjhE,,4504893,Evo04sdhCBEvo01EP,coding,1
+SNP,1,insH1,IS5 transposase and trans-activator,2064489,Evo04sdhCBEvo02EP,coding,1
+MOB,0.4416,yfbP,TPR-like repeats-containing protein,2387423,Evo04sdhCBEvo02EP,coding,1
+INS,0.12,yfbP,TPR-like repeats-containing protein,2387426,Evo04sdhCBEvo02EP,coding,1
+SNP,0.162,cysD;iap,sulfate adenylyltransferase; subunit 2;aminopeptidase in alkaline phosphatase isozyme conversion,2874398,Evo04sdhCBEvo02EP,intergenic;intergenic,1
+MOB,0.6585,iap,aminopeptidase in alkaline phosphatase isozyme conversion,2874700,Evo04sdhCBEvo02EP,coding,1
+SNP,0.416,ilvG,,3949584,Evo04sdhCBEvo02EP,coding,1
+SNP,0.103,,,4294178,Evo04sdhCBEvo02EP,RIP321 (repetitive extragenic palindromic) element; contains 11 REP sequences and 4 IHF sites,1
+SNP,0.257,,,4294213,Evo04sdhCBEvo02EP,RIP321 (repetitive extragenic palindromic) element; contains 11 REP sequences and 4 IHF sites,1
+SNP,0.292,,,4294214,Evo04sdhCBEvo02EP,RIP321 (repetitive extragenic palindromic) element; contains 11 REP sequences and 4 IHF sites,1
+SNP,0.255,,,4294291,Evo04sdhCBEvo02EP,RIP321 (repetitive extragenic palindromic) element; contains 11 REP sequences and 4 IHF sites,1
+SNP,0.122,,,4294309,Evo04sdhCBEvo02EP,RIP321 (repetitive extragenic palindromic) element; contains 11 REP sequences and 4 IHF sites,1
+SNP,1,insH1,IS5 transposase and trans-activator,2064489,Evo04sdhCBEvo03EP,coding,1
+SNP,0.793,cysD;iap,sulfate adenylyltransferase; subunit 2;aminopeptidase in alkaline phosphatase isozyme conversion,2874448,Evo04sdhCBEvo03EP,intergenic;intergenic,1
+SNP,0.409,,,4294291,Evo04sdhCBEvo03EP,RIP321 (repetitive extragenic palindromic) element; contains 11 REP sequences and 4 IHF sites,1
+SNP,0.274,,,4294309,Evo04sdhCBEvo03EP,RIP321 (repetitive extragenic palindromic) element; contains 11 REP sequences and 4 IHF sites,1
+SNP,0.179,,,4294326,Evo04sdhCBEvo03EP,RIP321 (repetitive extragenic palindromic) element; contains 11 REP sequences and 4 IHF sites,1
+SNP,0.18,,,4294327,Evo04sdhCBEvo03EP,RIP321 (repetitive extragenic palindromic) element; contains 11 REP sequences and 4 IHF sites,1

@@ -1,0 +1,1010 @@
+{
+    "meta": {
+        "PaperSON.notes": [
+            "run raw.make.ipynb for producing the csv files from msystems.00625-20-sd001.xlsx"
+        ]
+    }, 
+
+    "data": {
+        "Sheet 1": {
+            "notes": [
+                "Curated enzymatic data used to build the protein allocation model (data shown in Fig. S8)", 
+                "Reaction IDs are taken from the BIGG database (http://bigg.ucsd.edu/)", 
+                "Basis stoichiometric reconstruction: iML1515 (Escherichia coli K12 MG1655)"
+            ], 
+            "data": {
+                "format": "csv", 
+                "filename": "./msystems.00625-20-sd001.xlsx.sheet1.dat.csv"
+            }
+        }, 
+        "Sheet 2": {
+            "notes": [
+                "Transformation of experimentally determined protein mass data to dry cell weight related units"
+            ], 
+            "data": {
+                "Environmental condition / substrate": [
+                    "Glucose LB", "Glycerol + AA", "Acetate", "Fumarate", "Glucosamine", "Glycerol", "Pyruvate", "Chemostat µ=0.5", "Chemostat µ=0.35", "Chemostat µ=0.20", "Chemostat µ=0.12", "Stationary phase 1 day", "Stationary phase 3 days", "Osmotic-stress glucose", "42°C glucose", "pH6 glucose", "Xylose", "Mannose", "Galactose ", "Succinate", "Fructose"
+                ], 
+                
+                "data" : {
+                    "Total protein abundance" : {
+                        "vals": [
+                            5070439.808997826, 8357873.295348355, 7057371.573136058, 3817955.070088939, 4389989.322301635, 4681894.149416729, 4647420.631714993, 4193698.9925542097, 4553456.616724509, 3992834.9267796753, 3432399.4073152845, 3113583.9750970528, 3389379.6990489042, 3272427.206971574, 5294648.03198318, 5288227.01660823, 5507866.079152437, 4919908.082835598, 4502698.343273029, 3793619.0972990245, 4451684.018239338, 5150906.87441101
+                        ], 
+                        "units": "protein copies/cell"
+                    }, 
+                    
+                    "Molar abundance": {
+                        "vals": [
+                            8.419860194284002e-09, 1.3878899527313776e-08, 1.1719315133072167e-08, 6.34001174043331e-09, 7.2899191668907925e-09, 7.774649866185203e-09, 7.717403905205901e-09, 6.9639637870378775e-09, 7.561369340293107e-09, 6.630413362304343e-09, 5.6997665348975165e-09, 5.170348680001749e-09, 5.628328958898878e-09, 5.434120237415433e-09, 8.792175410134805e-09, 8.781512814028944e-09, 9.14624058311597e-09, 8.169890539414808e-09, 7.477081274116621e-09, 6.299599962303263e-09, 7.392368014346293e-09, 8.553482023266374e-09
+                        ], 
+                        "units": "nmol/cell"
+                    }, 
+                    "Molar concentration": {
+                        "vals": [
+                            10.469641257282191, 12.055353685316573, 11.414451182932575, 10.292783129495547, 10.700206965250016, 11.072617166394583, 10.91114076046326, 10.383355147992084, 10.464704198386356, 10.300765931812093, 10.207254534372675, 10.13188352671001, 13.14227159529397, 12.68878997001072, 11.76321602111262, 10.98182076346599, 11.640247642629191, 10.930649446916256, 10.571364057319453, 10.618208111251715, 10.686067779165905, 10.758601217584374
+                        ], 
+                        "units": "mumol/gCDW"
+                    }, 
+                    "Protein flux": {
+                        "PaperSON.notes": [
+                            "Empty row"
+                        ]
+                    }, 
+                    
+                    "Total protein mass": {
+                        "vals": [
+                            243.19403382045422, 366.96598780959016, 326.5511471872961, 196.36217037528704, 217.28882235494973, 225.428546878644, 225.4955934226353, 213.86996606230394, 230.3833444365532, 205.39620298386475, 178.18860028912843, 162.79103002853267, 139.60221306637973, 138.86695753886727, 238.29921908959747, 255.0719806620883, 250.57583194055314, 237.7246888786597, 224.959888580229, 189.0323703750523, 220.5372954696356, 252.86641598990863
+                        ], 
+                        "units": "fg per cell"
+                    }, 
+                    "Total protein concentration1": {
+                        "vals": [
+                            81.15169961270276, 85.53985729827276, 85.35359138246616, 85.54967558719427, 85.5903169466318, 86.15810528098508, 85.55684687173974, 85.5753705434955, 85.56484473038188, 85.63259559691264, 85.63465988520205, 85.60883966733384, 87.4784444037428, 87.01771381521365, 85.5598729306408, 85.60232284718501, 85.58084359584633, 85.35359138246598, 85.35359138246594, 85.50514045548445, 85.55278915817708, 85.3535913824658
+                        ], 
+                        "units": "g protein / L"
+                    }, 
+                    "Total protein concentration2" : {
+                        "vals": [
+                            0.30239864216985674, 0.31875039982960485, 0.3180563101150177, 0.3187869860903051, 0.318938429522402, 0.3210542006296955, 0.3188137087186605, 0.3188827341760899, 0.3188435114412799, 0.31909597405318463, 0.3191036662885752, 0.319007451435884, 0.32597423015256666, 0.3242573923655301, 0.31882498483619315, 0.3189831675629192, 0.3189031286177013, 0.31805631011501706, 0.3180563101150169, 0.31862103314757956, 0.318798588307412, 0.31805631011501634
+                        ], 
+                        "units": "g protein / g biomass_cdw"
+                    }, 
+                    
+                    "Mean protein concentration" : {
+                        "val": 0.3186, 
+                        "units": "g protein / g biomass_cdw", 
+                        "PaperSON.notes": [
+                            "Mean protein concentration is calculated as the mean of the Total protein concentration 2 for all conditions"
+                        ]
+                    }, 
+                    "Std protein concentration" : {
+                        "val": 0.004125273, 
+                        "units": "g protein / g biomass_cdw", 
+                        "PaperSON.notes": [
+                            "Std protein concentration is calculated as the std of the Total protein concentration 2 for all conditions"
+                        ]
+                    }
+                }
+            }
+        }, 
+        "Sheet 3": {
+            "notes": [
+                "Cell volumes calculated from growth rates based on the experimentally justified relation of Volkmer et al. (2011) (doi: 10.1371/journal.pone.0023126)"
+            ], 
+            "data": {
+                "Environmental condition/substrate": [
+                    "Glucose", "LB", "Glycerol + AA", "Acetate", "Fumarate", "Glucosamine", "Glycerol", "Pyruvate", "Chemostat µ=0.5", "Chemostat µ=0.35", "Chemostat µ=0.20", "Chemostat µ=0.12", "Stationary phase 1 day", "Stationary phase 3 days", "Osmotic-stress glucose", "42°C glucose", "pH6 glucose", "Xylose", "Mannose", "Galactose ", "Succinate", "Fructose"
+                ], 
+                "data": {
+                    "Specific growth rate": {
+                        "vals": [
+                            0.67, 1.78, 1.27, 0.3, 0.42, 0.46, 0.47, 0.4, 0.5, 0.35, 0.2, 0.12, 0, 0, 0.55, 0.66, 0.63, 0.55, 0.47, 0.26, 0.44, 0.65
+                        ], 
+                        "units": "[1/h]"
+                    }, 
+                    "Cell volume1": {
+                        "vals": [
+                            2.996783, 4.29, 3.825863, 2.2953, 2.538708, 2.616452, 2.635623, 2.4992, 2.6925, 2.398575, 2.0808, 1.9015680000000001, 1.595847, 1.595847, 2.785175, 2.9797320000000003, 2.9279430000000004, 2.785175, 2.635623, 2.2107720000000004, 2.577792, 2.962575
+                        ], 
+                        "units": "[fL]"
+                    }, 
+                    "Cell volume2": {
+                        "vals": [
+                            2.996783e-15, 4.29e-15, 3.825863e-15, 2.2953e-15, 2.538708e-15, 2.616452e-15, 2.635623e-15, 2.4992e-15, 2.6925e-15, 2.398575e-15, 2.0808e-15, 1.9015680000000002e-15, 1.595847e-15, 1.595847e-15, 2.785175e-15, 2.9797320000000004e-15, 2.9279430000000003e-15, 2.785175e-15, 2.635623e-15, 2.2107720000000003e-15, 2.577792e-15, 2.9625750000000002e-15
+                        ], 
+                        "units": "[L]"
+                    }
+                }
+
+            }
+        }, 
+        "Sheet 4": {
+            "notes": [
+                "(Data shown in Fig 3) Experimental data of growth, acetate secretion, oxygen uptake, and carbon dioxide production rates for E. coli for a range of  glucose uptake rates"
+            ], 
+            "data": {
+                "Growth rate" : {
+                    "vals": [
+                        0.24, 0.24, 0.3, 0.3, 0.4, 0.4, 0.51, 0.51, 0.65, 0.04, 0.05, 0.06, 0.09, 0.09, 0.11, 0.19, 0.29, 0.31, 0.4, 0.41, 0.21, 0.31, 0.41, 0.51, 0.22, 0.26, 0.36, 0.46, 0.51, 0.1, 0.2, 0.3, 0.4, 0.053081052066559324, 0.10184034966643664, 0.1917989417989418, 0.298271911663216, 0.4113419216317768, 0.49603174603174605, 0.6022629399585921, 0.1, 0.2, 0.3, 0.4, 0.59, 0.61
+                    ], 
+                    "units": "1/h"
+                }, 
+                "Glucose uptake rate": {
+                    "vals": [
+                        3.026939763898698, 3.329633740288568, 3.6191671090093127, 4.060528951571425, 5.0448996064978315, 5.285132921092965, 6.581834137779729, 6.902899217671422, 7.6, 0.9, 1.2, 1.1, 1.7, 1.8, 2, 2.8, 4.2, 4.6, 5.7, 5.8, 2.66, 3.81, 4.91, 6.24, 2.78, 3.25, 4.36, 5.52, 6.24, 1.52, 2.47, 4.25, 5.65, 0.699705641075134, 1.204665623427386, 2.1542661363150675, 3.3451444564700368, 4.692853351348743, 5.945774536229586, 7.8742735814588345, 1.52, 2.47, 4.25, 5.65, 7.81, 7.54
+                    ], 
+                    "units": "mmol/gDW/h"
+                }, 
+                "Biomass yield": {
+                    "vals": [
+                        0.44, 0.4, 0.46, 0.41, 0.44, 0.42, 0.43, 0.41, 0.48, 0.24663953631767174, 0.23122456529781726, 0.30269397638986983, 0.29379121237840305, 0.27746947835738067, 0.3052164261931188, 0.3765657206278738, 0.38317213677923995, 0.3739806012642958, 0.38943084681737644, 0.39228443491905546, 0.4381097026695484, 0.45152513538471395, 0.4633909821854422, 0.4535558780841799, 0.4391603254577249, 0.4439511653718091, 0.45820647802136255, 0.4624491305956345, 0.4535558780841799, 0.36509141889129043, 0.44934328478928043, 0.3917216165045374, 0.39287713749717623, 0.42098765432098767, 0.4691358024691358, 0.49407407407407405, 0.4948148148148148, 0.48641975308641977, 0.46296296296296297, 0.42444444444444446, 0.36509141889129043, 0.44934328478928043, 0.3917216165045374, 0.39287713749717623, 0.41922405180756617, 0.4489559198886
+                    ], 
+                    "units": "gDW/gGLC"
+                }, 
+                "Acetate yield": {
+                    "vals": [
+                        0, 0, 0.53, 0.9, 1.7, 1.56, 3.25, 3.35, null, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null
+                    ], 
+                    "units": "gAC/gGLC"
+                }, 
+                "Acetate secretion rate": {
+                    "vals": [
+                        0, 0, 0.159, 0.27, 0.68, 0.6240000000000001, 1.6575, 1.7085000000000001, 4.8, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, null, null, null, null, null, null, null, null, null, 0, 0, 0, 0, 0, 0, 0, 0, 0.15509028470145123, 1.8416971308297332, 6.1094494294893105, null, null, null, null, 3.26, 2.72
+                    ], 
+                    "units": "mmol/gDW/h"
+                }, 
+                "CO2 yield": {
+                    "vals": [
+                        27.56, 30.12, 27.55, 27.19, 26.24, 23.86, null, 21.19, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null
+                    ], 
+                    "units": "gCO2/gGLC"
+                }, 
+                "CO2 production rate": {
+                    "vals": [
+                        6.6144, 7.2288, 8.265, 8.157, 10.496, 9.544, null, 10.8069, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 1.9871489766777723, 2.8081865778200856, 4.53117563065207, 6.590909090909091, 8.689909566872917, 10.298667301285102, 8.57686815801999, 4.6968, 6.8913, 13.107000000000001, 17.3568, null, null
+                    ], 
+                    "units": "mmol/gDW/h"
+                }, 
+                "O2 uptake rate": {
+                    "vals": [
+                        null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 2.1618357487922704, 2.8864734299516908, 4.746376811594203, 10, 10.640096618357488, 15.374396135265702, 13.188405797101451, 4.75, 6.64, 12.58, 16.82, null, null
+                    ], 
+                    "units": "mmol/gDW/h"
+                }, 
+                "Source": {
+                    "vals": [
+                        "Valgepea et al. 2010 (doi: 10.1186/1752-0509-4-166)", 
+                        "Valgepea et al. 2010 (doi: 10.1186/1752-0509-4-166)", 
+                        "Valgepea et al. 2010 (doi: 10.1186/1752-0509-4-166)", 
+                        "Valgepea et al. 2010 (doi: 10.1186/1752-0509-4-166)", 
+                        "Valgepea et al. 2010 (doi: 10.1186/1752-0509-4-166)", 
+                        "Valgepea et al. 2010 (doi: 10.1186/1752-0509-4-166)", 
+                        "Valgepea et al. 2010 (doi: 10.1186/1752-0509-4-166)", 
+                        "Valgepea et al. 2010 (doi: 10.1186/1752-0509-4-166)", 
+                        "Perrenoud et al. 2005 (doi: 10.1128/JB.187.9.3171-3179.2005)", 
+                        "Nanchen et al. 2006 (doi: 10.1128/AEM.72.2.1164)", 
+                        "Nanchen et al. 2006 (doi: 10.1128/AEM.72.2.1164)", 
+                        "Nanchen et al. 2006 (doi: 10.1128/AEM.72.2.1164)", 
+                        "Nanchen et al. 2006 (doi: 10.1128/AEM.72.2.1164)", 
+                        "Nanchen et al. 2006 (doi: 10.1128/AEM.72.2.1164)", 
+                        "Nanchen et al. 2006 (doi: 10.1128/AEM.72.2.1164)", 
+                        "Nanchen et al. 2006 (doi: 10.1128/AEM.72.2.1164)", 
+                        "Nanchen et al. 2006 (doi: 10.1128/AEM.72.2.1164)", 
+                        "Nanchen et al. 2006 (doi: 10.1128/AEM.72.2.1164)", 
+                        "Nanchen et al. 2006 (doi: 10.1128/AEM.72.2.1164)", 
+                        "Nanchen et al. 2006 (doi: 10.1128/AEM.72.2.1164)", 
+                        "Peebo et al. 2015 (doi: 10.1039/C4MB00721B)", 
+                        "Peebo et al. 2015 (doi: 10.1039/C4MB00721B)", 
+                        "Peebo et al. 2015 (doi: 10.1039/C4MB00721B)", 
+                        "Peebo et al. 2015 (doi: 10.1039/C4MB00721B)", 
+                        "Peebo et al. 2015 (doi: 10.1039/C4MB00721B)", 
+                        "Peebo et al. 2015 (doi: 10.1039/C4MB00721B)", 
+                        "Peebo et al. 2015 (doi: 10.1039/C4MB00721B)", 
+                        "Peebo et al. 2015 (doi: 10.1039/C4MB00721B)", 
+                        "Peebo et al. 2015 (doi: 10.1039/C4MB00721B)", 
+                        "Folsom et al. 2014 (doi: 10.1128/JB.01606-14)", 
+                        "Folsom et al. 2014 (doi: 10.1128/JB.01606-14)", 
+                        "Folsom et al. 2014 (doi: 10.1128/JB.01606-14)", 
+                        "Folsom et al. 2014 (doi: 10.1128/JB.01606-14)", 
+                        "Vemuri et al. 2006 (doi: 10.1128/AEM.72.5.3653)", 
+                        "Vemuri et al. 2006 (doi: 10.1128/AEM.72.5.3653)", 
+                        "Vemuri et al. 2006 (doi: 10.1128/AEM.72.5.3653)", 
+                        "Vemuri et al. 2006 (doi: 10.1128/AEM.72.5.3653)", 
+                        "Vemuri et al. 2006 (doi: 10.1128/AEM.72.5.3653)", 
+                        "Vemuri et al. 2006 (doi: 10.1128/AEM.72.5.3653)", 
+                        "Vemuri et al. 2006 (doi: 10.1128/AEM.72.5.3653)", 
+                        "Folsom et al. 2015 (doi: 10.1099/mic.0.000118)", 
+                        "Folsom et al. 2015 (doi: 10.1099/mic.0.000118)", 
+                        "Folsom et al. 2015 (doi: 10.1099/mic.0.000118)", 
+                        "Folsom et al. 2015 (doi: 10.1099/mic.0.000118)", 
+                        "Schmidt et al. 2016 (doi: 10.1038/nbt.3418)", 
+                        "Schmidt et al. 2016 (doi: 10.1038/nbt.3418)"
+                    ]
+                }
+            }
+        }, 
+        "Sheet 5": {
+            "notes": [
+                "(Data shown in Fig 4) Comparison between experimentally determined  and predicted growth and acetate secretion rates using several substrates as sole carbon sources.", 
+                "Experimental data taken from Gerosa et al. (2015) (doi: 10.1016/j.cels.2015.09.008)", 
+                "Model: iML1515 including protein allocation and enzymatic constraints", 
+                "Upper bound of substrate uptake rates were constrained to observed values"
+            ], 
+            "data": {
+                "Substrates" : [
+                    "Glucose", "Fructose", "Galactose", "Acetate", "Glycerol", "Gluconate", "Pyruvate", "Succinate", "Glucose (anaerobic)", "Xylose (Anaerobic)"
+                ], 
+                "Growth rate": {
+                    "vals.Experimental": [
+                        0.65, 0.49, 0.18, 0.29, 0.49, 0.59, 0.39, 0.51, 0.33, 0.13
+                    ], 
+                    "vals.Predicted": [
+                        0.65889, 0.588, 0.14537, 0.265, 0.22598, 0.4746, 0.34386, 0.48738, 0.33196, 0.1439
+                    ], 
+                    "units": "1/h"
+                }, 
+                "Acetate production rate": {
+                    "vals.Experimental": [
+                        6.83, 3.33, 0.0, null, 0.6, 5.0, 11.91, 3.32, 7.3, 5.5
+                    ], 
+                    "vals.Predicted": [
+                        6.83082, 4.68472, 0.0, 0.0, 0.0, 3.66293, 19.33915, 9.4021, 7.15895, 3.12879
+                    ], 
+                    "units": "mmol/gDW/h"
+                }, 
+                "Substrate uptake rate": {
+                    "vals.Experimental": [
+                        9.65, 8.33, 1.969, 13.58, 4.94, 7.28, 26.71, 15.9, 13.1, 10.8
+                    ], 
+                    "units": "mmol/gDW/h"
+                }
+            }
+        }, 
+        "Sheet 6": {
+            "notes": [
+                "(Data shown in Fig 5) Comparison between predictions and experimental data of intracellular fluxes of the central carbon metabolism of E. coli grown on a glucose minimal medium.", 
+                "Model: iML1515 including protein allocation and enzymatic constraints", 
+                "Upper bound of glucose uptake rate was constrained to measured values", 
+                "Excess enzyme sector was parametrized according to a methodically derived maximum glucose uptake rate of 9.82 mmol/gDW/h"
+            ], 
+            "data": {
+                "notes": [
+                    "Glucose uptake rate: EX_glc_e_b"
+                ], 
+                "Gerosa et al. 2015": {
+                    "Reaction ID (iML1515)": [
+                        "EX_glc_e_b", "EX_ac_e_f", "PGI_b", "PFK", "FBA_f", "TPI_f", "PYK", "PDH", "EDA", "RPI_f", "RPE_f", "TKT2_f", "PPC", "PPCK", "ICDHyr_f", "SUCDi", "FUM_f", "MDH_f", "ME1", "ICL", "BIOMASS_Ec_iML1515_WT_75p37M"
+                    ], 
+                    "Flux rate" : {
+                        "vals.Experimental": [
+                            9.65, 6.82702, 5.69997, 7.05848, 7.05848, 7.05848, 2.48731, 11.29846, 1.08699, 1.42744, 1.40485, 0.58464, 2.45333, 0.54087, 2.97797, 2.13807, 2.13807, 2.13807, 0, 9.65404e-10, 0.65
+                        ], 
+                        "vals.Predicted": [
+                            null, 6.83536, 6.71756, 8.01715, 8.01715, 7.90998, 3.37695, 10.09992, 0.0, 0.0, 1.36818, 0.5507, 2.97552, 0.0, 3.46587, 2.74945, 3.42235, 3.42294, 0.0, 0.0, 0.65914
+                        ], 
+                        "units": "mmol/gDW/h"
+                    }
+                }, 
+                "Rijsewijk et al. 2011": {
+                    "Reaction ID (iML1515)": [
+                        "EX_glc_e_b", "BIOMASS_Ec_iML1515_WT_75p37M", "EX_ac_e_f", "GLCptspp", "G6PDH2r_f", "GND", "PGI_f", "EDA", "PFK", "TKT1_f", "TKT2_f", "TALA_f", "GAPD_f", "ENO_f", "PYK", "PDH", "CS", "ICDHyr_f", "SUCDi", "FUM_f", "MDH_f", "ME1", "PPCK", "PPC", "PTAr_f"
+                    ], 
+                    "Flux rate": {
+                        "vals.Experimental" : [
+                            8.26, 0.61, 4.89, 8.13, 2.29, 1.53, 5.81, 0.77, 6.48, 0.49, 0.23, 0.49, 13.88, 12.96, 9.95, 9.18, 2.25, 2.25, 1.34, 1.34, 0.8, 0.53, 0.32, 2.78, 5.48
+                        ], 
+                        "vals.Predicted" : [
+                            null, 0.57215, 5.27944, 8.26, 1.81648, 1.81648, 6.33198, 0.0, 7.04613, 0.50263, 0.27105, 0.48398, 14.3165, 14.3165, 3.0183, 8.73408, 3.62937, 3.62937, 3.0075, 3.5916, 3.59211, 0.0, 0.0, 2.58284, 4.94123
+                        ], 
+                        "units": "mmol/gDW/h"
+                    }
+                }, 
+                "Nanchen et al. 2015": {
+                    "Reaction ID (iML1515)": [
+                        "EX_glc_e_b", "BIOMASS_Ec_iML1515_WT_75p37M", "EX_ac_e_f", "HEX1", "G6PDH2r_f", "GND", "PGI_f", "EDA", "PFK", "TKT1_f", "TKT2_f", "TALA_f", "GAPD_f", "ENO_f", "PYK", "PDH", "CS", "ICDHyr_f", "SUCDi", "FUM_f", "MDH_f", "ME1", "PPCK", "PPC", "ACKr_b", "MALS", "NADTRHD"
+                    ], 
+                    "Flux rate": {
+                        "vals.Experimental.0" : [
+                            1.67, 0.085, 0, 1.6703, 0.4617, 0.3482, 1.204, 0.1135, 1.3872, 0.1143, 0.075, 0.1143, 2.9538, 2.8178, 3.4027, 3.2066, 2.036, 1.0726, 0.9339, 1.8973, 2.8572, 0.0035, 1.1791, 0.5112, 0, 0.9634, 0.3821
+                        ], 
+                        "vals.Predicted.0" : [
+                            null, 0.12122, 0, 0, 0, 0, 1.64637, 0, 1.54111, 0, 0, 0, 3.00146, 2.80171, 1.03523, 2.373, 1.65595, 1.30133, 1.52419, 1.64795, 2.00266, 0, 0, 0, 0, 0.35471, 0
+                        ], 
+                        "vals.Experimental.1" : [
+                            2.8, 0.187, 0, 2.8385, 1.2632, 0.9684, 1.5654, 0.2947, 2.0973, 0.3134, 0.2317, 0.3134, 4.7008, 4.4029, 4.5562, 4.6348, 2.8798, 1.5569, 1.2837, 2.6067, 3.5187, 0.411, 1.16, 0.8348, 0, 1.323, 0.595
+                        ], 
+                        "vals.Predicted.1" : [
+                            null, 0.21865, 0, 0, 0.11793, 0.11793, 2.63945, 0, 2.5282, 0, 0, 0, 4.95002, 4.86803, 1.89401, 3.80373, 2.80149, 1.89644, 2.56384, 2.78705, 3.69229, 0, 0, 0, 0, 0.90524, 0
+                        ], 
+                        "vals.Experimental.2" : [
+                            4.22, 0.286, 0, 4.3081, 1.6394, 1.2613, 2.6534, 0.378, 3.3059, 0.3972, 0.2758, 0.3972, 7.2338, 6.7621, 5.4709, 5.5612, 4.3486, 3.8076, 3.3895, 3.9306, 3.8016, 0.67, 0.6401, 1.6742, 0, 0.541, 1.8731
+                        ], 
+                        "vals.Predicted.2" : [
+                            null, 0.31946, 0.77262, 0, 0.56021, 0.56021, 3.59752, 0, 3.69358, 0.1293, 0, 0.11889, 7.36102, 7.36102, 1.44463, 4.24406, 3.569, 3.569, 3.22178, 3.54792, 3.5482, 0, 0, 1.44214, 0.58377, 0.00028496, 0
+                        ], 
+                        "vals.Experimental.3" : [
+                            5.65, 0.399, 0, 5.7062, 2.0589, 1.6495, 3.6259, 0.4094, 4.4416, 0.5033, 0.3411, 0.5033, 9.588, 8.9107, 6.8567, 6.4208, 5.482, 5.482, 4.9118, 4.9118, 4.4536, 0.4582, 0.8769, 2.5861, 0, 0, 2.5753
+                        ], 
+                        "vals.Predicted.3" : [
+                            null, 0.40901, 2.36742, 0, 0.71724, 0.71724, 4.85303, 0, 4.97602, 0.16555, 0.0, 0.15221, 9.91857, 9.91857, 2.09667, 5.92791, 3.6854, 3.6854, 3.24085, 3.6584, 3.65876, 0, 0, 1.84638, 2.12564, 0.000364836, 0.0
+                        ], 
+                        "units": "mmol/gDW/h"
+                    }
+                }, 
+                
+            }
+        }, 
+        "Sheet 7": {
+            "notes": [
+                "(Data shown in Fig S2) Comparison of predicted and experimentally determined intracellular fluxes of the central carbon metabolism of E. coli grown on several alternative carbon sources.", 
+                "Experimental data taken from Gerosa et al. (2015) (doi: 10.1016/j.cels.2015.09.008)", 
+                "Model: iML1515 including protein allocation and enzymatic constraints", 
+                "Upper bounds of substrate uptake rates were constrained to measured values, Excess enzyme sector was parametrized according to a methodically derived maximum glucose uptake rate of 9.82 mmol/gDW/h"
+            ], 
+
+            "data": {
+                "Reaction ID (iML1515)": [
+                    "Substrate uptake rate", "EX_ac_e_f", "PGI_b", "PFK", "FBA_f", "TPI_f", "PYK", "PDH", "EDA", "RPI_f", "RPE_f", "TKT2_f", "PPC", "PPCK", "ICDHyr_f", "SUCDi", "FUM_f", "MDH_f", "ME1", "ICL", "BIOMASS_Ec_iML1515_WT_75p37M", "PPS"
+                ], 
+                "Acetate" : {
+                    "Flux rate": {
+                        "vals.Experimental": [
+                            13.584, null, 3.42326, 1.88624, 1.88624, 1.88624, null, 0.06546, 0.82159, 1.02932, 1.5574, 0.71825, 1.77415, 3.11428, 4.69642, 8.40476, 8.40476, 10.6713, 1.87104, 4.1376, 0.29, 1.6532
+                        ], 
+                        "vals.Predicted": [
+                            null, null, 0.05168, 0.28186, 0.28186, 0.32496, null, 0, 0, 0, 0, 0, 0, 1.2259, 7.91568, 9.77554, 10.04616, 12.19438, 0, 2.14798, 0.26508, 0
+                        ], 
+                        "units": "mmol/gDW/h"
+                    }
+                }, 
+                "Fructose" : {
+                    "Flux rate": {
+                        "vals.Experimental": [
+                            8.328, 3.32866, 6.19793, 2.461, 5.867, 5.867, 0.66904, 9.06883, 8.32807e-10, 2.39854, 3.77274, 1.78893, 3.54567, 0.35892, 4.56612, 3.87711, 3.87711, 2.22771, 1.65161, 0.00221, 0.4924, null
+                        ], 
+                        "vals.Predicted": [
+                            null, 4.68267, 0.1146, 7.70291, 7.70291, 7.60733, 3.56438, 9.27825, 0, 0, 0, 0, 2.65382, 0, 4.77512, 4.13615, 4.73631, 4.73683, 0, 0, 0.58787, null
+                        ], 
+                        "units": "mmol/gDW/h"
+                    }
+                }, 
+                "Galactose" : {
+                    "Flux rate": {
+                        "vals.Experimental": [
+                            1.969, 1.96894e-08, 1.36849, 1.54745, 1.54745, 1.54745, 3.35734, 2.9427, 0.17297, 0.2279, 0.19078, 0.05857, 0.37739, 0.84895, 0.49618, 1.26086, 1.26086, 2.28512, 0.000523765, 1.02479, 0.18, null
+                        ], 
+                        "vals.Predicted": [
+                            null, 0, 1.86226, 1.78829, 1.78829, 1.76466, 3.16045, 2.74375, 0, 0, 0, 0, 0, 0, 1.47569, 1.74421, 1.89261, 2.31926, 0, 0.42652, 0.14537, null
+                        ], 
+                        "units": "mmol/gDW/h"
+                    }
+                }, 
+                "Gluconate" : {
+                    "Flux rate": {
+                        "vals.Experimental": [
+                            7.283923192, 5.00398, 0.03132, 0.48692, 0.48692, 0.48692, 3.46459, 7.50554, 5.81896, 0.9052, 0.55976, 0.17098, 1.94335, 0, 1.15403, 0.18236, 0.18236, 0.18236, 0, 7.284e-08, 0.59, null
+                        ], 
+                        "vals.Predicted": [
+                            null, 3.66685, 0.09256, 4.35106, 4.35106, 4.27386, 9.71295, 7.60152, 0, 0, 4.49303, 2.15042, 0.72284, 0, 1.23839, 2.14294, 2.62769, 4.04876, 0, 1.42065, 0.47483, null
+                        ], 
+                        "units": "mmol/gDW/h"
+                    }
+                }, 
+                "Glycerol" : {
+                    "Flux rate": {
+                        "vals.Experimental": [
+                            4.944833647, 0.597, 3.4494, 1.5, 1.4957, 8.6403, 5.50726, 4.09774, 0.01458, 1.42638, 1.98513, 0.90438, 1.37647, 0, 2.46484, 1.84046, 1.84046, 1.84046, 0, 1.01361e-09, 0.49, null
+                        ], 
+                        "vals.Predicted": [
+                            null, 0, 0.0441, 0, 0.24054, 4.66751, 3.87838, 3.12704, 0, 0, 0, 0, 0, 0, 1.15371, 1.67444, 1.90539, 2.6722, 0, 0.76661, 0.22622, null
+                        ], 
+                        "units": "mmol/gDW/h"
+                    }
+                }, 
+                "Pyruvate" : {
+                    "Flux rate": {
+                        "vals.Experimental": [
+                            26.714, 11.91391, 0.89817, 0.58701, 0.58701, 0.58701, -, 21.01739, 2.67142e-09, 0.53893, 0.33788, 0.09013, 2.48945, 1.1648, 7.97932, 7.51826, 7.51826, 7.4278, 0.19306, 0.1026, 0.39, 3.45038
+                        ], 
+                        "vals.Predicted": [
+                            null, 19.34223, 0.06704, 0.36565, 0.36565, 0.42156, null, 16.32327, 0, 0, 0, 0, 0, 1.23412, 0.37422, 2.78717, 3.13825, 5.92522, 0, 2.78674, 0.3439, 0
+                        ], 
+                        "units": "mmol/gDW/h"
+                    }
+                }, 
+                "Succinate" : {
+                    "Flux rate": {
+                        "vals.Experimental": [
+                            15.902, 3.32097, 5.59032, 2.6916, 2.6916, 2.6916, null, 7.75208, 0.65546, 1.97412, 2.9337, 1.36985, 2.01611, 2.97179, 3.03895, 18.37043, 17.23044, 4.9507, 12.39618, 0.11645, 0.51, 3.73004
+                        ], 
+                        "vals.Predicted": [
+                            null, 9.40342, 0.09502, 0.51825, 0.51825, 0.5975, null, 8.46309, 0, 0, 0, 0, 0, 1.74917, 0.5304, 15.9026, 16.40022, 4.44832, 11.9519, 0, 0.48743, 0
+                        ], 
+                        "units": "mmol/gDW/h"
+                    }
+                }
+            }
+        }, 
+        "Sheet 8": {
+            "notes": [
+                "(Data shown in Fig 6) Experimentally determined, normalized growth rates for a range of eGFP expression strengths and respective eGFP concentrations in E. coli", 
+                "Data taken from Bienick et al. 2014 (doi: 10.1371/journal.pone.0109105)"
+            ], 
+            "data": {
+                "Growth rate": {
+                    "vals": [
+                        0.56, 0.75, 0.7, 0.71, 0.73, 0.72, 0.74, 0.7, 0.72, 0.72, 0.62, 0.59, 0.62, 0.59, 0.57, 0.6, 0.59, 0.59, 0.55, 0.5, 0.4, 0.46
+                    ], 
+                    "errs": [
+                        0.02, 0.07, 0.04, 0.01, 0.04, 0.02, 0.05, 0.02, 0.07, 0.02, 0, 0.01, 0.06, 0.02, 0.02, 0.02, 0.02, 0.05, 0.01, 0.03, 0.01, 0.09
+                    ], 
+                    "vals.units": "1/h"
+                }, 
+                "eGFP concentration": {
+                    "vals": [
+                        0.097, 0.0, 0.0, 0.005, 0.007, 0.008, 0.008, 0.017, 0.019, 0.023, 0.041, 0.066, 0.067, 0.071, 0.072, 0.081, 0.082, 0.094, 0.106, 0.11, 0.134, 0.136
+                    ], 
+                    "errs": [
+                        0.005, 0.0, 0.0, 0.001, 0.0, 0.0, 0.001, 0.001, 0.001, 0.002, 0.002, 0.006, 0.002, 0.005, 0.005, 0.003, 0.005, 0.001, 0.006, 0.006, 0.001, 0.012
+                    ], 
+                    "vals.units": "g/gDW"
+                }
+            }
+        }, 
+        "Sheet 9": {
+            "notes": [
+                "(Data shown in Fig 7) Comparison of predicted growth and acetate secretion rates of single-gene deletion E. coli mutants with experimentally determined values", 
+                "Experimental data was taken from specified sources", 
+                "Model: iML1515 including protein allocation and enzymatic constraints", 
+                "Upper bounds of substrate uptake rates were constrained to measured values", 
+                "Errors were computed by simulating the hightest and lowest expected glucose uptake rate according to the confidence intervals of experimentally determined uptake rates", 
+                "Excess enzyme sector was parametrized according to a methodically derived maximum glucose uptake rate of 9.82 mmol/gDW/h"
+            ], 
+            "data": {
+
+                "Deleted gene": [
+                    "Wild type", "crr", "glk", "zwf", "gnd", "rpe", "edd", "eda", "pgi", "tpiA", "Wild type", "pgi", "ppc", "tpi"
+                ], 
+                "Source": [
+                    "Long et al. 2016 (doi: 10.1016/j.ymben.2016.05.006)", 
+                    "Long et al. 2016 (doi: 10.1016/j.ymben.2016.05.006)", 
+                    "Long et al. 2016 (doi: 10.1016/j.ymben.2016.05.006)", 
+                    "Long et al. 2016 (doi: 10.1016/j.ymben.2016.05.006)", 
+                    "Long et al. 2016 (doi: 10.1016/j.ymben.2016.05.006)", 
+                    "Long et al. 2016 (doi: 10.1016/j.ymben.2016.05.006)", 
+                    "Long et al. 2016 (doi: 10.1016/j.ymben.2016.05.006)", 
+                    "Long et al. 2016 (doi: 10.1016/j.ymben.2016.05.006)", 
+                    "Long et al. 2016 (doi: 10.1016/j.ymben.2016.05.006)", 
+                    "Long et al. 2016 (doi: 10.1016/j.ymben.2016.05.006)", 
+                    "Fong et al. 2006 (doi: 10.1074/jbc.M510016200)", 
+                    "Fong et al. 2006 (doi: 10.1074/jbc.M510016200)", 
+                    "Fong et al. 2006 (doi: 10.1074/jbc.M510016200)", 
+                    "Fong et al. 2006 (doi: 10.1074/jbc.M510016200)"
+                ], 
+                "Growth rate": {
+                    "vals.Experimental": [
+                        0.63258, 0.43723, 0.5643, 0.5736, 0.5284, 0.29967, 0.5846, 0.55123, 0.19093, 0.16647, 0.63, 0.17, 0.22, 0.18
+                    ], 
+                    "errs.Experimental": [
+                        0.0094, 0.00881, 0.01507, 0.00978, 0.00954, 0.02098, 0.01175, 0.00585, 0.00299, 0.01063, 0.03, 0.0, 0.01, 0.02
+                    ], 
+                    "vals.Predicted": [
+                        0.58578, 0.38426, 0.60173, 0.59792, 0.55387, 0.32351, 0.53999, 0.59855, 0.16012, 0.17127, 0.60585, 0.17485, 0.23576, 0.20169
+                    ], 
+                    "errs.Predicted": [
+                        0.01313, 0.0114, 0.01601, 0.01217, 0.02248, 0.02256, 0.01621, 0.01433, 0.00448, 0.01288, 0.0312, 0.00855, 0, 0
+                    ], 
+                    "units": "1/h"
+                }, 
+                "Acetate secretion rate": {
+                    "vals.Experimental": [
+                        6.05062, 3.11913, 6.80538, 6.83698, 7.58186, 2.54496, 5.84754, 7.28199, 0.03524, 0.92228, 4.5, 0.1, 1.1, 0.2
+                    ], 
+                    "errs.Experimental": [
+                        0.15283, 0.11961, 0.21002, 0.17449, 0.36096, 0.2183, 0.20576, 0.2055, 0.000893137, 0.06311, 0.7, 0.1, 0, 0.1
+                    ], 
+                    "vals.Predicted": [
+                        5.5232, 1.92657, 5.80856, 5.92394, 4.85617, 0.85428, 4.70416, 5.75164, 0.0, 0.0, 5.88209, 0.0, 0.0, 0.0
+                    ], 
+                    "errs.Predicted": [
+                        0.23482, 0.20297, 0.28639, 0.22659, 0.3708, 0.40238, 0.28986, 0.25635, 0.0, 0.0, 0.55808, 0.0, 0.0, 0.0
+                    ], 
+                    "units": "mmol/gDW/h"
+                }
+
+            }
+        }, 
+        "Sheet 10": {
+            "notes": [
+                "(Data shown in Fig 8) Comparison of predicted relative growth, glucose uptake and acetate secretion rates of single-gene deletion E. coli mutants with experimentally determined values", 
+                "Model: iML1515 including protein allocation and enzymatic constraints, Gucose uptake rates were estimated according to a maximum overexpression capacity of single enzymes of 16 nmol/gDW/h", 
+                "All rates were normalized with the predicted and experimentally determined wild-type rates, respectively"
+            ], 
+            "data": {
+                "Deleted gene": [
+                    "pgi", "ppc", "tpiA", "ptsG", "zwf", "gnd", "rpe", "pgi", "tpiA", "zwf", "gnd", "rpe", "pgi", "tpiA"
+                ], 
+                "Source": [
+                    "Fong et al. 2006 (doi: 10.1074/jbc.M510016200)", 
+                    "Fong et al. 2006 (doi: 10.1074/jbc.M510016200)", 
+                    "Fong et al. 2006 (doi: 10.1074/jbc.M510016200)", 
+                    "Long et al. 2016 (doi: 10.1016/j.ymben.2016.05.006)", 
+                    "Long et al. 2016 (doi: 10.1016/j.ymben.2016.05.006)", 
+                    "Long et al. 2016 (doi: 10.1016/j.ymben.2016.05.006)", 
+                    "Long et al. 2016 (doi: 10.1016/j.ymben.2016.05.006)", 
+                    "Long et al. 2016 (doi: 10.1016/j.ymben.2016.05.006)", 
+                    "Long et al. 2016 (doi: 10.1016/j.ymben.2016.05.006)", 
+                    "Long et al. 2019 (doi: 10.1016/j.ymben.2019.08.003)", 
+                    "Long et al. 2019 (doi: 10.1016/j.ymben.2019.08.003)", 
+                    "Long et al. 2019 (doi: 10.1016/j.ymben.2019.08.003)", 
+                    "Long et al. 2019 (doi: 10.1016/j.ymben.2019.08.003)", 
+                    "Long et al. 2019 (doi: 10.1016/j.ymben.2019.08.003)"
+                ], 
+                "Relative growth rate": {
+                    "vals.Experimental": [
+                        0.26984, 0.34921, 0.28571, 0.39888, 0.90673, 0.83528, 0.47371, 0.30182, 0.26315, 0.90476, 0.88889, 0.46032, 0.30159, 0.26984
+                    ], 
+                    "vals.Predicted": [
+                        0.38357, 0.37955, 0.30987, 0.45928, 0.98304, 1.01628, 1.02088, 0.38357, 0.30987, 0.98304, 1.01628, 1.02088, 0.38357, 0.30987
+                    ], 
+                    "units": "1/h"
+                }, 
+                "Relative acetate production rate": {
+                    "vals.Experimental": [
+                        0.02222, 0.24444, 0.04444, 0, 1.12997, 1.25308, 0.42061, 0.00582, 0.15243, 0.97408, 1.284, 0.28887, 0.00444, 0.21774
+                    ], 
+                    "vals.Predicted": [
+                        0.01663, 0.0, 0.0, 0.09382, 1.00733, 1.25476, 1.25629, 0.01663, 0, 1.00733, 1.25476, 1.25629, 0.01663, 0.0
+                    ], 
+                    "units": "mmol/gDW/h"
+                }, 
+                "Relative substrate uptake rate": {
+                    "vals.Experimental": [
+                        0.26136, 0.34091, 0.30682, 0.28861, 1.03596, 0.94576, 0.50555, 0.25096, 0.27427, 0.9016, 1.01886, 0.41788, 0.24061, 0.37987
+                    ], 
+                    "vals.Predicted": [
+                        0.33489, 0.32737, 0.28226, 0.41758, 0.99646, 1.07916, 1.07916, 0.33489, 0.28226, 0.99646, 1.07916, 1.07916, 0.33489, 0.28226
+                    ], 
+                    "units": "mmol/gDW/h"
+                }
+            }
+        }, 
+        "Sheet 11": {
+            "notes": [
+                "(Data shown in Fig 9) Comparison of predicted intracellular flux rates of single-gene deletion mutants with experimentally determined values", 
+                "Experimental flux data taken from Long et al. 2019 (doi: 10.1016/j.ymben.2019.08.003)", 
+                "Model: iML1515 including protein allocation and enzymatic constraints", 
+                "Gucose uptake rates were estimated according to a maximum overexpression capacity of single enzymes of 16 nmol/gDW/h", 
+                "All rates were normalized with the predicted and experimentally determined glucose uptake rates", 
+
+            ], 
+            "data": {
+                "Wild-type": {
+                    "Reaction ID (iML1515)": [
+                        "GLCptspp", "PGI_f", "FBA_f", "TPI_f", "GAPD_f", "ENO_f", "PYK", "G6PDH2r_f", "GND", "RPE_f", "RPE_b", "RPI_f", "EDD", "EDA", "PDH", "CS", "ACONTb_f", "AKGDH", "SUCOAS_b", "SUCOAS_f", "SUCDi", "FUM_f", "MDH_f", "ICL", "MALS", "ME2", "ME1", "PPC", "PPCK", "ACKr_b", "ACKr_f", "EX_ac_e_f", "EX_co2_e_f", "EX_o2_e_b", "MGSA"
+                    ], 
+                    "Flux rate": {
+                        "vals.Experimental": [
+                            1, 0.69156, 0.80878, 0.80878, 1.67463, 1.54069, 0.24065, 0.28758, 0.27549, 0.12315, 0, 0.15234, 0.0121, 0.0121, 1.06999, 0.17165, 0.17165, 0.08772, 0.04755, 0, 0.07994, 0.10949, 0.10219, 4.53955e-05, 4.53955e-05, 0.0051, 0.00225, 0.24129, 0.00177, 0.68572, 0, 0.72438, 1.51057, 1.41239, 0
+                        ], 
+                        "vals.Predicted": [
+
+                        ], 
+                        "units": "mmol/gDW/h"
+                    }
+                }, 
+                "gnd": {
+                    "Reaction ID (iML1515)": [
+                        "GLCptspp", "PGI_f", "FBA_f", "TPI_f", "GAPD_f", "ENO_f", "PYK", "G6PDH2r_f", "GND", "RPE_f", "RPE_b", "RPI_f", "EDD", "EDA", "PDH", "CS", "ACONTb_f", "AKGDH", "SUCOAS_b", "SUCOAS_f", "SUCDi", "FUM_f", "MDH_f", "ICL", "MALS", "ME2", "ME1", "PPC", "PPCK", "ACKr_b", "ACKr_f", "EX_ac_e_f", "EX_co2_e_f", "EX_o2_e_b", "MGSA"
+                    ], 
+                    "Flux rate": {
+                        "vals.Experimental": [
+                            1.0, 0.67147, 0.62035, 0.62035, 1.50172, 1.39379, 0.13024, 0.29897, 1e-12, 0.0, 0.04632, 0.04632, 0.29897, 0.29897, 1.28172, 0.20079, 0.20079, 0.13099, 0.09282, 0.0, 0.12129, 0.14723, 0.13281, 1.57943e-07, 1.57943e-07, 8.02404e-07, 0.01442, 0.23402, 0.02016, 0.88009, 0.0, 0.91288, 1.52518, 1.41747, 0
+                        ], 
+                        "vals.Predicted": [
+                            1.0, 0.52524, 0.4696, 0.45918, 1.35876, 1.35876, 0.0, 0.46227, 0.0, 0.0, 0.04898, 0.0, 0.46227, 0.46227, 1.19581, 0.37879, 0.37879, 0.0, 0.0, 0.0, 0.30914, 0.37456, 0.37461, 0.0, 5.71588e-05, 0.0, 0.0, 0.28927, 0.0, 0.79872, 0.0, 0.83659, 1.70354, 1.57391, 0
+                        ], 
+                        "units": "mmol/gDW/h"
+                    }
+                }, 
+                "pgi": {
+                    "Reaction ID (iML1515)": [
+                        "GLCptspp", "PGI_f", "FBA_f", "TPI_f", "GAPD_f", "ENO_f", "PYK", "G6PDH2r_f", "GND", "RPE_f", "RPE_b", "RPI_f", "EDD", "EDA", "PDH", "CS", "ACONTb_f", "AKGDH", "SUCOAS_b", "SUCOAS_f", "SUCDi", "FUM_f", "MDH_f", "ICL", "MALS", "ME2", "ME1", "PPC", "PPCK", "ACKr_b", "ACKr_f", "EX_ac_e_f", "EX_co2_e_f", "EX_o2_e_b", "MGSA"
+                    ], 
+                    "Flux rate": {
+                        "vals.Experimental": [
+                            1.0, -0.002, 0.50384, 0.50384, 1.31878, 1.16648, 0.03394, 0.94301, 0.86903, 0.51431, 0.0, 0.35473, 0.07398, 0.07398, 0.89452, 0.4092, 0.4092, 0.0381, 0.0, 0.0209, 0.29247, 0.33098, 0.57227, 0.27199, 0.27199, 0.01659, 0.01411, 0.13987, 0.08682, 0.0, 0.03697, 0.01337, 2.08222, 1.94333, 0.0
+                        ], 
+                        "vals.Predicted": [
+                            1.0, 0.0, 0.58879, 0.5761, 1.45385, 1.45385, 0.0, 0.98479, 0.98479, 0.5969, 0.0, 0.0, 0.0, 0.0, 1.04487, 0.67552, 0.67552, 0.0, 0.0, 0.0, 0.59073, 0.67037, 1.0226, 0.35216, 0.35223, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0051, 0.04102, 2.72437, 2.56656, 0.0
+                        ], 
+                        "units": "mmol/gDW/h"
+                    }
+                }, 
+                "rpe": {
+                    "Reaction ID (iML1515)": [
+                        "GLCptspp", "PGI_f", "FBA_f", "TPI_f", "GAPD_f", "ENO_f", "PYK", "G6PDH2r_f", "GND", "RPE_f", "RPE_b", "RPI_f", "EDD", "EDA", "PDH", "CS", "ACONTb_f", "AKGDH", "SUCOAS_b", "SUCOAS_f", "SUCDi", "FUM_f", "MDH_f", "ICL", "MALS", "ME2", "ME1", "PPC", "PPCK", "ACKr_b", "ACKr_f", "EX_ac_e_f", "EX_co2_e_f", "EX_o2_e_b", "MGSA"
+                    ], 
+                    "Flux rate": {
+                        "vals.Experimental": [
+                            1.0, 0.87519, 0.86881, 0.86881, 1.72801, 1.58962, 0.27903, 0.10075, 0.0912, 0.0, 0.000276823, 0.09147, 0.00955, 0.00955, 1.0946, 0.34662, 0.34662, 0.19193, 0.1458, 0.0, 0.24053, 0.27549, 0.30761, 0.05746, 0.05746, 0.000818698, 0.02453, 0.24713, 0.00571, 0.45577, 0.0, 0.50075, 1.61018, 1.48043, 0.0
+                        ], 
+                        "vals.Predicted": [
+                            1.0, 0.53691, 0.5302, 0.51973, 1.41879, 1.41879, 0.0, 0.45054, 0.07385, 0.0, 0.0, 0.0, 0.37669, 0.37669, 1.16703, 0.35089, 0.35089, 0.0, 0.0, 0.0, 0.28088, 0.34664, 0.3467, 0.0, 5.7455e-05, 0.0, 0.0, 0.29077, 0.0, 0.79773, 0.0, 0.83581, 1.69151, 1.56121, 0.0
+                        ], 
+                        "units": "mmol/gDW/h"
+                    }
+                }, 
+                "tpiA": {
+                    "Reaction ID (iML1515)": [
+                        "GLCptspp", "PGI_f", "FBA_f", "TPI_f", "GAPD_f", "ENO_f", "PYK", "G6PDH2r_f", "GND", "RPE_f", "RPE_b", "RPI_f", "EDD", "EDA", "PDH", "CS", "ACONTb_f", "AKGDH", "SUCOAS_b", "SUCOAS_f", "SUCDi", "FUM_f", "MDH_f", "ICL", "MALS", "ME2", "ME1", "PPC", "PPCK", "ACKr_b", "ACKr_f", "EX_ac_e_f", "EX_co2_e_f", "EX_o2_e_b", "MGSA"
+                    ], 
+                    "Flux rate": {
+                        "vals.Experimental": [
+                            1.0, 0.81327, 0.87262, 0.01645, 0.92308, 0.8351, -0.08384, 0.16529, 0.15049, 0.06364, 0.0, 0.08686, 0.0148, 0.0148, 1.65879, 0.81061, 0.81061, 0.46412, 0.41922, 0.0, 0.74315, 0.76489, 1.0574, 0.30075, 0.30075, 6.077e-06, 0.00823, 0.19909, 0.32489, 0.38655, 0.0, 0.41521, 2.99743, 2.90409, 0.85617
+                        ], 
+                        "vals.Predicted": [
+                            1.0, 0.0, 0.0138, 0.0, 1.20738, 1.06754, 0.0, 3.09687, 2.79085, 1.79576, 0.0, 0.0, 0.30602, 0.30602, 1.07342, 0.57143, 0.57143, 0.23082, 0.1869, 0.0, 0.47919, 0.56583, 0.81416, 0.24827, 0.24833, 0.0, 0.0, 0.0, 0.0, 0.0, 0.05017, 0.0, 4.56778, 4.39613, 0.0
+                        ], 
+                        "units": "mmol/gDW/h"
+                    }
+                }, 
+                "zwf": {
+                    "Reaction ID (iML1515)": [
+                        "GLCptspp", "PGI_f", "FBA_f", "TPI_f", "GAPD_f", "ENO_f", "PYK", "G6PDH2r_f", "GND", "RPE_f", "RPE_b", "RPI_f", "EDD", "EDA", "PDH", "CS", "ACONTb_f", "AKGDH", "SUCOAS_b", "SUCOAS_f", "SUCDi", "FUM_f", "MDH_f", "ICL", "MALS", "ME2", "ME1", "PPC", "PPCK", "ACKr_b", "ACKr_f", "EX_ac_e_f", "EX_co2_e_f", "EX_o2_e_b", "MGSA"
+                    ], 
+                    "Flux rate": {
+                        "vals.Experimental": [
+                            1.0, 0.97584, 0.91103, 0.91103, 1.77789, 1.64455, 0.30101, 0.00246, 9.99954e-13, 0.0, 0.05875, 0.05875, 0.00246, 0.00246, 1.14874, 0.18516, 0.18516, 0.09612, 0.05874, 0.0, 0.09264, 0.12357, 0.08102, 9.97291e-13, 9.97291e-13, 0.00344, 0.03911, 0.29159, 0.01075, 0.74211, 0.0, 0.78261, 1.33797, 1.22552, 0.0
+                        ], 
+                        "vals.Predicted": [
+                            1.0, 0.9864, 0.9509, 0.93956, 1.86786, 1.86786, 0.0, 0.0, 0.03763, 0.0, 0.02824, 0.0, 0.0, 0.0, 1.18715, 0.45716, 0.45716, 0.0, 0.0, 0.0, 0.38133, 0.45255, 0.45261, 0.0, 6.22317e-05, 0.0, 0.0, 0.31494, 0.0, 0.71006, 0.0, 0.7513, 1.86707, 1.72593, 0.0
+                        ], 
+                        "units": "mmol/gDW/h"
+                    }
+                }
+            }
+        },
+        "Sheet 12": {
+            "notes": [
+                "(Data shown in Fig S1) Comparison between experimentally determined  and predicted growth and acetate secretion rates using several substrates as sole carbon sources.",
+                "Experimental data taken from Gerosa et al. (2015) (doi: 10.1016/j.cels.2015.09.008)",
+                "Model: iML1515 including protein allocation and enzymatic constraints",
+                "Upper bound of substrate uptake rates were constrained to methodically determined maximum substrate uptake rates according to a maximum total protein synthesis rate of 2.04 mumol/gDW/h"
+            ], 
+            "data": {
+                "Substrate": [
+                    "Glucose", "Fructose", "Galactose", "Acetate", "Glycerol", "Gluconate", "Pyruvate", "Succinate", "Xylose", "Mannose", "Glucosamine", "Fumarate", "Glucose (anaerobic)", "Xylose (Anaerobic)"
+                ],
+                "Growth rate": {
+                    "vals.Experimental": [
+                        0.65, 0.49, 0.18, 0.29, 0.49, 0.59, 0.39, 0.51, 0.55, 0.47, 0.46, 0.42, 0.33, 0.13
+                    ],
+                    "vals.Predicted": [
+                        0.6695, 0.66822, 0.63515, 0.36762, 0.67794, 0.60392, 0.61427, 0.6954, 0.5825, 0.47207, 0.66074, 0.69419, 0.46143, 0.33645
+                    ],
+                    "units": "1/h"
+                },
+                "Acetate production rate": {
+                    "vals.Experimental": [
+                        6.83, 3.33, 0, null, 0.6, 5, 11.91, 3.32, null, null, null, null, 7.3, 5.5
+                    ],
+                    "vals.Predicted": [
+                        7.02056, 6.01333, 6.45692, 0, 2.34803, 5.87586, 39.83266, 14.74866, 15.88378, 2.59851, 5.78166, 17.25486, 7.1961, 4.67934
+                    ],
+                    "units": "mmol/gDW/h"
+                },
+                "Substrate uptake rate": {
+                    "vals.Experimental": [
+                        9.65, 8.33, 1.969, 13.58, 4.94, 7.28, 26.71, 15.9, null, null, null, null, 13.1, 10.8
+                    ],
+                    "vals.Predicted": [
+                        9.82, 9.61, 9.39, 18.44, 14.89, 9.52, 53, 24.02, 14.19, 6.44, 9.46, 26.51, 20.29, 26.56
+                    ],
+                    "units": "mmol/gDW/h"
+                }
+            }
+        }, 
+        "Sheet 13": {
+            "notes": [
+                "(Data shown in Fig S4) Comparison of predicted growth and acetate secretion rates of single-gene deletion E. coli mutants with experimentally determined values",
+                "Experimental data was taken from specified sources",
+                "Model: iML1515 including protein allocation and enzymatic constraints",
+                "Upper bounds of substrate uptake rates were constrained to measured values",
+                "Errors were computed by simulating the hightest and lowest expected glucose uptake rate according to the confidence intervals of experimentally determined uptake rates",
+                "Excess enzyme sector was parametrized according to a methodically derived maximum glucose uptake rate of 9.82 mmol/gDW/h"
+            ], 
+            "data": {
+                "Deleted gene": [
+                    "Wild type", "crr", "glk", "zwf", "gnd", "rpe", "edd", "eda", "pgi", "tpiA", "Wild type", "pgi", "ppc", "tpi"
+                ],
+                "Source": [
+                    "Long et al. 2016 (doi: 10.1016/j.ymben.2016.05.006)", 
+                    "Long et al. 2016 (doi: 10.1016/j.ymben.2016.05.006)", 
+                    "Long et al. 2016 (doi: 10.1016/j.ymben.2016.05.006)", 
+                    "Long et al. 2016 (doi: 10.1016/j.ymben.2016.05.006)", 
+                    "Long et al. 2016 (doi: 10.1016/j.ymben.2016.05.006)", 
+                    "Long et al. 2016 (doi: 10.1016/j.ymben.2016.05.006)", 
+                    "Long et al. 2016 (doi: 10.1016/j.ymben.2016.05.006)", 
+                    "Long et al. 2016 (doi: 10.1016/j.ymben.2016.05.006)", 
+                    "Long et al. 2016 (doi: 10.1016/j.ymben.2016.05.006)", 
+                    "Long et al. 2016 (doi: 10.1016/j.ymben.2016.05.006)", 
+                    "Fong et al. 2006 (doi: 10.1074/jbc.M510016200)", 
+                    "Fong et al. 2006 (doi: 10.1074/jbc.M510016200)", 
+                    "Fong et al. 2006 (doi: 10.1074/jbc.M510016200)", 
+                    "Fong et al. 2006 (doi: 10.1074/jbc.M510016200)", 
+                ],
+                "Growth rate": {
+                    "vals.Experimental": [
+                        0.63258,0.43723,0.5643,0.5736,0.5284,0.29967,0.5846,0.55123,0.19093,0.16647,0.63,0.17,0.22,0.18
+                    ],
+                    "errs.Experimental": [
+                        0.0094,0.00881,0.01507,0.00978,0.00954,0.02098,0.01175,0.00585,0.00299,0.01063,0.03,0,0.01,0.02
+                    ],
+                    "vals.Predicted": [
+                        0.6695,0.6695,0.6695,0.66068,0.66515,0.66801,0.6695,0.6695,0.66101,0.659,0.6695,0.66101,0.66338,0.659
+                    ],
+                    "errs.Predicted": [
+                        0,0,0,0,0,0,0,0,0,0,0,0,0,0
+                    ],
+                    "units": "1/h"
+                },
+                "Acetate secretion rate": {
+                    "vals.Experimental": [
+                        6.05062,3.11913,6.80538,6.83698,7.58186,2.54496,5.84754,7.28199,0.03524,0.92228,4.5,0.1,1.1,0.2
+                    ],
+                    "errs.Experimental": [
+                        0.15283,0.11961,0.21002,0.17449,0.36096,0.2183,0.20576,0.2055,0.000893137,0.06311,0.7,0.1,0,0.1
+                    ],
+                    "vals.Predicted": [
+                        7.02056,7.02063,7.02063,7.09232,6.69196,6.70816,7.0206,7.02066,6.7906,6.37796,7.02056,6.7906,6.84483,6.37796
+                    ],
+                    "errs.Predicted": [
+                        0,0,0,0,0,0,0,0,0,0,0,0,0,0
+                    ],
+                    "units": "mmol/gDW/h"
+                }
+            }
+        },
+        "Sheet 14": {
+            "notes": [
+                "(Data shown in Fig S5) Comparison of phenotypic predictions between wild-type and gene-deletion mutant model",
+                "Model: iML1515 including protein allocation and enzymatic constraints",
+                "Upper bounds of substrate uptake rates were constrained to measured values (taken from specified sources)",
+                "Errors were computed by simulating the hightest and lowest expected glucose uptake rate according to the confidence intervals of experimentally determined uptake rates",
+                "Excess enzyme sector was parametrized according to a methodically derived maximum glucose uptake rate of 9.82 mmol/gDW/h",
+                "In the wild-type model does the specified gene is not deleted"
+            ], 
+            "data": {
+                "Deleted gene": [
+                    "Wild type", "crr", "glk", "zwf", "gnd", "rpe", "edd", "eda", "pgi", "tpiA", "Wild type", "pgi", "ppc", "tpi"
+                ],
+                "Source": [
+                    "Long et al. 2016 (doi: 10.1016/j.ymben.2016.05.006)", 
+                    "Long et al. 2016 (doi: 10.1016/j.ymben.2016.05.006)", 
+                    "Long et al. 2016 (doi: 10.1016/j.ymben.2016.05.006)", 
+                    "Long et al. 2016 (doi: 10.1016/j.ymben.2016.05.006)", 
+                    "Long et al. 2016 (doi: 10.1016/j.ymben.2016.05.006)", 
+                    "Long et al. 2016 (doi: 10.1016/j.ymben.2016.05.006)", 
+                    "Long et al. 2016 (doi: 10.1016/j.ymben.2016.05.006)", 
+                    "Long et al. 2016 (doi: 10.1016/j.ymben.2016.05.006)", 
+                    "Long et al. 2016 (doi: 10.1016/j.ymben.2016.05.006)", 
+                    "Long et al. 2016 (doi: 10.1016/j.ymben.2016.05.006)", 
+                    "Fong et al. 2006 (doi: 10.1074/jbc.M510016200)", 
+                    "Fong et al. 2006 (doi: 10.1074/jbc.M510016200)", 
+                    "Fong et al. 2006 (doi: 10.1074/jbc.M510016200)", 
+                    "Fong et al. 2006 (doi: 10.1074/jbc.M510016200)"
+                ],
+                "Growth rate": {
+                    "vals.Wild-type-model": [
+                        0.58578,0.38426,0.60173,0.6048,0.55708,0.32361,0.53999,0.59855,0.16098,0.17795,0.60585,0.17576,0.23576,0.21008
+                    ],
+                    "errs.Wild-type-model": [
+                        0.01313,0.0114,0.01601,0.01255,0.02271,0.02256,0.01621,0.01433,0.0045,0.01357,0.0312,0.00859,0,0
+                    ],
+                    "vals.Gene-deletion-model": [
+                        0.58578,0.38426,0.60173,0.59792,0.55387,0.32351,0.53999,0.59855,0.16012,0.17127,0.60585,0.17485,0.23576,0.20169
+                    ],
+                    "errs.Gene-deletion-model": [
+                        0.01313,0.0114,0.01601,0.01217,0.02248,0.02256,0.01621,0.01433,0.00448,0.01288,0.0312,0.00855,0,0
+                    ],
+                    "vals.units": "1/h"
+                },
+                "Acetate secretion rate": {
+                    "vals.Wild-type-model": [
+                        5.5232,1.92653,5.80843,5.86341,5.00982,0.84639,4.70405,5.75153,0,0,5.88209,0,0,0
+                    ],
+                    "errs.Wild-type-model": [
+                        0.23482,0.20296,0.28639,0.2244,0.40614,0.40183,0.28986,0.25635,0,0,0.55808,0,0,0
+                    ],
+                    "vals.Gene-deletion-model": [
+                        5.5232,1.92657,5.80856,5.92394,4.85617,0.85428,4.70416,5.75164,0,0,5.88209,0,0,0
+                    ],
+                    "errs.Gene-deletion-model": [
+                        0.23482,0.20297,0.28639,0.22659,0.3708,0.40238,0.28986,0.25635,0,0,0.55808,0,0,0
+                    ],
+                    "vals.units": "mmol/gDW/h"
+                }
+            }
+        },
+        "Sheet 15": {
+            "notes": [
+                "(Data shown in Fig S6) Comparison of predicted relative growth, glucose uptake and acetate secretion rates of single-gene deletion E. coli mutants for adapted kcat values of both Entner-Doudoroff pathway steps with experimentally determined values",
+                "Model: iML1515 including protein allocation and enzymatic constraints",
+                "Here, the kcat values of both Entner-Doudoroff pathway steps were decreased to 2.5% of the the original values",
+                "Gucose uptake rates were estimated according to a maximum overexpression capacity of single enzymes of 14.3 nmol/gDW/h",
+                "All rates were normalized with the predicted and experimentally determined wild-type rates, respectively"
+            ],
+            "data": {
+                "Deleted gene": [
+                    "pgi", "ppc", "tpiA", "ptsG", "zwf", "gnd", "rpe", "pgi", "tpiA", "zwf", "gnd", "rpe", "pgi", "tpiA"
+                ],
+                "Source": [
+                    "Fong et al. 2006 (doi: 10.1074/jbc.M510016200)", 
+                    "Fong et al. 2006 (doi: 10.1074/jbc.M510016200)", 
+                    "Fong et al. 2006 (doi: 10.1074/jbc.M510016200)", 
+                    "Long et al. 2016 (doi: 10.1016/j.ymben.2016.05.006)", 
+                    "Long et al. 2016 (doi: 10.1016/j.ymben.2016.05.006)", 
+                    "Long et al. 2016 (doi: 10.1016/j.ymben.2016.05.006)", 
+                    "Long et al. 2016 (doi: 10.1016/j.ymben.2016.05.006)", 
+                    "Long et al. 2016 (doi: 10.1016/j.ymben.2016.05.006)", 
+                    "Long et al. 2016 (doi: 10.1016/j.ymben.2016.05.006)", 
+                    "Long et al. 2019 (doi: 10.1016/j.ymben.2019.08.003)", 
+                    "Long et al. 2019 (doi: 10.1016/j.ymben.2019.08.003)", 
+                    "Long et al. 2019 (doi: 10.1016/j.ymben.2019.08.003)", 
+                    "Long et al. 2019 (doi: 10.1016/j.ymben.2019.08.003)", 
+                    "Long et al. 2019 (doi: 10.1016/j.ymben.2019.08.003)"
+                ],
+                "Relative growth rate": {
+                    "vals.Experimental": [
+                        0.26984,0.34921,0.28571,0.39888,0.90673,0.83528,0.47371,0.30182,0.26315,0.90476,0.88889,0.46032,0.30159,0.26984
+                    ],
+                    "vals.Predicted": [
+                        0.35992,0.36176,0.36303,0.43304,0.95271,0.93764,0.99384,0.35992,0.36303,0.95271,0.93764,0.99384,0.35992,0.36303
+                    ],
+                    "units": "1/h"
+                },
+                "Relative acetate production rate": {
+                    "vals.Experimental": [
+                        0.02222,0.24444,0.04444,0,1.12997,1.25308,0.42061,0.00582,0.15243,0.97408,1.284,0.28887,0.00444,0.21774
+                    ],
+                    "vals.Predicted": [
+                        0,0,0.04475,0.04841,0.9432,0.9316,1.02553,0,0.04475,0.9432,0.9316,1.02553,0,0.04475
+                    ],
+                    "units": "mmol/gDW/h"
+                },
+                "Relative substrate uptake rate": {
+                    "vals.Experimental": [
+                        0.26136,0.34091,0.30682,0.28861,1.03596,0.94576,0.50555,0.25096,0.27427,0.9016,1.01886,0.41788,0.24061,0.37987
+                    ],
+                    "vals.Predicted": [
+                        0.31272,0.31272,0.35037,0.38803,0.96043,0.94537,1.00562,0.31272,0.35037,0.96043,0.94537,1.00562,0.31272,0.35037
+                    ],
+                    "units": "mmol/gDW/h"
+                }
+            }
+        }, 
+        "Sheet 16": {
+            "notes": [
+                "(Data shown in Fig S7) Comparison of predicted intracellular flux rates of single-gene deletion mutants for adapted kcat values of both Entner-Doudoroff pathway steps with experimentally determined values",
+                "Experimental flux data taken from Long et al. 2019 (doi: 10.1016/j.ymben.2019.08.003)",
+                "Model: iML1515 including protein allocation and enzymatic constraints",
+                "Here, the kcat values of both Entner-Doudoroff pathway steps were decreased to 2.5% of the the original values",
+                "Gucose uptake rates were estimated according to a maximum overexpression capacity of single enzymes of 16 nmol/gDW/h",
+                "All rates were normalized with the predicted and experimentally determined glucose uptake rates"
+            ],
+            "data": {
+                "Wild-type": {
+                    "Reaction ID (iML1515)": [
+                        "GLCptspp", "PGI_f", "FBA_f", "TPI_f", "GAPD_f", "ENO_f", "PYK", "G6PDH2r_f", "GND", "RPE_f", "RPE_b", "RPI_f", "EDD", "EDA", "PDH", "CS", "ACONTb_f", "AKGDH", "SUCOAS_b", "SUCOAS_f", "SUCDi", "FUM_f", "MDH_f", "ICL", "MALS", "ME2", "ME1", "PPC", "PPCK", "ACKr_b", "ACKr_f", "EX_ac_e_f", "EX_co2_e_f", "EX_o2_e_b", "MGSA"
+                    ],
+                    "Flux rate": {
+                        "vals.Experimental": [
+                            1,0.69156,0.80878,0.80878,1.67463,1.54069,0.24065,0.28758,0.27549,0.12315,0,0.15234,0.0121,0.0121,1.06999,0.17165,0.17165,0.08772,0.04755,0,0.07994,0.10949,0.10219,4.53955e-05,4.53955e-05,0.0051,0.00225,0.24129,0.00177,0.68572,0,0.72438,1.51057,1.41239,0
+                        ],
+                        "vals.Predicted": [
+                            1,0.6846,0.82691,0.81585,1.70918,1.70918,0,0.30213,0.30213,0.1494,0,0,0,0,1.04506,0.34574,0.34574,0,0,0,0.27176,0.34125,0.34131,0,6.07153e-05,0,0,0.30727,0,0.67988,0,0.72011,1.77328,1.63558,0
+                        ],
+                        "units": "mmol/gDW/h"
+                    }
+                },
+                "gnd": {
+                    "Reaction ID (iML1515)": [
+                        "GLCptspp", "PGI_f", "FBA_f", "TPI_f", "GAPD_f", "ENO_f", "PYK", "G6PDH2r_f", "GND", "RPE_f", "RPE_b", "RPI_f", "EDD", "EDA", "PDH", "CS", "ACONTb_f", "AKGDH", "SUCOAS_b", "SUCOAS_f", "SUCDi", "FUM_f", "MDH_f", "ICL", "MALS", "ME2", "ME1", "PPC", "PPCK", "ACKr_b", "ACKr_f", "EX_ac_e_f", "EX_co2_e_f", "EX_o2_e_b", "MGSA"
+                    ],
+                    "Flux rate": {
+                        "vals.Experimental": [
+                            1,0.67147,0.62035,0.62035,1.50172,1.39379,0.13024,0.29897,1e-12,0,0.04632,0.04632,0.29897,0.29897,1.28172,0.20079,0.20079,0.13099,0.09282,0,0.12129,0.14723,0.13281,1.57943e-07,1.57943e-07,8.02404e-07,0.01442,0.23402,0.02016,0.88009,0,0.91288,1.52518,1.41747,0
+                        ],
+                        "vals.Predicted": [
+                            1,0.98684,0.92822,0.91725,1.81146,1.81146,0,0,0,0,0.05159,0,0,0,1.15282,0.4635,0.4635,0,0,0,0.39013,0.45904,0.4591,0,6.02142e-05,0,0,0.30473,0,0.67004,0,0.70994,1.81662,1.68006,0
+                        ],
+                        "units": "mmol/gDW/h"
+                    }
+                },
+                "pgi": {
+                    "Reaction ID (iML1515)": [
+                        "GLCptspp", "PGI_f", "FBA_f", "TPI_f", "GAPD_f", "ENO_f", "PYK", "G6PDH2r_f", "GND", "RPE_f", "RPE_b", "RPI_f", "EDD", "EDA", "PDH", "CS", "ACONTb_f", "AKGDH", "SUCOAS_b", "SUCOAS_f", "SUCDi", "FUM_f", "MDH_f", "ICL", "MALS", "ME2", "ME1", "PPC", "PPCK", "ACKr_b", "ACKr_f", "EX_ac_e_f", "EX_co2_e_f", "EX_o2_e_b", "MGSA"
+                    ],
+                    "Flux rate": {
+                        "vals.Experimental": [
+                            1,-0.002,0.50384,0.50384,1.31878,1.16648,0.03394,0.94301,0.86903,0.51431,0,0.35473,0.07398,0.07398,0.89452,0.4092,0.4092,0.0381,0,0.0209,0.29247,0.33098,0.57227,0.27199,0.27199,0.01659,0.01411,0.13987,0.08682,0,0.03697,0.01337,2.08222,1.94333,0
+                        ],
+                        "vals.Predicted": [
+                            1,0,0.58839,0.57564,1.45277,1.45277,0,0.98472,0.98472,0.59655,0,0,0,0,1.04171,0.7117,0.7117,0,0,0,0.62648,0.70653,1.06055,0.35395,0.35402,0,0,0,0,0,0.04635,0,2.79016,2.63154,0
+                        ],
+                        "units": "mmol/gDW/h"
+                    }
+                },
+                "rpe": {
+                    "Reaction ID (iML1515)": [
+                        "GLCptspp", "PGI_f", "FBA_f", "TPI_f", "GAPD_f", "ENO_f", "PYK", "G6PDH2r_f", "GND", "RPE_f", "RPE_b", "RPI_f", "EDD", "EDA", "PDH", "CS", "ACONTb_f", "AKGDH", "SUCOAS_b", "SUCOAS_f", "SUCDi", "FUM_f", "MDH_f", "ICL", "MALS", "ME2", "ME1", "PPC", "PPCK", "ACKr_b", "ACKr_f", "EX_ac_e_f", "EX_co2_e_f", "EX_o2_e_b", "MGSA"
+                    ],
+                    "Flux rate": {
+                        "vals.Experimental": [
+                            1,0.87519,0.86881,0.86881,1.72801,1.58962,0.27903,0.10075,0.0912,0,0.000276823,0.09147,0.00955,0.00955,1.0946,0.34662,0.34662,0.19193,0.1458,0,0.24053,0.27549,0.30761,0.05746,0.05746,0.000818698,0.02453,0.24713,0.00571,0.45577,0,0.50075,1.61018,1.48043,0
+                        ],
+                        "vals.Predicted": [
+                            1,0.91007,0.90309,0.89219,1.78713,1.78713,0,0.07686,0.07686,0,0,0,0,0,1.13298,0.40887,0.40887,0,0,0,0.336,0.40444,0.4045,0,5.98036e-05,0,0,0.30266,0,0.70495,0,0.74458,1.76617,1.63054,0
+                        ],
+                        "units": "mmol/gDW/h"
+                    }
+                },
+                "tpiA": {
+                    "Reaction ID (iML1515)": [
+                        "GLCptspp", "PGI_f", "FBA_f", "TPI_f", "GAPD_f", "ENO_f", "PYK", "G6PDH2r_f", "GND", "RPE_f", "RPE_b", "RPI_f", "EDD", "EDA", "PDH", "CS", "ACONTb_f", "AKGDH", "SUCOAS_b", "SUCOAS_f", "SUCDi", "FUM_f", "MDH_f", "ICL", "MALS", "ME2", "ME1", "PPC", "PPCK", "ACKr_b", "ACKr_f", "EX_ac_e_f", "EX_co2_e_f", "EX_o2_e_b", "MGSA"
+                    ],
+                    "Flux rate": {
+                        "vals.Experimental": [
+                            1,0.81327,0.87262,0.01645,0.92308,0.8351,-0.08384,0.16529,0.15049,0.06364,0,0.08686,0.0148,0.0148,1.65879,0.81061,0.81061,0.46412,0.41922,0,0.74315,0.76489,1.0574,0.30075,0.30075,6.077e-06,0.00823,0.19909,0.32489,0.38655,0,0.41521,2.99743,2.90409,0.85617
+                        ],
+                        "vals.Predicted": [
+                            1,0,0.71544,0,1.06727,1.06727,0,1.18326,1.18326,0.72423,0,0,0,0,1.32582,0.85375,0.85375,0,0,0,0.76187,0.84817,1.22982,0.38158,0.38165,0,0,0,0,0.06635,0,0.11631,3.50542,3.33442,0.70169
+                        ],
+                        "units": "mmol/gDW/h"
+                    }
+                },
+                "zwf": {
+                    "Reaction ID (iML1515)": [
+                        "GLCptspp", "PGI_f", "FBA_f", "TPI_f", "GAPD_f", "ENO_f", "PYK", "G6PDH2r_f", "GND", "RPE_f", "RPE_b", "RPI_f", "EDD", "EDA", "PDH", "CS", "ACONTb_f", "AKGDH", "SUCOAS_b", "SUCOAS_f", "SUCDi", "FUM_f", "MDH_f", "ICL", "MALS", "ME2", "ME1", "PPC", "PPCK", "ACKr_b", "ACKr_f", "EX_ac_e_f", "EX_co2_e_f", "EX_o2_e_b", "MGSA"
+                    ],
+                    "Flux rate": {
+                        "vals.Experimental": [
+                            1,0.97584,0.91103,0.91103,1.77789,1.64455,0.30101,0.00246,9.99954e-13,0,0.05875,0.05875,0.00246,0.00246,1.14874,0.18516,0.18516,0.09612,0.05874,0,0.09264,0.12357,0.08102,9.97291e-13,9.97291e-13,0.00344,0.03911,0.29159,0.01075,0.74211,0,0.78261,1.33797,1.22552,0
+                        ],
+                        "vals.Predicted": [
+                            1,0.98635,0.95072,0.93933,1.86736,1.86736,0,0,0.03777,0,0.02834,0,0,0,1.18409,0.46919,0.46919,0,0,0,0.39307,0.46457,0.46463,0,6.24665e-05,0,0,0.31613,0,0.69489,0,0.73628,1.88719,1.74551,0
+                        ],
+                        "units": "mmol/gDW/h"
+                    }
+                }
+            }
+        },
+        "Sheet 17": {
+            "notes": [
+                "(Data shown in Fig S8) Comparison between turnover numbers from the in vitro curated data set (cf. Sheet 1) and a data set derived from a machine learning ensemble model published by Heckmann et al. (2018) (doi: 10.1038/s41467-018-07652-6)",
+                "kapp,max values were taken from Heckmann et al. 2018 (doi: 10.1038/s41467-018-07652-6) and base on a machine learning ensemble model",
+                "Reaction IDs were taken from the BIGG database (http://bigg.ucsd.edu/)",
+
+            ],
+            "data": {
+                "Reaction ID": [
+                    "ALATA_D2", "SHCHD2", "CPPPGO", "GTHOr_f", "DHORD5", "GLYCTO2", "GLYCTO3", "GLYCTO4", "PFK_3", "TRPS2", "G3PD5", "LEUTAi", "SHK3Dr_f", "G5SD", "ALATA_L2", "MAN6PI_f", "APRAUR", "DB4PS", "RBFK", "ACP1_FMN", "RBFSb", "DMATT", "GRTT", "UPP3S", "UPPDC1", "TMDPP_f", "HCO3E_f", "IMPC_f", "IMPD", "ECOAH4_f", "GLUTRS", "TMPPP", "URIK1", "URIK2", "CYTDK1", "CYTDK2", "XPPT", "HXPRT", "NDPK5_f", "DHORTS_f", "OMPDC", "CS", "ICDHyr_f", "ACALD_f", "ACS", "PPA", "PPCK", "ME1", "ALAR_f", "ALATA_L_f", "XYLK", "RBK", "GLYK", "PPM_f", "ASPTA_f", "FBP", "GLGC", "PYK", "A5PISO_f", "IPPMIb_f", "ACHBS", "ACLS", "PSCVT_f", "ANS", "ANPRT", "CHORM", "CHORS", "IGPS", "ECOAH6_f", "ENO_f", "FBA_f", "MGSA", "PPS", "PGI_f", "PGK_f", "EDA", "PGL", "RPE_f", "TALA_f", "TKT1_f", "G6PDA", "ALCD2x_f", "ALDD2y", "RMI_f", "FMNAT", "NADDP", "NMNAT", "HMPK1", "NDPK6_f", "NDPK8_f", "PYNP2r_f", "DURIPP_f", "PTRCTA", "CYSDS", "TRPAS2_f", "NDP3", "CDPPH", "NDP7", "PMDPHT", "ILETA_f", "VALTA_f", "ORPT_f", "RBFSa", "DHAD2", "G1PP", "PFL", "FRD2", "FRD3", "POX", "PTAr_f", "ACKr_f", "MOAT", "UDCPDPS", "USHD", "LPADSS", "TDSK", "NTPP1", "NTPP2", "NTPTP1", "NTPTP2", "IPMD", "AIRC3_f", "ADSL2r_f", "PUNP5_f", "PUNP6_f", "PUNP7_f", "RNDR1", "RNDR3", "RNDR4", "TMDS", "TMDK1", "PPCDC", "FTHFD", "EDD", "DHQTi", "PUNP1_f", "PUNP2_f", "PUNP3_f", "LYSAM_f", "DHAD1", "IPPMIa_f", "G3PD7", "NADH9", "NADH10", "MDH_f", "FUM_f", "PYDXNK", "PYAM5PO", "OHPBAT_f", "GLUTRR", "GLCS1", "GLCP", "HEMEOS", "ADMDC", "AGMT", "ARGDC", "ARGSS", "AGPR_f", "SPMS", "G1SAT_f", "KDOCT2", "OAADC", "MNNH", "ALTRH", "GUI1_f", "PGAMT_f", "UAGDP", "UAGCVT", "GLUR_f", "UAG2E_f", "MACPD", "DMQMT", "ICHORS_copy1", "HACD5_f", "HPPK2", "PTPATi", "HEX7", "DXPRIi", "OPHBDC", "OHPHM", "GHMT2r_f", "DHORD2", "ADK4_f", "INSK", "ABTA", "SSALx", "ASPT", "SERD_L", "THRD", "KARA1_f", "KARA2_f", "ACCOAC", "NADK", "ICHORS_copy2_f", "SUCBZS", "DHBD_f", "ICHORT", "RBK_L1", "RBP4E_f", "NTD2", "NTD4", "NTD5", "NTD6", "LGTHL", "PYDXPP", "PDXPP", "HACD6_f", "ECOAH1_f", "ECOAH2_f", "ECOAH3_f", "UGLT_f", "DXPS", "CDPMEK", "MECDPS", "DDGLK", "XYLI2_f", "PMANM_f", "ICL", "GLYCL", "HCYSMT", "UDPG4E_f", "LACZ", "TRE6PH", "XYLI1_f", "PPC", "G3PT", "CINNDO", "DHPPD", "DHCIND", "CITL", "GOFUCR", "PYDXK", "GTPCII2", "SADT2", "LCARS_f", "ALCD19_f", "RMPA_f", "SBTPD_f", "PFK_2", "GLTPD_f", "TGBPA_f", "MANAO_f", "TAGURr_f", "PGLYCP", "GLXCL", "TARTD", "GLCRAL", "KAS14", "EDTXS1", "EDTXS2", "EDTXS3", "EDTXS4", "NNDPR", "HACD4_f", "HACD7_f", "AACPS1", "SDPDS", "DMSOR1", "DKGLCNR2y", "2DGULRy", "RZ5PP", "NTD9", "NTD10", "ADPT", "ADK1_f", "OCTDPS", "AACPS2", "AACPS3", "AACPS4", "AMANK", "ACNML", "CAT", "SERASr_f", "DMSOR2", "ACMAMUT", "DDGALK", "AB6PGH", "AMALT1", "MLTP2_f", "PACCOAL", "GP4GH", "ACGAMT", "AADDGT", "GMHEPK", "TRE6PS", "UDCPDP", "TREH", "CYTK1_f", "CYTK2_f", "GK1_f", "HACD1_f", "HACD2_f", "ACACCT", "BUTCT", "2DGULRx", "G1PTT", "TDPGDH", "UDPGALM", "TDPDRE", "TDPDRR", "G3PD6", "ALLTN", "UAPGR", "NDPK7_f", "GLYAT_f", "ADNUC", "GMHEPPA", "S7PI", "TRPS3", "CRNBTCT_f", "CRNCBCT_f", "CRNCDH_f", "FADRx", "GTPDPK", "NDPK2_f", "NDPK3_f", "NDPK4_f", "FCLT", "HBZOPT", "PNTK", "DPCOAK", "HETZK", "KDOPS", "KDOPP", "AST", "SGDS", "CYNTAH", "GSPMDA", "GSPMDS", "GUAD", "TMAOR1", "TMAOR2", "DGK1_f", "DTMPK_f", "NDPK1_f", "TRDR", "PGMT_f", "FRUK", "RHCCE", "KG6PDC", "X5PL3E", "DOGULNR", "BETALDHx", "BETALDHy", "MLTG3", "DKGLCNR1", "NADTRHD", "FMNRx2", "ACPS1", "GMPS2", "AMPN", "GSNK", "ADCS", "ADCL", "DHAPT", "UMPK_f", "DDPGALA_f", "DURIK1", "UPPRT", "CTPS2", "NTD1", "NTD7", "PAPPT3", "UAGPT3", "F6PA_f", "AGMHE", "GMHEPAT", "IDOND_f", "IDOND2", "GLYCLTDx", "HPYRRy", "ACODA", "ADA", "DADA", "ADD", "ADSS", "AGDC", "ASNN", "ASNS2", "ASPCT", "DMPPS", "MCOATA_f", "IPDPS", "DAPE_f", "DHDPRy", "HSK", "SDPTA_f", "THRS", "HSST", "PPNDH", "DDPA", "NMNDA", "NNAM", "P5CD", "SPMDAT1", "SPMDAT2", "TDPADGAT", "MALS", "TRE6PP", "ADPRDP", "ARAI_f", "M1PD_f", "G3PD2_f", "GALS3", "FCI_f", "FCLK", "FCLPA_f", "ACCOAL", "GALUi", "U23GAAT", "UAAGDS", "UAMAS", "UAMAGS", "UGLYCH", "OP4ENH", "HOPNTAL", "3HPPPNH", "AKGDH", "HPYRRx", "GLYCDx", "ASP1DC", "UGMDDS", "UHGADA", "UAGAAT_f", "ATPPRT", "HISTD", "IGPDH", "PRPPS_f", "PRATPP", "PRMICI_f", "SERAT_f", "CYSS", "BPNT", "PAPSR", "ASPK_f", "ASAD_f", "DAPDC", "METAT", "ASCBPL", "ACBIPGT", "ADOCBLS", "ADOCBIK", "TMPK", "HPPPNDO", "DHCINDO", "HKNDDH", "HKNTDH", "GLYCK2", "ENTCS", "SULR", "MANPGH", "URDGLYCD", "CBMKr_f", "AMANAPEr_f", "ACM6PH", "NNATr_f", "CYTDH", "PSERT", "AIRC2", "GAPD_f", "HEX1", "GND", "TAUDO", "ME2", "ARGSL_f", "CBPS", "GLU5K", "IPPS", "ACOATA_f", "MLTG2", "MLTG1", "AMALT3", "MLTP3_f", "SPODM", "AHCYSNS", "TMK", "NTPP4", "NTPP3", "NTPP6", "NTPP7", "NTPP8", "P5CR", "CYANST", "DHPPDA2", "GMAND", "PPCSCT", "CYTD", "DCYTD", "DBTS", "DCTPD", "DHDPS", "G1PACT", "GART", "CSND", "GF6PTA", "GLUCYS", "GLUN", "GLUPRT", "GMPR", "NADS1", "NTRIR2x", "OCBT_f", "GARFT_f", "GPDDA1", "GPDDA2", "PHETA1_f", "PPND", "TRPS1", "PRAMPC", "MCITL2_f", "DXYLK", "MDH3", "SOTA", "SGSAD", "PTA2", "MDH2", "ACOTA_f", "GPDDA5", "PDX5PS", "PPBNGS", "PPNCL2", "PRAGSr_f", "PRFGS", "ETHAAL", "MAN1PT2", "AP4AH", "AP5AH", "ADNCYC", "MI1PP", "MCITS", "PPAKr_f", "NTP3", "PPM2_f", "MOAT2", "G6PDH2r_f", "NADH5", "MOHMT", "GMPS", "UDPGD", "GLCRD", "PPPNDO", "CHRPL", "TDPAGTA", "UACMAMO", "FBA3_f", "PMPK", "LCADi", "ADK3_f", "GLUDC", "BSORy", "ADSK", "HSDy_f", "CYSTL", "SHSL1", "SSALy", "3HCINNMH", "BSORx", "FACOAL160t2pp", "FACOAL180t2pp", "SPODMpp", "NO3R1bpp", "PHYTSpp", "PPTHpp", "NO3R2pp", "NTP3pp", "NO3R2bpp", "THD2pp", "TMAOR1pp", "TMAOR2pp", "ACACT7r_f", "PSP_L", "ACACT2r_f", "ACACT3r_f", "ACACT4r_f", "AHGDx_f", "GTPCI", "FDMO", "CHOLD", "DRPA", "TKT2_f", "DMSOR1pp", "NTD8pp", "TREHpp", "CYTBDpp", "CYTBD2pp", "ATPS4rpp_f", "ECOAH8_f", "GLCDpp", "HYD2pp", "ECOAH5_f", "DHFS", "ACGAMK", "METS", "PRASCSi", "TRSARr_f", "LYXI", "URIH", "XTSNH", "INSH", "PPK2", "MTHFR2", "ASPO3", "ASPO5", "ASPO4", "ASPO6", "ACACT5r_f", "MALDDH", "DHPS2", "MTHFC_f", "MTHFD_f", "QULNS", "ALKP", "L_LACD3", "L_LACD2", "ACACT6r_f", "GLCTR1", "LIPAabcpp", "LIPACabcpp", "GGGABADr_f", "GLYOX3", "FDMO3", "FDMO4", "O16GLCT1", "O16AP2pp", "O16AP3pp", "O16A4Lpp", "MALTATr_f", "ENTERES", "LADGMDH", "ALAGLUE_f", "GGGABAH", "FRULYSK", "FDMO6", "CYANSTpp", "MCPST", "ECAP1pp", "UDCPDPpp", "ECAP2pp", "ECA4OALpp", "FE3Ri", "NODOy", "GALM2pp", "GLCTR3", "HEPT4", "LA4NTpp", "NODOx", "NHFRBO", "42A12BOOXpp", "TYROXDApp", "NTRIR4pp", "NTRIR3pp", "AGM3PA", "ACANTHAT", "METSOXR1", "METSOXR2", "DAPAL", "AMPTASECG", "LACZpp", "GPDDA1pp", "GPDDA5pp", "FLVR", "FDMO2", "LALGP", "AGM4PApp", "AGM4PA", "RNDR3b", "RNDR4b", "UDPGALPpp", "UACGAMPpp", "UACGALPpp", "UGLCURPpp", "FEROpp", "AM4PCP", "AM3PA", "UM4PCP", "CBLAT_f", "TDP", "3PEPTabcpp", "4PEPTabcpp", "AGM3Pt2pp", "AGM4Pt2pp", "AGMt2pp", "FEOXAMR1", "FEOXAMR2", "FEOXAMR3", "PTHRpp", "ARABDI_f", "R5PPpp", "PSP_Lpp", "TYRPpp", "PAPSR2", "GRXR", "RNDR1b", "RNDR2b", "FACOAE181", "FACOAE160", "FACOAE140", "AAMYL", "AAMYLpp", "FACOAL80t2pp", "PPGPPDP", "23PDE2pp", "23PDE4pp", "23PDE9pp", "SARCOX", "MN6PP", "3KGK", "F6PP", "GDPMNH", "FACOAL60t2pp", "GDPDPK", "R15BPK", "GGPTRCS", "FRULYSDG_f", "ASNNpp", "GLUNpp", "NTD12", "DNTPPA", "NTPP9", "NTPP10", "NTPP11", "NTD10pp", "NTD1pp", "NTD2pp", "NTD3pp", "NTD4pp", "NTD5pp", "NTD6pp", "NTD7pp", "NTD9pp", "PEAMNOpp", "GAL1PPpp", "ARGDCpp", "ALLPI_f", "ALLK", "ALLULPE_f", "FACOAL100t2pp", "GPDDA3pp", "GPDDA4pp", "GPDDA2pp", "FACOAL120t2pp", "FACOAL140t2pp", "HCYSMT2", "ACGK", "DHPTPE_f", "NADPHQR2", "NADPHQR3", "NADPHQR4", "GLBRAN2", "ASR", "ECAtpp", "O16AT", "O16GALFT", "O16AUNDtpp", "O16AP1pp", "AGM4PCP", "4PCP", "4PCPpp", "FALDH2_f", "CBIAT_f", "PPDOy", "NTD12pp", "PPA2", "3NTD7pp", "3NTD4pp", "3NTD2pp", "3NTD9pp", "23PDE7pp", "HSTPT", "THDPS", "ACONMT", "GNK", "HMBS", "RMK", "FHL", "MEPCT", "GLUDy_f", "GLYCLTDy", "LYSDC", "DAAD", "NTPP5", "NTD3", "GLYOX", "MTRPOX", "AGM4PCPpp", "GTPDPDP", "RNDR2", "XAND", "HACD3_f", "NNDMBRT", "THRA2", "PPK", "ABUTD", "E4PD_f", "IG3PS", "DADK_f", "DUTPDP", "NTP5", "MTAN", "DPR", "THRD_L", "NAMNPP", "SELNPS", "CRNCAR_f", "ANHMK", "DHFR_f", "PRAIi", "TYRTA_f", "SHKK", "SADH", "GLUSy", "GUAPRT", "PDH", "DMSOR2pp", "HYD3pp", "NO3R1pp", "AACPS5", "NTD8", "GALCTD", "MLTG4", "UDPGDC", "PUNP4_f", "AMAOTr_f", "NTD11pp", "DKGLCNR2x", "ACGS", "PDE1", "MCITD", "GLCATr_f", "ALAALAr_f", "ACACT1r_f", "G2PPpp", "AGM3PApp", "SUCOAS_f", "NTP1", "GALKr_f", "PANTS", "YUMPS_f", "DHQS", "PGCD", "ADSL1r_f", "SERD_D", "AICART_f", "PFK", "PGM_f", "TPI_f", "RPI_f", "PERD_f", "PYDAMK", "FADRx2", "PDE4", "AGM4PH", "AM4PA", "ATHRDHr_f", "LSERDHr_f", "DSERDHr_f", "OBTFL", "G6PP", "MMCD", "GLNS", "GTHS", "UDPKAAT_f", "ULA4NFT", "UPLA4FNT", "UPLA4FNF", "ULA4Ntppi", "HEPT1", "ALR2", "AMALT2", "MLTP1_f", "HEPT2", "HXAND", "MOAT3C", "RHAT1", "GALT1", "GLCTR2", "UDPGPpp", "PPPGO", "ADNK1", "HEPK1", "HEPT3", "HEPK2", "ALDD3y", "R5PP", "CYSSADS", "CPPPGO2", "AGM3PH", "LDH_D2", "SHCHF", "SUCBZL", "CYSDDS", "NTP10", "PRAIS", "GDMANE", "GPDDA4", "LPLIPAL2E140", "LPLIPAL2E180", "LPLIPAL2G161", "LPLIPAL2G181", "AACPS6", "AACPS7", "QMO2", "QMO3", "LPLIPAL2E141", "LPLIPAL2E161", "LPLIPAL2E181", "LPLIPAL2G180", "LPLIPAL2G141", "IPDDI_f", "2AGPGAT180", "2AGPGAT181", "LPLIPAL2ATG120", "PLIPA1E140pp", "PLIPA1E160pp", "PLIPA1E161pp", "AACPS8", "AACPS9", "HXCT", "2AGPEAT160", "DURADx_f", "ECOAH7_f", "G1PPpp", "GALCTND", "GCALDD", "HISTP", "LDH_D_f", "AMALT4", "NTD11", "ORNDC", "UPP3MT", "KAS15", "FACOAL181t2pp", "T2DECAI_f", "3OAS161", "EAR141y", "EAR161x", "DASYN160", "DASYN161", "DASYN181", "CDAPPA161", "PGSA180", "PSSA140", "2AGPGAT141", "FACOAE180", "FACOAE100", "FACOAE80", "FACOAE60", "PLIPA1E120pp", "3OAS141", "3OAR121", "CFAS160G", "FACOAE141", "FACOAE161", "ALAALAD", "2AGPEAT180", "2AGPEAT181", "2AGPGAT140", "PLIPA1E181pp", "PLIPA1G180pp", "PLIPA1G181pp", "2AGPGAT161", "AMPTASEPG", "2AGPEAT140", "2AGPEAT120", "2AGPEAT161", "2AGPEAT141", "2AGPGAT160", "LPLIPAL2ATG140", "LPLIPAL2ATG141", "LPLIPAL2ATG160", "LPLIPAL2ATG180", "LPLIPAL2ATG161", "LPLIPAL2ATG181", "CLPNS180pp_f", "CLPNS181pp_f", "PLIPA1G120pp", "CLPNS120pp_f", "ALPATE160pp", "ALPATG160pp", "2AGPGAT120", "LPLIPAL2ATE120", "LPLIPAL2ATE140", "LPLIPAL2ATE160", "LPLIPAL2ATE180", "LPLIPAL2ATE141", "LPLIPAL2ATE161", "LPLIPAL2ATE181", "FACOAL141t2pp", "FACOAL161t2pp", "PGPP140pp", "PGPP141pp", "PGPP160pp", "PGPP180pp", "PLIPA1E180pp", "PLIPA1G140pp", "PLIPA1G161pp", "CLPNS160pp_f", "CLPNS161pp_f", "PAPA120pp", "PAPA140pp", "PAPA141pp", "PAPA160pp", "PAPA161pp", "PAPA180pp", "HPYRI_f", "TPRDCOAS", "FLVRx", "GGPTRCO", "HYD1pp", "ECAP3pp", "FMNRx", "DHBS", "MDDCP1pp", "GUI2_f", "OMBZLM", "GLYCK", "MLTG5", "GPDDA3", "2DOXG6PP", "AGMH", "MPTG", "MPTG2", "MCTP1App", "MCTP2App", "MCTP1Bpp", "SFGTHi", "DSBCGT", "DSBGGT", "DHNAOT4", "AMPMS2", "THIORDXi", "PPPGO3", "PDX5POi", "PLIPA1A181pp", "LPLIPAL2A141", "CYTBO3_4pp", "EAR141x", "EAR181x", "EAR181y", "G3PAT141", "G3PAT181", "DASYN140", "DASYN180", "DASYN141", "CDAPPA160", "CDAPPA141", "PGSA141", "5DOAN", "FACOAE120", "3OAR120_f", "3HAD80", "3HAD120", "EAR180x", "EAR180y", "AGPAT120", "PGPP120", "DAGK120", "PSSA180", "PSSA161", "PSSA141", "PSD160", "PSD161", "PSD180", "COLIPAabcpp", "PLIPA2A140pp", "PLIPA2A141pp", "PLIPA2A180pp", "CU1Opp", "SUCDi", "LPLIPAL1E141pp", "LALDO2x", "LPLIPAL1E160pp", "LPLIPAL1E180pp", "LPLIPAL1E181pp", "LPLIPAL1G160pp", "LPLIPAL1G161pp", "LPLIPAL1G120pp", "PLIPA2E140pp", "PLIPA2E160pp", "PLIPA2A161pp", "PLIPA2A181pp", "ALR4x", "LPLIPAL1G141pp", "LPLIPAL1G180pp", "LPLIPAL1G181pp", "ACONTb_f", "GLCP2", "PLIPA2E141pp", "PLIPA2E181pp", "PLIPA2G140pp", "3HAD161", "PLIPA2G160pp", "PLIPA2G181pp", "ASNS1", "EAR80y", "EAR120y", "3OAR181", "3HAD121", "EAR121y", "GTHRDHpp", "MDDCP2pp", "MDDCP3pp", "EAR140x", "EAR40y", "3OAS181", "EAR161y", "G3PAT140", "G3PAT160", "G3PAT161", "AGPAT160", "CDAPPA140", "MLDCP1App", "EAR160y", "EAR100y", "3OAR141", "3OAR161", "3HAD141", "EAR121x", "PSD140", "MICITDr_f", "CDAPPA181", "PGSA140", "LPLIPAL1A141pp", "LPLIPAL1A180pp", "LPLIPAL1E140pp", "LPLIPAL1E161pp", "LPLIPAL1G140pp", "ACONTa_f", "MLDCP2App", "PGPP120pp", "PGPP181pp", "PGSA181", "PGPP140", "PGPP141", "MDDCP5pp", "MLTGY3pp", "G3PAT180", "AGPAT140", "PGSA160", "MLDCP2Bpp", "3OAS140", "3OAR140_f", "3OAR160_f", "PGSA161", "3HAD181", "PGPP160", "PGPP180", "PGPP161", "PGPP181", "CDAPPA180", "NTP12", "PSD141", "PAPA181pp", "MDDCP4pp", "CLPNS140pp_f", "CLPNS141pp_f", "CFAS160E", "CFAS180E", "CFAS180G", "PAPA160", "PAPA180", "PAPA181", "PETNT161pp", "PSSA160", "PSSA181", "DAGK140", "DAGK160", "DAGK141", "DAGK161", "AGPAT181", "MDDEP3pp", "MDDEP4pp", "MLTGY1pp", "3HAD40", "PLIPA1E141pp", "3OAS60", "3OAS160", "3OAR60_f", "3OAR80_f", "MLDCP3App", "MLDCP1Bpp", "PLIPA1G160pp", "PLIPA1G141pp", "LPLIPAL2E160", "LPLIPAL2G140", "LPLIPAL2G160", "LPLIPAL2G120", "PGPP161pp", "PAPA140", "PAPA141", "PAPA161", "DSBAO1", "DSBAO2", "DSBDR", "PLIPA2A120pp", "PLIPA2A160pp", "LPLIPAL2E120", "EAR100x", "EAR120x", "EAR160x", "EAR140y", "3OAS121", "3OAS80", "3OAS100", "3OAS120", "3OAR40_f", "3OAR100_f", "3HAD60", "3HAD100", "3HAD140", "3HAD160", "AGPAT180", "AGPAT141", "AGPAT161", "DASYN120", "EAR40x", "EAR60y", "MLDEP1pp", "MLDEP2pp", "MLTGY2pp", "MLTGY4pp", "EAR60x", "EAR80x", "NTP11", "3OAS180", "3HAD180", "CDAPPA120", "PSSA120", "PSD120", "PAPA120", "MDDEP1pp", "MDDEP2pp", "PSD181", "DAGK180", "DAGK181", "PLIPA2E120pp", "PLIPA2G141pp", "PLIPA2G161pp", "LPLIPAL1A120pp", "LPLIPAL1A140pp", "LPLIPAL1A181pp", "LPLIPAL1E120pp", "3OAR180_f", "G3PAT120", "PGSA120", "NADHPO", "ACOAD7f_f", "ACOAD8f_f", "ACOAD5f_f", "ACOAD3f_f", "ACOAD2f_f", "ACOAD4f_f", "ACOAD6f_f", "NADH16pp", "NADH18pp", "CTBTCAL2", "BGLA1", "GDPMNP", "AMMQLT8", "FA120ACPHi", "FA80ACPHi", "FA140ACPHi", "FA100ACPHi", "CRNDCAL2", "CRNCAL2", "FRULYSE_f", "OXCDC", "LPLIPAL2A140", "LPLIPAL2A160", "LPLIPAL2A161", "LPLIPAL2A180", "LPLIPAL2A181", "UM3PL", "UM4PL", "2MAHMP", "PLIPA1A120pp", "PLIPA1A140pp", "PLIPA1A141pp", "PLIPA1A160pp", "PLIPA1A161pp", "PLIPA1A180pp", "LPLIPAL2A120", "KDUI", "NADH17pp", "FA161ACPHi", "FA141ACPHi", "FA160ACPHi", "DTARTD", "PLIPA2E161pp", "PLIPA2E180pp", "PLIPA2G120pp", "PLIPA2G180pp", "LPLIPAL1A161pp", "LPLIPAL1A160pp", "GALCTLO", "THRA", "XYLK2", "GLDBRAN2", "POR5_f", "HACD8_f", "CTECOAI8_f", "CTECOAI6_f", "MALCOAMT", "OGMEACPS", "OGMEACPR", "OPMEACPS", "DGUNC", "CDGUNPD", "LDGUNPD", "MPTAT", "MOADSUx", "REPHACCOAI_f", "ACPPAT141", "ACPPAT161", "ACPPAT180", "APG3PAT160", "APG3PAT161", "APG3PAT180", "ICYSDS", "I4FE4SR", "S2FE2ST", "BMOCOS", "BWCOS", "BWCOGDS1", "BWCOGDS2", "DHNPTE_f", "DHMPTR", "I2FE2SS", "I2FE2ST", "I2FE2SS2", "I4FE4ST", "S4FE4ST", "S2FE2SS2", "BTS5", "3AMACHYD", "CCGS", "CDGR", "MSAR", "ACPPAT120", "CPH4S", "SHCHCS3", "URACPAH", "POAACR", "ACPPAT160", "ACPPAT181", "APH141", "APH161", "APH180", "APH181", "GTHPi", "SEPHCHCS", "DHNCOAS", "DHNCOAT", "I2FE2SR", "TYRL", "THZPSN3", "APG3PAT120", "APH120", "MOCDS", "FORCT_f", "PACCOAE", "OXDHCOAT", "HADPCOADH3_f", "PYROX", "BMOGDS1", "MPTS", "MOCOS", "BMOGDS2", "S2FE2SR", "ACACT8r_f", "CTECOAI7_f", "FDH4pp", "FDH5pp", "ACPPAT140", "APG3PAT140", "APG3PAT141", "APG3PAT181", "APH140", "APH160", "OPMEACPD", "EPMEACPR", "AOXSr2", "SCYSDS", "S2FE2SS", "S4FE4SR", "SELR", "OGMEACPD", "EGMEACPR", "OPMEACPR", "PMEACPE", "MECDPDH5", "RNTR1c2", "RNTR2c2", "RNTR3c2", "RNTR4c2", "FLDR2", "FESR", "OXCOAHDH", "DHACOAH_f", "THFAT", "FOMETRi", "GDPTPDP", "COLIPAKpp", "MPTSS", "CPMPS", "LIPOCT", "LIPOS", "OCTNLL", "LIPATPT", "LIPAMPL", "ALDD19xr_f", "MMM", "MOGDS", "WCOS", "VPAMTr_f", "3OXCOAT", "2DGULRGx", "2DGULRGy", "AP4AS", "13PPDH2_f", "APCS", "GHBDHx_f", "APPLDHr_f", "G2PP", "DHNPA2r_f", "SHGO", "NADHXD", "NADPHHR", "NADPHHS", "NADHHS", "NADHXE_f", "PYK2", "PYK3", "PYK4", "NADPHXD", "NADHHR", "NADPHXE_f", "FE3DHBZS3R", "DXYLTD_f", "2DDARAA_f", "GNP", "ALLTAMH2", "UGCIAMH", "METGLCUR", "ACOAD1fr", "FEENTERES", "FEENTERR4", "ALR2x", "OMPHHXy", "SQVOSI", "6D6SPA", "AI2K", "ACOXT_f", "2HESR", "CHOLID", "4ABZGLUH_f", "PHDA", "TEO2M", "PACOAT", "DHPTDNR", "DHPTDNRN", "PCNO_f", "HPACOAT", "DC6PDA", "5DGLCNR", "5DKGR_f", "PYK6", "PAI2I", "CURR", "LKDRA_f", "METNA_f", "XYHDL", "E4PP", "PUACGAMS_f", "RU5PP", "6D6SFK", "3SLAR", "ARHGDx_f", "CPL", "INOSTO_f", "HPYRP", "PSURIK", "QUINDHyi", "PNSPA", "4HTHRK", "PETNT181pp", "ARMEPNS", "RPNTPH", "PRCPD", "UDPGPT_f", "OMMBLHXy", "OPHHXy", "PROD3", "F1PP", "ACP1p", "3HPADHi", "2HPTCOAT", "MC6PH", "CYSTA", "FE3DCITR5", "4HTHRA_f", "GAPP", "PAI2T", "DHCURR", "RHMND_f", "3HBZCT", "CXSAMS", "ACOAD1f", "AMPNTAT", "SQGH", "QUINDH", "LCARSyi", "GTHOr_b", "SHK3Dr_b", "MAN6PI_b", "TMDPP_b", "HCO3E_b", "IMPC_b", "ECOAH4_b", "NDPK5_b", "DHORTS_b", "ICDHyr_b", "ACALD_b", "ALAR_b", "ALATA_L_b", "PPM_b", "ASPTA_b", "A5PISO_b", "IPPMIb_b", "PSCVT_b", "ECOAH6_b", "ENO_b", "FBA_b", "PGI_b", "PGK_b", "RPE_b", "TALA_b", "TKT1_b", "ALCD2x_b", "RMI_b", "NDPK6_b", "NDPK8_b", "PYNP2r_b", "DURIPP_b", "TRPAS2_b", "ILETA_b", "VALTA_b", "ORPT_b", "PTAr_b", "ACKr_b", "AIRC3_b", "ADSL2r_b", "PUNP5_b", "PUNP6_b", "PUNP7_b", "PUNP1_b", "PUNP2_b", "PUNP3_b", "LYSAM_b", "IPPMIa_b", "MDH_b", "FUM_b", "OHPBAT_b", "AGPR_b", "G1SAT_b", "GUI1_b", "PGAMT_b", "GLUR_b", "UAG2E_b", "HACD5_b", "GHMT2r_b", "ADK4_b", "KARA1_b", "KARA2_b", "ICHORS_copy2_b", "DHBD_b", "RBP4E_b", "HACD6_b", "ECOAH1_b", "ECOAH2_b", "ECOAH3_b", "UGLT_b", "XYLI2_b", "PMANM_b", "UDPG4E_b", "XYLI1_b", "LCARS_b", "ALCD19_b", "RMPA_b", "SBTPD_b", "GLTPD_b", "TGBPA_b", "MANAO_b", "TAGURr_b", "HACD4_b", "HACD7_b", "ADK1_b", "SERASr_b", "MLTP2_b", "CYTK1_b", "CYTK2_b", "GK1_b", "HACD1_b", "HACD2_b", "NDPK7_b", "GLYAT_b", "CRNBTCT_b", "CRNCBCT_b", "CRNCDH_b", "NDPK2_b", "NDPK3_b", "NDPK4_b", "DGK1_b", "DTMPK_b", "NDPK1_b", "PGMT_b", "UMPK_b", "DDPGALA_b", "F6PA_b", "IDOND_b", "MCOATA_b", "DAPE_b", "SDPTA_b", "ARAI_b", "M1PD_b", "G3PD2_b", "FCI_b", "FCLPA_b", "UAGAAT_b", "PRPPS_b", "PRMICI_b", "SERAT_b", "ASPK_b", "ASAD_b", "CBMKr_b", "AMANAPEr_b", "NNATr_b", "GAPD_b", "ARGSL_b", "ACOATA_b", "MLTP3_b", "OCBT_b", "GARFT_b", "PHETA1_b", "MCITL2_b", "ACOTA_b", "PRAGSr_b", "PPAKr_b", "PPM2_b", "G6PDH2r_b", "FBA3_b", "ADK3_b", "HSDy_b", "ACACT7r_b", "ACACT2r_b", "ACACT3r_b", "ACACT4r_b", "AHGDx_b", "TKT2_b", "ATPS4rpp_b", "ECOAH8_b", "ECOAH5_b", "TRSARr_b", "ACACT5r_b", "MTHFC_b", "MTHFD_b", "ACACT6r_b", "GGGABADr_b", "MALTATr_b", "ALAGLUE_b", "CBLAT_b", "ARABDI_b", "FRULYSDG_b", "ALLPI_b", "ALLULPE_b", "DHPTPE_b", "FALDH2_b", "CBIAT_b", "GLUDy_b", "HACD3_b", "E4PD_b", "DADK_b", "CRNCAR_b", "DHFR_b", "TYRTA_b", "PUNP4_b", "AMAOTr_b", "GLCATr_b", "ALAALAr_b", "ACACT1r_b", "SUCOAS_b", "GALKr_b", "YUMPS_b", "ADSL1r_b", "AICART_b", "PGM_b", "TPI_b", "RPI_b", "PERD_b", "ATHRDHr_b", "LSERDHr_b", "DSERDHr_b", "UDPKAAT_b", "MLTP1_b", "IPDDI_b", "DURADx_b", "ECOAH7_b", "LDH_D_b", "T2DECAI_b", "CLPNS180pp_b", "CLPNS181pp_b", "CLPNS120pp_b", "CLPNS160pp_b", "CLPNS161pp_b", "HPYRI_b", "GUI2_b", "3OAR120_b", "ACONTb_b", "MICITDr_b", "ACONTa_b", "3OAR140_b", "3OAR160_b", "CLPNS140pp_b", "CLPNS141pp_b", "3OAR60_b", "3OAR80_b", "3OAR40_b", "3OAR100_b", "3OAR180_b", "ACOAD7f_b", "ACOAD8f_b", "ACOAD5f_b", "ACOAD3f_b", "ACOAD2f_b", "ACOAD4f_b", "ACOAD6f_b", "FRULYSE_b", "POR5_b", "HACD8_b", "CTECOAI8_b", "CTECOAI6_b", "REPHACCOAI_b", "DHNPTE_b", "FORCT_b", "HADPCOADH3_b", "ACACT8r_b", "CTECOAI7_b", "DHACOAH_b", "ALDD19xr_b", "VPAMTr_b", "13PPDH2_b", "GHBDHx_b", "APPLDHr_b", "DHNPA2r_b", "NADHXE_b", "NADPHXE_b", "DXYLTD_b", "2DDARAA_b", "ACOXT_b", "4ABZGLUH_b", "PCNO_b", "5DKGR_b", "LKDRA_b", "METNA_b", "PUACGAMS_b", "ARHGDx_b", "INOSTO_b", "UDPGPT_b", "4HTHRA_b", "RHMND_b"
+                ],
+                "Turnover number (kcat) in vitro curated": {
+                    "vals": [
+                        6.8625,0.45,0.003,733.3,82,15.7,15.7,15.7,31.0185,3.695,33.3,15.655,236.745,176.8525,6.8625,1.38,7.3275,2.84828,3.71667,0.59,0.267,0.49,0.345,500,0.317,130,5105.10714,8.6,13,380.5,2.2,16.08025,0.0041,0.0041,0.0041,0.0041,131,83.4,571.5,1.71,42,51,11.1,15.7,66.6,390,38,134.4,27.6,17.1,3308.46,9.16667,4900,173,404,19.3,370,135.5,10.5,10,33,38.94,24.62859,383,4.4,233450,29,9.3,380.5,141.4,10.8,220,0.33,923.75,1480,149.93,570.2,873.3,13,4.24375,72.93333,352.2,53.5,224,370,19.3,0.90458,0.25417,571.5,571.5,150,39.965,278,25.35,5.4,660.35539,700,80.9,1.465,48,19,1.95,0.04096,11.5,117,770,250,250,167,120,908,2.86667,2.1762,90.13177,18.3185,2.4,2.55,2.55,4000,4000,69,15.6,7,6200,44.93,44.93,8.115,8.115,8.115,3.11,2,2.9,111.86944,368.4865,215,44.93,44.93,44.93,0.083,11.5,368.4865,33.3,8.9,8.9,138.5,60,0.3,14.86,2.49,0.15,284,47,2.07654,0.088,0.032,2.29667,4.21208,30.56379,0.14,0.51,12.5,11,0.81,368.4865,196,0.52,68.41429,4.63333,43.33,3.625,0.05165,0.05247,0.35,229,0.17,4.7,14.3,32.25,75.042,0.05247,12.285,82,842,14.80483,47.4,45.8,180,436,135,0.028,3.8,30.1,90,0.35,52,25.3,10,40.42,15.825,1.2,202,0.195,0.22,1088,1.52,1.25,229,15,380.5,380.5,628.8,2.6,14.80483,2.7,11,4.54,134.9,5.2,135.5,0.38,0.52,6300,72.26175,47,540,9.84,4.5,0.45,0.45,298.35,0.75,2.15,0.064,17.026,213.43394,153,38.3,76.08847,31.0185,76.08847,5.38,76.08847,76.08847,94,18.9,368.4865,27.3,0.05165,131,46.80901,46.80901,46.80901,0.13,229,229,21.94,140,79.9,6.725,6.725,749.81369,11,9.84,9.33,860.5,2,21.94,21.94,21.94,14.80483,6.75,2162.5,370,79.9,18.3185,14.80483,2,0.157,47,40,250,1.2,18.3185,192.40242,5.2,9,199,68.68233,108.5,209,229,229,290,290,60503.775,12.008,4.9,8.72,39,29,33.3,310.85,9.5,571.5,27.07633,0.5827,35.7,0.44,1.49325,76.1108,76.1108,368.4865,36.35,127,571.5,571.5,571.5,0.013,0.002,1.07,0.0387,14.80483,6.1,1.14,0.37325,111.86944,46000,2.1,4.2,2.7,1203,1203,510,3,458.5,0.25,126.8,14.80483,0.4,54.25,9201.8125,213.43394,49.465,60.384,845,8.315,167.9,263.20833,1,0.43,60.66667,14.80483,0.67,0.82,2.8,229,0.94,2,0.65,3.851,5.2,750,5.315,0.64,25.7,9201.8125,370,213.43394,7.3275,27.275,29.73333,2700,11.5,1.42,141.2,1.59,95.875,24,0.82,417,3.7,9.1,3.7,128,5.35,18.3,17.13667,5.42,25.7,48015.625,122,4.1,11.65,5.16,8.7,8.7,32.4876,48.1,14.45,11.6,23.65,9.55,113.1567,7.3875,0.0287,14.80483,19,51.46667,23.876,23,1.3,16.61667,19.6,0.018,60.5,5.6,117.00902,1.2,29.73333,2.71,0.57,19.6,1.5,9.16667,2.7,1.13617,1000,0.66,90.13177,14.3,40.1,24,11.4,3.5,28.05,249.6225,4.45,1.5,6.04,0.058,0.67,0.191,0.063,29,29,2,2,62.68986,1,189.36111,72.26175,59.725,319,9201.8125,5.7,5.5,11.6,1.54,5.9,70,110.075,98,3.3,66.6,1359.545,3.65333,908,330,3.765,845,26.6,1.3,47,22300,2.1,14.80483,25.8,14.3,8.6095,90.13177,95,148.33333,230,38.69725,5,70.9,4.8,3.5,0.64,1.24,36.2,840.5,16.78548,165,15.81,33.31667,487.46667,58.2,0.28,0.2,845,88.1,13.5,3.2,1.1,109.555,27.36,2.1925,3.345,19,0.5,138.5,3,69,1500,138.5,4.7,3.2,1.4,16.1,0.88,7,2.5,605,22.1,250,250,1.67,2.445,8.25,120,1.1515,173,2.86667,174,8.9,0.781,6.9,21.93333,35,4.5,0.82,0.38,0.4,0.003,0.07,761.5,842,42.055,25.34182,50,7.0125,45.3,84.51429,22.6,117.00902,93.55648,0.029,0.029,22300,94.286,6931,33,68,250.5,94.286,40.88335,145.25,145.25,1.4,0.15,1.4,1.4,1.4,110.6,0.039,0.86,0.08,68,22.9,40.2,4.12,199,320.5,320.5,79,7.5465,3860,1500,380.5,1.7,21.6875,8.33,19.6,243,73.8,5.05,6.3,2.198,23.6,32.7,0.267,0.267,0.267,0.267,1.4,76.08847,0.109,134,10,16.08025,749.81369,53.84735,53.84735,1.4,4.35755,95.19583,95.19583,3.71,1.43,0.86,0.86,22,18.3185,18.3185,18.3185,32.4876,3.0206,22,17,111.86944,14.80483,0.86,230,12.5,18.3185,9,18.3185,18.3185,17.37,670,12000,4.35755,18.3185,24.05306,360,316.15,86.03333,2.775,700,700,25,32.4876,0.048,3.455,24.6,38.75333,11.7,3.2,3.2,263.20833,0.86,0.7,25,25,8.115,8.115,405,405,405,207.42,3.91,160,25,160,0.05,90.13177,22,22,22,22,22,22,22,22,67,0.1823,67,37.55,62.4,3.5,22,8.115,8.115,39.26175,3.7,6.2,132,132,0.029,2.985,7.63,7.63,1.97,25.025,0.012,14.80483,2.817,151,0.029,73,23.6,5.94,105.2504,24,0.33,0.24,11.6,911.7,152.4,1009,171.94667,171.94667,1.2,0.23,202,0.195,0.3,577.5,11,12.4,0.0348,2.29667,2100,14.80483,9201.8125,0.029,2.8,3.3,1.1,0.029,0.029,0.38,38.25,933.676,22,22,22,0.15,0.3,22,32.4876,3.23667,22,18.3185,160,160,160,11.75,0.03,38.1,0.24,3.46,9.84,5.93,16.82333,16.82333,7.63,426,1.1,0.05247,9.4,0.25,14.80483,112.5575,51.25,37.3,24.55,30,0.74,4.59,0.23,780,18.9,160,0.023,8.115,69,229,1.6,3.55,23.6,7.7,20,138,879,58.3,449.17,4,12.56,5.2,0.158,0.25,368.4865,7000,21.75,36,153.85,35,3.2,4.35,112,66.45,40.2,1500,68,21.94,2.16,22,845,0.3025,44.93,0.283,104,60503.775,200,0.000945,368.4865,32.4876,14.7,1.4,1831,25,26.21,8.6095,63.62,1.4,0.00833,16,13.5,5.8,118,13.5,79.8,14,327,1076,1.4,0.55,247.03571,0.000363333,185.2,25,5.76,4.2,3.5,4.065,2.49,1.71,50,6.752,339.905,13.5,24.05306,111.86944,22,79.47949,45.92333,1.3,47,79.47949,30,2.86667,18.3185,4.35755,4.35755,71,0.292,879,14.80483,79.47949,14.80483,45.1,9.84,3.3,900,185.2,3011,0.034,2.62,72,226.6424,1.08,0.75,3.3,1016,1016,1016,1016,21.94,21.94,69.50714,69.50714,1016,1016,1016,1016,1016,4.80625,0.016,0.016,1016,2.48,1.1,2.48,21.94,21.94,290,46.80901,0.65,380.5,117,1.08,43.65,1132.5,0.07,1.3,104,3.4,38,3.765,0.029,15,0.725,5.3,5.3,8.92,8.92,8.92,90.13177,1,1,0.016,61.375,17,159,3.7615,2.48,0.725,0.59,0.067,39.26175,39.26175,22.85,46.80901,0.016,0.016,2.48,2.48,2.48,0.016,92,0.016,0.016,0.016,0.016,0.016,1016,1016,1016,1016,1016,1016,1,1,2.48,1,46.80901,46.80901,0.016,1016,1016,1016,1016,1016,1016,1016,0.029,0.029,24,24,24,24,1.1,2.48,2.48,1,1,152,152,152,184,152,152,1265.46167,0.01415,36.35,84.07597,1500,18.3185,34,5.665,1.41,2.4,0.05247,350,845,2.8,0.766,185.2,36.57,36.57,1.41,1.41,79.47949,17.505,0.000564,22,16.08025,2.84828,146.2,0.292,0.13,2.48,1016,320.5,5.3,5.3,5.3,166.8,166.8,8.92,8.92,8.92,90.13177,90.13177,1,4,7.3455,99.3,368.4865,368.4865,5.3,5.3,46.80901,24,10.40333,1,1,1,75.042,75.042,75.042,95.19583,3.86,3.86,3.86,15.8,110,1016,3.3,1016,1016,1016,1016,1016,1016,2.48,2.48,2.48,2.48,3.3,1016,1016,1016,71,47,2.48,2.48,2.48,368.4865,2.48,2.48,2.68,5.3,5.3,0.59,368.4865,5.3,21.5,1.41,1.41,5.3,5.3,0.725,5.3,166.8,166.8,166.8,46.80901,90.13177,106.3,5.3,5.3,0.59,0.59,368.4865,5.3,75.042,10,90.13177,1,1016,1016,1016,1016,1016,19.6,106.3,24,24,1,24,24,1.41,291.62043,166.8,46.80901,1,106.3,1.28,99.3,99.3,1,368.4865,24,24,24,24,90.13177,1009,75.042,152,1.41,1,1,0.067,0.067,0.067,184,152,152,1,1,1,10.40333,10.40333,10.40333,10.40333,46.80901,1.41,1.41,291.62043,368.4865,2.48,0.97,0.011,99.3,99.3,106.3,106.3,2.48,2.48,1016,1016,1016,1016,24,152,152,152,22,22,1.40385,3.86,3.86,1016,5.3,5.3,5.3,5.3,0.725,1.63,3.1,0.356,99.3,99.3,368.4865,368.4865,368.4865,368.4865,46.80901,46.80901,46.80901,8.92,5.3,5.3,0.5,0.5,291.62043,291.62043,5.3,5.3,38.49325,0.725,368.4865,90.13177,1,75.042,152,1.41,1.41,75.042,10.40333,10.40333,2.48,2.48,2.48,1016,1016,1016,1016,99.3,166.8,1,1.1,2.3825,5.13,9.17,9.625,4700,782.86222,5.55667,767.5,767.5,11.5895,170,151,0.05247,0.004,0.004,0.004,0.004,11.5895,11.5895,9201.8125,60.7,1016,1016,1016,1016,1016,4.83,4.83,90.13177,1.1,1.1,1.1,1.1,2.48,1.1,1016,1265.46167,767.5,0.004,0.004,0.004,1149.5,2.48,2.48,2.48,2.48,1016,1016,76.08847,1.87,35.42,40.46667,10.84975,229,63,63,173,0.46,0.59,0.05165,1.2,0.000363333,0.000363333,0.0012,0.5,63,1500,1500,1500,166.8,166.8,166.8,0.5,22,22,1.375,1.375,0.0048,0.0048,0.089,19.2,0.5,22,0.5,22,22,0.425,13.9,111.86944,5.28944,0.06515,115,1500,13.15414,8.5,111.86944,93.55648,1500,1500,1.55e-06,1.55e-06,1.55e-06,1.55e-06,241.61286,0.0625,0.062,3.165,0.5,85.46667,0.5,166.8,1.55e-06,0.0046,4.75,6.47051,7.8,76.08847,15.5,0.0048,85.46667,1.375,0.0048,0.425,1.4,63,36.1,36.1,1500,166.8,166.8,166.8,1.55e-06,1.55e-06,368.4865,5.3,0.028,0.5,0.425,22,227.5,368.4865,5.3,0.59,18.5,3.7,34.15,34.15,34.15,34.15,21.925,22,39,15,12.285,1.515,2.985,96.06078,370,0.0007,0.2,85.46667,0.133,0.176,0.133,40.15667,48,0.0048,1.375,13.67,7.8,60503.775,6.725,3.4,7.3275,0.14,213.43394,3.3,4.6,0.089,4.7,0.33,73.56,73.56,73.6,0.33,3204,110,3204,0.33,73.6,0.33,1.475,368.4865,13.15414,749.81369,18,761,0.001,11.5,22,1.475,171.55629,6.47051,1265.46167,13.15414,7.6,13,8.4,107.15,14.75,94.65,0.05247,4.905,20,152.75,45,100,29.5,7.3275,0.024,3204,1265.46167,9.5,0.35,32.4876,51.3,0.766,35.875,0.012,14.80483,213.43394,110.6,126.78505,3.7015,90.13177,14.80483,0.0825,1.12,14.2,1,1,90.13177,1.71,5.315,6.47051,6.47051,20,0.012,33,0.0017,22,2,27,1.475,1.44,0.012,109.46667,9.5,3.2,10.3,417,8.01,32.4876,14.3,0.092,38.1,733.3,118.5425,141,0.275,46000,8.6,7.5465,783,181.1,88.1,15.7,2,131.85,173,585,16.8,368.4865,1.2e-05,7.5465,34.07,2.6,5,2633,1300,53,73.5,0.3,1717,783,783,56,1.5225,5.4,18.375,13.67,5.43333,415,3557.5,15.5,2.9,111.66667,112.5,110,110,2.77,110.6,0.083,10,1108,129,0.115,176.8525,0.51,196,5.16,6.285,3.625,0.004,5,783,0.96,0.00417,1.8,25.3,15.825,0.004,971,7.5465,7.5465,283,1.67,82.93,20.15,7.7,76.08847,1,9.1,213.43394,213.43394,5.38,213.43394,213.43394,0.004,0.004,783,2.13333,0.001,68.68233,68.68233,209,7.504,0.004,783,109.46667,76.1108,76.1108,10,783,458.7,783,209,0.86,407.33333,48.895,68.68233,0.94,0.002,76.08847,9.1,67,0.67,241.7,125,7.3275,0.0287,9.83,9.16667,0.66,14.3,0.068,22.13,15.6,319,9201.8125,5.5,73.56,34.5,0.46,0.001,8,13.5,670,19,25.45,2.3,114,173,288,0.002,783,156.7,14.8,14.8,14.8,14.8,16.82075,85.25,285,7.5465,7.5465,243,14.8,134,14,14.8,26.1,109.46667,17,0.11,0.0287,0.25482,2100,9201.8125,933.676,93.75,0.11,190,0.004,73.6,783,368.4865,22.6,670,111,0.283,109.46667,14.7,47.4,201,0.195,0.00833,2.9,5,275,9000,8,1,3.78,3.78,3.78,278,0.001,4.80625,0.64,7.5465,525,15,0.02538,0.02538,0.02538,0.02538,0.02538,1265.46167,196,0.59,1.1,368.4865,5.2,0.59,0.59,0.02538,0.02538,0.59,0.59,0.59,0.59,0.59,2.33,5.13,9.17,35,782.86222,782.86222,6,9201.8125,362.72222,0.004,63,63,63,0.089,4.5,213.43394,1.4,63,15,26.7,19,113.1567,76.08847,3.3,0.089,0.33,0.33,10,0.0121,11,1515.25,45,0.024,0.3,109.46667,0.33878,16.82075,3.7015,1,1.44,0.02
+                    ],
+                    "units": "1/s"
+                },
+                "Turnover number (kapp,max) Machine learning ensemble model (Heckmann et al. 2018)": {
+                    "vals": [
+                        2.58347,0.34,0.25,7.19489,10.7381,14.02374,15.85726,32.52162,58,2.58589,16.75727,15.0274,12.80684,14,6.24668,10.9617,0.32,0.34,0.09,6.51868,0.03,0.12,0.12,1,0.81,8.46639,9.1,4.79113,1.8,11.5608,0.09,0.02,5.39543,2.62045,2.77263,2.6553,2.89997,4.90718,2.74025,10.35162,24,29,11,96.62175,8.89689,84.26185,26.96154,16.92781,31.6577,17.54436,6.8893,16.48643,12.68623,44.14421,3.86712,76.22063,5.23045,118.73466,15.43032,6.45975,18.62913,66.9937,21,4.86861,5,34.19393,42,5,10.16499,24,10.40165,2.80323,103.02471,71,22.67019,12.31598,184,55.14811,13.87159,50.8067,42.00674,18.16337,6.13699,9.69138,0.09,2.955,2.5852,4.42438,2.73766,4.21441,12.49243,8.86673,10.03494,3.66177,6.64151,9.47263,8.01538,9.36711,2.63101,6.17491,2.63142,3.28998,0.01,139,2.75602,18.40706,11.02928,11.14876,3.18107,152.17271,46.89535,59,0.14,5.68753,52,7.46798,8.11613,2.82565,7.83331,16.32081,4.9,3.33229,15,5.2158,5.44628,5.31622,2.74525,3.49069,3.01652,7.4,2.77319,0.15,3.13154,13.42466,59,4.9318,4.55033,4.45592,7.31161,420,3.32332,26.96075,2.85929,6.02084,7.2,28.98192,2.58357,2.58357,0.001,2.68916,3.5953,7.4755,2.86019,27.511,9.7078,2.88786,2.8,7.53909,5.75827,0.09,4.2,4.84849,15.23375,19.40514,23.9331,10.00985,16,3.3,24.56097,15.89143,4.96079,6.32102,13.90951,11.16922,0.16,0.55,8.7586,3.3,2.64027,6.68654,3.2,20,2.61687,10.67404,9.40388,6.04249,5.71503,21.89696,20.71914,4.43513,0.75,7.93469,1.1,6.87606,7.09389,4.05277,3.86609,7.35525,23.42243,2.70077,6.96352,2.83312,3.91557,2.65484,8.15831,6.305,8.74647,11.98591,13.47236,12.25716,18.85871,1.1,1.3,0.09,47.66148,10.32392,8.05142,16.24339,10.15064,10.98404,3.78273,20.59818,8.71335,6.65296,46,2.74273,9.59218,4.64879,4.13624,40.17609,2.78397,2.58362,0.12,28.45606,3.47922,18.60804,7.19932,4.54382,7.98055,6.23029,8.71188,11.81949,7.96287,2.9419,14.13107,11.18652,6.8792,2.60083,3.52549,6.30761,4.6313,17.68709,0.46,10.709,9.5453,2.58336,428,14.31322,4.75567,5.434,3.94643,2.70144,2.59087,2.81009,31,0.3,2.58336,5.78292,5.50041,5.26116,6.2595,52.98341,16.28196,26.32459,5.56505,7.11065,11.80474,15.91056,7.5676,5.8678,3.00799,2.88523,64.41327,417.24528,7.34171,4.19344,5.47903,24,7.15281,42,10.77239,10.8431,7.53437,13.02722,5.5818,2.88893,6.85503,181.00728,5.1622,3.96898,8.1884,41.73632,43,2.75584,2.90563,12.6663,78.72974,9.03741,9.92775,5.9837,6.12924,10.95448,303,6.08996,6.83393,4.81033,3.53878,2.64557,2.62807,0.27,0.64,3.20632,0.72,10,6.67585,21.24959,5.0067,16.07157,13.51844,39.5199,27.79553,11.72367,2.74952,18,6.12386,10.00679,30.98857,18.10171,0.003,6.02977,66.94057,6.31488,5.01205,5.84292,13.58041,2.79387,26.27625,4.90402,6.0038,5,6.19766,19.1679,2.64655,1.4,22.75974,11.67362,7.1727,3.6145,2.8202,11,5.10604,2.69912,70,17,18.66503,10.65178,96.75952,5.45038,2.77055,5.69852,2.66618,26,10.59945,10.31586,26.91811,3.3,31.36568,3.41247,19,9.66442,0.11,4.91848,0.86,84,14,81,4.80541,4,8,12,39.08888,6.5669,3.16125,49.0893,9.00046,5.18842,7.53819,23.46476,2.66036,3.61975,12.93277,5.94835,19.06785,7.58729,10.68312,18.94602,6.84689,4.48786,3.00266,36,8,14,29,25.39368,7.27033,14.13184,4.59297,31.30485,4.66584,5.40921,0.07,16,21,4.87442,2.2,3.1,3.8,8,22,10,38,13.20411,22,9.15287,175.37811,8.31037,40,0.006,10.79077,2.60547,2.78777,2.58974,0.23,9.85892,5.41545,10.65655,5.09091,17.15146,2.99237,19.88867,22.39934,2.87376,10.29133,7.20556,3.58635,4.2,6.59941,8.3,154,29,13.2119,22,2.61732,139.58477,11,3.54574,25,10,8.93039,12.38259,17.94756,7.3328,5.94995,11.98502,0.03,2.5838,2.65419,14.06069,2.85047,2.64385,2.64478,32,92.15884,0.32,5.09657,4.37436,18.31788,16.33573,0.0005,3.01866,11,16,0.12,4.26161,2.2,6.87196,12.1477,61,3.06762,0.05,53.95928,12.7312,112,2.89955,2.58342,45.31804,22,2.89705,22,10.72467,10.48584,38.74841,6.78607,7.81062,24.98115,11.85129,4.999,3.05131,2.6232,0.24,0.15,20,14,19.84115,48.33942,21.43021,11.73869,8.84401,112.23363,9.79026,3.33344,6.91274,40.80112,59,155,5.30888,0.01,6.76582,13.7023,4.66855,5.66128,0.23,3.98449,9.58798,4,0.5,6.31292,2.78361,17.55456,14.52305,22,19.55973,4.66449,10,8.56387,3.86985,3.10744,5.75954,5.47137,2.99719,48.51488,10.61075,1711.33285,429.97947,2.64285,6.37453,603.14782,7.32365,5.20218,10.10826,1481,12.50778,9.83172,11.65737,6.42651,0.008,2.7017,8.981,16.0389,90.0182,9.01037,4.40659,11.77773,13.64662,7.9102,1876.34174,5.23973,12.10328,2002.94902,12.50678,0.23,6.0534,0.31,3.5,14.97508,13.18027,3.43282,133.89572,10.03088,10.8439,2.7,2.90026,2.67953,2.58785,4.2,13.60542,5.98102,0.2,69,69,0.46,2.7976,16.95918,25.98615,11.28689,5.44888,3.92099,2.84748,5.72905,2.58365,5.49599,4.14189,7.7882,3.55866,4.71246,6.04249,9.40485,3.07254,7.20519,20.4073,1615.09433,7.4095,2.69551,2.82285,3.21354,14.86121,6.19526,31.43111,2.76438,11.54655,5.20055,14.62732,3.94798,18.34745,8.42642,9.59458,21.18653,3.42499,3.43806,208.95812,278.83263,6.72609,3.90072,2.64336,2.62838,9.426,22.51057,5.95951,10.40267,7.93071,3.10224,2.72934,64.17258,6.7807,5.58318,5.44814,48.25388,4.19318,3.24238,3.84635,3.98878,2.63498,15.1315,2.60199,2.58926,2.76372,43.84486,7.24518,13.77767,3.94339,10.46614,9.49592,7.24442,2.80991,16.03171,5.98569,23.97851,6.54735,6.45178,2.64919,7.07229,3.31952,6.3438,7.70417,7.86048,36,17.5966,6.52512,13.77726,4.84981,25.20024,14.61892,13.41964,12.09539,5.06673,3.20917,13.01091,5.19418,30.93003,6.75303,11.20288,4.96172,2.89678,11.5696,15.56311,5.73919,2.64479,2.63711,60.96287,7.14428,2.71247,4.63051,5.01725,7.98409,4.73786,4.58429,5.25891,5.03301,4.52314,4.99146,6.97222,13.8699,3.20597,5.3337,6.44691,7.88833,5.39029,10.19613,11.42896,11.43396,5.45071,4.27578,2.66765,8.4,4.93332,7.70029,8.48008,4.66943,61.46014,4.6296,24.12321,6.45755,6.12882,15.71306,5.10956,12.90038,7.69616,10.35827,8.14369,4.91374,7.66942,4.72432,2.70498,15.54623,13.03266,12.45458,10.96377,15.95407,3.3,2.4,49.12367,7.43194,0.13,9.42027,46.13723,3.6,50.03276,17.39901,3.15859,7.6314,5.91516,3.12758,2.95083,3.06441,9.47362,3.22685,3.05496,18.19934,10.99818,8.76586,4.96374,8.32182,10.75112,2.58957,8.96293,4.2158,3.66999,8.51986,2.61983,2.66249,15.84318,2.58575,25.50219,56.40391,6.07028,4.88303,5,19.31888,17.01727,17.42141,37.63935,4.772,75.07264,22.07303,8.05721,111.51922,2.58336,2.76094,20.26165,11.34955,2.89695,4.40991,0.001,4.48556,5.32141,228,34.33879,10.40498,2.89123,4.92671,17.98486,7.31965,6.5597,7.94807,7.50759,12.31756,0.02,4.99227,78,20,10,7.64087,10,278,45.57992,72,19.72288,0.02,2.58353,14.2691,18.02106,2.76512,5.75339,3.7527,3.92371,4.39876,6.08901,2.74187,6.38557,33.25647,11.84707,3.01171,3.96876,8.99567,214.516,10.24054,2.87362,2.78155,11.98172,6.85677,3.01025,17.94684,3.09045,9.44512,26.4107,4.23075,3.8826,2.75366,0.008,5.82635,6.22453,7.22524,6.59805,2.74482,3.65541,2.60655,2.76513,3.30552,0.34,4.47981,7.68093,2.83336,10,36.11438,2.58341,2.58337,5.9424,3.28002,2.80446,4.70007,5.33901,6.83357,9.29106,2.58335,2.92887,2.58335,2.80446,2.58335,4.61991,2.70482,7.2206,4.23983,2.58335,2.58865,3.3773,5.36115,2.58336,8.47045,23.28965,10.63086,10.28351,9.61127,5.67179,0.02,3.8,11.6444,8.89692,2.59049,9.92926,2.6265,6.12479,5.72597,2.58335,2.58335,2.60695,2.58334,66,78,2.66674,2.86387,5.89213,5.17358,2.67934,12.45343,41.3449,2.58336,2.8437,2.58335,2.58335,2.58334,31.92426,6.12921,43,5.94038,6.28566,5.92231,7.22357,2.58335,2.98103,2.59199,2.67934,8.2256,9.36247,4.78141,4.70066,5.19008,2.68032,4.10617,2.70182,11.43692,3.97288,7.93594,5.44465,5.04758,5.88397,2.58335,7.5838,4.49206,7.75517,4.84575,4.22623,2.72093,7.5419,2.70183,6.71188,4.57157,2.71364,5.1457,6.11098,2.6414,4.86141,2.64963,2.64527,3.08099,2.59197,2.59203,9.30128,6.66062,4.31557,2.63679,4.98406,2.62453,4.11748,4.52283,13.94336,6.48781,2.82734,16.41978,1464.42765,15.08523,6.42433,5.79753,15.13699,9.67918,10.4626,8.27108,14.25374,4.48241,2.74036,4.87623,5.2214,3.09772,11.86054,34.94344,104.15317,18.26043,9.7495,49.14628,7.95521,0.007,5.98728,0.12,0.03,2.59197,2.58336,570.15334,4.11731,6.73755,4.71357,2.69693,5.06168,6.75777,4.79877,6.62728,9.30872,8.34998,5.2084,0.01,22,2.58334,2.58334,2.58335,3.57835,2.58334,2.5834,2.58335,5.06444,6.27484,18,2.97932,6.7,7.9,3.06644,2.73555,2.58865,2.58865,2.58335,11.36116,106.43439,2.6692,8.55779,4.17053,2.58335,2.58335,2.70879,4.27612,2.66874,2.68115,2.60543,2.59218,3.35657,12.53943,2.58335,3.95557,2.58335,28.39443,71.23314,3.27949,2.58335,2.58335,2.58334,2.59197,2.58341,3.07469,2.58334,2.58334,4.7204,2.58334,2.58334,20.86666,7.36105,7.39141,5.14068,4.38328,3.66782,2.60767,5.8582,5.46035,6.01948,136,2.5834,3.34743,2.58334,2.58334,2.58334,2.58335,2.58334,3.91456,6.52371,6.87107,8.98128,2.64934,2.88204,2.58335,2.66874,3.83249,2.58334,21.63391,17.15871,10.97279,2.64134,2.71306,2.75589,2.58335,42.22525,7.33651,2.58335,3.05786,2.93272,19.86537,4.22802,1.3,2.58334,6.51815,4.6524,2.6416,4.82666,2.65214,4.78722,17.53936,2.73685,7.34473,2.58335,3.26959,2.99854,8.97086,14.60009,447.84208,29.93823,4.49745,4.21485,5.40753,6.55545,15,5.08475,2.61638,2.61639,2.58342,5.02716,19.76804,9.19766,7.31333,8.79932,3.78406,2.58334,3.94745,2.58335,4.07684,2.58334,3.18675,10.61323,2.59197,2.58335,6.30182,4.53108,2.81576,2.58335,2.64128,9.16838,2.65081,4.93546,5.79812,3.29848,10.3336,2.58865,4.11377,2.58336,3.70136,4.43716,2.58334,4.235,2.58335,2.58335,2.58335,2.58335,3.29636,2.58334,9.83173,2.58334,2.69139,2.58335,2.5834,5.18109,160,2.65125,12.27203,3.9724,11.85583,8.30425,20.04316,4.05583,3.7668,4.08525,2.78551,4.67304,2.62496,8.86125,6.05747,10.73652,10.22361,8.339,54.01914,5.01931,2.58343,3.72396,2.91405,2.58335,3.29442,2.66874,5.94852,4.37643,5.01368,2.59628,2.74624,2.64935,2.83161,46.90257,21.15231,61.94543,104.13494,118.39824,51.6103,57.95581,194.49334,3.34699,3.02157,10.39059,16.24859,7.05766,4.91226,2.64105,27.84807,2.64109,5.61567,2.81758,5.65209,3.13546,2.58335,2.81215,7.05723,5.23325,3.63661,2.61702,2.5857,2.82514,2.58334,2.58334,2.58335,3.5403,5.99066,3.4018,2.58335,12.50171,37.42068,20.00415,129.86515,9.63143,12.62263,2.59197,2.58335,2.59197,3.24187,3.99945,87.08311,6.06811,14.76908,12.37014,8.80451,4.50383,8.38368,8.29506,6.7907,2.58373,6.8e-05,3.4e-05,2.4e-05,4.91277,35.25592,12.36649,0.68,10.01182,5.32137,10.16862,11.113,2.69419,5.11324,2.69304,13.18687,0.01,0.002,2.58368,0.02,2.84224,7.16407,8.07363,5.42023,10.30562,2.61702,2.59823,2.63817,2.64031,12.57512,6.97493,0.002,6.02837,5.13099,5.2584,4.69252,4.14704,4.43093,13.13143,6.49994,4.92131,5.59148,4.09384,2.64004,2.82355,3.07032,4.88362,5.89311,6.69267,7.29407,3.19991,2.58381,0.006,2.7164,2.71808,3.5036,5.02956,10.37508,6.15838,7.19732,5.98892,6.21694,7.59386,2.70936,0.02,2.84877,5.91998,6.59385,6.72572,9.12611,8.31182,2.69374,10.80177,7.11768,2.63371,2.64006,5.50107,2.2e-05,3e-05,0.001,8.35028,2.58356,20.81427,3.68709,2.2e-05,3e-05,3.4e-05,0.004,2.68528,13.67497,8.36421,9.63254,4.5566,13.13519,19.9557,20.52324,6.42122,8.48523,3.66797,51.3476,8.54541,1.7,5.51984,2.58346,2.58349,6.2173,7.13556,4.37621,6.67885,202.30571,5.69086,21.81672,5.81006,6.70091,4.86008,2.66974,6.59399,2.71761,3.80828,6.04325,2.81883,2.94745,1.7,6.21049,18.07268,10.0894,9.63131,85.8682,3.81603,7.68913,12.50573,6.66091,3.00635,5.01758,6.03499,2.96952,21.42723,7.89506,6.1905,60.56443,71.65079,13.45607,11.79463,6.28559,4.63532,10.26578,4.19686,14.77289,10.95627,2.76141,4.46573,7.54437,5.71419,2.62541,8.89589,8.49021,2.58361,4.39701,7.15686,5.7313,5.61089,6.90788,2.86852,3.04173,6.62744,2.68847,2.76914,4.09676,2.73577,48.54361,6.54652,5.98195,2.70644,6.67692,8.93419,5.14018,15.45075,8.34161,5.70731,5.21434,2.68357,5.63044,7.17589,19.46388,26.67171,239.90069,9.77797,18.73754,5.98125,2.58365,17.11328,8.3629,4.97795,8.15808,13.95781,298.75285,4.13418,3.36067,46.84834,19.83662,2.64542,2.76916,7.8111,8.2225,6.9768,120.8314,6.46165,8.71847,2.62201,2.63914,2.78925,8.19567,16.6521,3.38465,4.73777,10,9.55276,2.83998,6.8,8.43578,39.6357,28.97017,13.57503,9.00646,21,9.21672,34.23398,12.12508,12.79341,14.41037,9.53509,89.85075,42,30.10193,4.72441,6.04692,23.98388,5.03188,2.74495,4.00497,2.90747,2.68674,5,6.1,8.8,4.98801,116.84129,49.54373,13,4.43836,2.74847,2.62907,9.08426,0.01,2.73429,2.72316,7.11278,29.60178,3.23986,0.59893,5.56252,24,10.59587,5.06314,4,21,17.98854,7.92885,10.17781,7.66225,2.3,3.27387,3.09541,4.37549,6.15382,8.02383,15.46847,12.58645,10.82819,2.94694,16.3772,4.29511,16.55161,3.37332,5.67799,40.9316,2.81332,12.06419,7.22633,3.32293,18.43673,13.54344,8.76811,6.65092,4.49168,37.00847,5.59779,6.23262,3.02719,7.71821,11.56198,11.02859,2.87567,13.91161,35.81704,6.64591,4.04813,3.65102,6.52119,7.1532,2.79265,6.24052,2.72385,8.16874,7.72606,14.96366,5.49896,5.5129,2.64413,30.54716,7.5,10.53429,6.80323,34,16.70143,5.48315,2.74308,2.70207,10.69089,15.78832,36.62996,6.3,2.79508,163.05002,11.48592,15.78886,2.89561,2.72277,2.8609,5.43273,11.12565,8.6133,5.66124,9.06261,4.90392,2.76081,7.42799,7.73448,2.99247,3.41089,177.43345,7.40369,13.50655,10.26667,9.59858,7.92782,41.61301,109.69095,6.81399,8.65629,6.06759,9.86159,14.995,7.99897,8.32786,5.57866,2.83412,6.17689,7.55104,12.52209,2.95884,2.84949,30.77142,4.94114,6.22509,5.87453,185,10.22618,5.38208,3.7066,5.76072,5.71104,6.69528,2.60621,9.03427,2.77781,5.57757,13.62688,10.22192,7.52607,32.51652,4.67649,8.36941,67.49064,36.79403,23.77589,8.09304,7.8722,3.10688,4.8952,12.25953,21.74589,15.3048,4.05884,6.992,3.13633,4.87314,2.72899,2.92376,4.77375,5.31966,3.79287,2.84787,307.43251,46.66803,16.28213,11.85682,9.51942,2.90196,4.37782,7.20896,5.19619,4.49208,11.40625,4.29989,5.93063,3.26781,128,89.7626,356,356,356,356,278,7.36437,14.71682,6.61268,14.42192,8.09115,2.97315,2.79585,35.85113,5.07178,8.44272,55,3.37017,2.58354,2.8355,2.90318,37.54048,5.64412,3.07838,3.6545,256.35145,19.91586,2.69122,2.79923,8.67403,5.213,6.53366,2.72761,7.52388,22.93522,2.72468,7.8836,12.88981,4.58111,4.59069
+                    ],
+                    "units": "1/s"
+                }
+            }
+        }
+    }
+}

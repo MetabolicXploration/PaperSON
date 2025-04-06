@@ -1,0 +1,33 @@
+Reaction	Sampled flux mean	Sampled flux St.D.	# of genes	mets_up	mets_down	Essential	Expressed	Single KO	Coupled	Notes	Implemented
+ATPS4rpp (atpIC)	56.373707327674	0.265215865221014	9	adp	atp	No	Yes	Yes	missing	main component of the respiratory transport chain that directly catalyzes the synthesis of ADP to ATP	No, failed using lambda red
+NADH16pp	22.8417815559382	2.26426701594057	13	nadh	nad	No	Yes	No	missing	Not a single KO	No
+PGK	19.0506158209855	0.0882863531638697	1	3pg, atp	adp	Yes	Yes	Yes	GAPD	Essential	No
+GAPD	19.0506158209854	0.0882863531638697	1	nad, g3p	nadh	Yes	Yes	Yes	PGK	Essential	No
+ENO	17.2930193355483	0.102083788518927	1	2pg	pep	Yes	Yes	Yes	PGM	Essential	No
+PGM	17.2803695995902	0.101600972356605	3	2pg	3pg	Yes	Yes	Yes	ENO	Essential	No
+SUCDi	12.2915207127561	2.26169279768939	4	succ	fum	No	Yes	Yes	missing	connects the TCA cycle with the respiratory electron transport chain	Yes
+GLCptspp (ptsHIcrr)	11.6425507461466	0.188224674712943	8	pep	g6p, pyr	No	Yes	Yes	missing	the main glucose importer, conservation of phosphoenolpyruvate for aromatic compound synthesis	Yes
+PDH	10.661259263059	0.199949996537911	3	coa, nad, pyr	accoa, nadh	No	Yes	Yes	missing	primary entry into TCA from glycolysis	No, failed using lambda red
+GLUDy	8.81870084692998	0.250127552691592	1	nadp, glu_DASH_L	nadph, akg	No	No	Yes	missing	Not expressed under nitrogen limitation	No
+TPI	8.59758983857977	0.0872060510397184	1	dhap	g3p	No	Yes	Yes	missing	increased levels of a highly toxic compound methylglyoxal	Yes
+FRD3	6.66038479452468	2.14947401965433	4	fum	succ	No	No	Yes	missing	Not expressed under aerobic growth	No
+NADH18pp	6.55524152832593	2.14969430463792	13	nadh	nad	No	Yes	No	missing	Not a single KO	No
+G6PDH2r (zwf)	5.86259674378434	0.194865049025424	1	g6p, nadp	nadph	No	Yes	Yes	PGL	entry into the oxidative PPP; impairment of nadph generation	No, failed using lambda red
+GND	5.8430399043573	0.194276843731029	1	nadp, 6pgc	ru5p_DASH_D, nadph	No	Yes	Yes	missing	differences in expression and metabolome found between zwf and gnd mutants	Yes
+PGI	5.64064287498372	0.262506465644633	1	g6p	f6p	No	Yes	Yes	missing	entry into glycolysis; increased generation of nadph	Yes
+PFK_3	4.26721373948164	0.515754338309008	1	s7p, atp	adp	Yes	Yes	Yes	missing	Essential	No
+FRD2	3.82904643015729	0.962548236482761	4	fum	succ	No	No	Yes	missing	Not expressed under aerobic growth	No
+NADH17pp	3.59591331740534	0.963740067204936	13	nadh	nad	No	Yes	No	missing	Not a single KO	No
+PFK	3.12471538823554	0.508907985592592	2	f6p, atp	fdp, adp	Yes	Yes	No	missing	Essential	No
+FBA	3.08826890501919	0.509594915637944	3	fdp	g3p, dhap	No	Yes	No	missing	fbaA and fbaB are located at different regions of the chromosome (i.e. 2 Kos required)	No
+PPC	3.03594092355726	0.0818186865784349	1	pep	oaa	No	Yes	Yes	missing	increased biomass yield on glucose and reduction of overflow metabolism	No, resulted in auxotrophy for oaa/asp-L
+MDH	3.01259966187304	0.263749115230252	1	mal_DASH_L, nad	oaa, nadh	No	Yes	Yes	missing	mdh is one of a network of genes believed to play a role in promoting the stress-induced mutagenesis (SIM) response of E. coli K-12	No
+FUM	2.9870559086273	0.224975209811088	3	fum	mal_DASH_L	No	Yes	No	missing	FumAC and fumB are located on different regions of the chromosome	No
+RPI	2.76616703183292	0.0730851507209653	2	r5p	ru5p_DASH_D	No	Yes	No	missing	rpiA and rpiB are Located on different regions of the chromosome	No
+TALA	2.5739529185595	0.519992927301747	2	s7p, g3p	f6p	No	Yes	No	missing	talaA and talaB are Located on different regions of the chromosome	No
+PGCD	1.78612107755237	0.0473800705873347	1	nad, 3pg	nadh	Yes	Yes	Yes	missing	Essential	No
+PSERT	1.78612107755236	0.0473800705873354	1	glu_DASH_L	akg	Yes	Yes	Yes	missing	Essential	No
+FADRx	1.777017580647	0.0515466394198154	1	fad, nadh	nad	No	Yes	Yes	missing	One activity of the enzyme is its involvement in the regeneration of the ribonucleoside-diphosphate reductase tyrosine radical.	No
+TKT1	1.72632966099753	0.0668496907699078	2	r5p	s7p, g3p	Yes	Yes	Yes	missing	A tktA tktB double mutant requires pyridoxine (or 4-hydroxy-L-threonine or glycolaldehyde), aromatic amino acids and vitamins for growth	No
+AKGDH	1.57581461178562	0.0830193293615951	3	coa, akg, nad	nadh, succoa	No	Yes	Yes	missing	sucA, sucB are specific for akgdh activity	No
+
