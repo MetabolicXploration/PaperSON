@@ -6,6 +6,66 @@
     }, 
 
     "data": {
+        "Info": {
+            "notes": [
+                "Simulated and experimentally determined data for the manuscript:",
+                "Proteome regulation patterns determine Escherichia coli wild-type and mutant phenotypes",
+                "Tobias B. Alter; Lars M. Blank; Birgitta E. Ebert"
+            ],
+            "data": {
+                "Sheet 1": {
+                    "Description": "Curated enzymatic data used to build the protein allocation model (data shown in Fig. S8)"
+                },
+                "Sheet 2": {
+                    "Description": "Transformation of experimentally determined protein mass data to dry cell weight related units"
+                },
+                "Sheet 3": {
+                    "Description": "Cell volumes calculated from growth rates based on the experimentally justified relation of Volkmer et al. (2011) (doi: 10.1371/journal.pone.0023126)"
+                },
+                "Sheet 4": {
+                    "Description": "(Data shown in Fig 3) Experimental data of growth acetate secretion oxygen uptake and carbon dioxide production rates for E. coli for a range of  glucose uptake rates"
+                },
+                "Sheet 5": {
+                    "Description": "(Data shown in Fig 4) Comparison between experimentally determined  and predicted growth and acetate secretion rates using several substrates as sole carbon sources."
+                },
+                "Sheet 6": {
+                    "Description": "(Data shown in Fig 5) Comparison between predictions and experimental data of intracellular fluxes of the central carbon metabolism of E. coli grown on a glucose minimal medium."
+                },
+                "Sheet 7": {
+                    "Description": "(Data shown in Fig S2) Comparison of predicted and experimentally determined intracellular fluxes of the central carbon metabolism of E. coli grown on several alternative carbon sources."
+                },
+                "Sheet 8": {
+                    "Description": "(Data shown in Fig 6) Experimentally determined normalized growth rates for a range of eGFP expression strengths and respective eGFP concentrations in E. coli"
+                },
+                "Sheet 9": {
+                    "Description": "(Data shown in Fig 7) Comparison of predicted growth and acetate secretion rates of single-gene deletion E. coli mutants with experimentally determined values"
+                },
+                "Sheet 10": {
+                    "Description": "(Data shown in Fig 8) Comparison of predicted relative growth glucose uptake and acetate secretion rates of single-gene deletion E. coli mutants with experimentally determined values"
+                },
+                "Sheet 11": {
+                    "Description": "(Data shown in Fig 9) Comparison of predicted intracellular flux rates of single-gene deletion mutants with experimentally determined values"
+                },
+                "Sheet 12": {
+                    "Description": "(Data shown in Fig S1) Comparison between experimentally determined  and predicted growth and acetate secretion rates using several substrates as sole carbon sources."
+                },
+                "Sheet 13": {
+                    "Description": "(Data shown in Fig S4) Comparison of predicted growth and acetate secretion rates of single-gene deletion E. coli mutants with experimentally determined values"
+                },
+                "Sheet 14": {
+                    "Description": "(Data shown in Fig S5) Comparison of phenotypic predictions between wild-type and gene-deletion mutant model"
+                },
+                "Sheet 15": {
+                    "Description": "(Data shown in Fig S6) Comparison of predicted relative growth glucose uptake and acetate secretion rates of single-gene deletion E. coli mutants for adapted kcat values of both Entner-Doudoroff pathway steps with experimentally determined values "
+                },
+                "Sheet 16": {
+                    "Description": "(Data shown in Fig S7) Comparison of predicted intracellular flux rates of single-gene deletion mutants for adapted kcat values of both Entner-Doudoroff pathway steps with experimentally determined values"
+                },
+                "Sheet 17": {
+                    "Description": "(Data shown in Fig S8) Comparison between turnover numbers from the in vitro curated data set (cf. Sheet 1) and a data set derived from a machine learning ensemble model published by Heckmann et al. (2018) (doi: 10.1038/s41467-018-07652-6)"
+                }
+            }
+        },
         "Sheet 1": {
             "notes": [
                 "Curated enzymatic data used to build the protein allocation model (data shown in Fig. S8)", 
@@ -331,8 +391,7 @@
                         ], 
                         "units": "mmol/gDW/h"
                     }
-                }, 
-                
+                }
             }
         }, 
         "Sheet 7": {
@@ -405,7 +464,7 @@
                 "Pyruvate" : {
                     "Flux rate": {
                         "vals.Experimental": [
-                            26.714, 11.91391, 0.89817, 0.58701, 0.58701, 0.58701, -, 21.01739, 2.67142e-09, 0.53893, 0.33788, 0.09013, 2.48945, 1.1648, 7.97932, 7.51826, 7.51826, 7.4278, 0.19306, 0.1026, 0.39, 3.45038
+                            26.714, 11.91391, 0.89817, 0.58701, 0.58701, 0.58701, null, 21.01739, 2.67142e-09, 0.53893, 0.33788, 0.09013, 2.48945, 1.1648, 7.97932, 7.51826, 7.51826, 7.4278, 0.19306, 0.1026, 0.39, 3.45038
                         ], 
                         "vals.Predicted": [
                             null, 19.34223, 0.06704, 0.36565, 0.36565, 0.42156, null, 16.32327, 0, 0, 0, 0, 0, 1.23412, 0.37422, 2.78717, 3.13825, 5.92522, 0, 2.78674, 0.3439, 0
@@ -576,8 +635,7 @@
                 "Experimental flux data taken from Long et al. 2019 (doi: 10.1016/j.ymben.2019.08.003)", 
                 "Model: iML1515 including protein allocation and enzymatic constraints", 
                 "Gucose uptake rates were estimated according to a maximum overexpression capacity of single enzymes of 16 nmol/gDW/h", 
-                "All rates were normalized with the predicted and experimentally determined glucose uptake rates", 
-
+                "All rates were normalized with the predicted and experimentally determined glucose uptake rates"
             ], 
             "data": {
                 "Wild-type": {
@@ -733,7 +791,7 @@
                     "Fong et al. 2006 (doi: 10.1074/jbc.M510016200)", 
                     "Fong et al. 2006 (doi: 10.1074/jbc.M510016200)", 
                     "Fong et al. 2006 (doi: 10.1074/jbc.M510016200)", 
-                    "Fong et al. 2006 (doi: 10.1074/jbc.M510016200)", 
+                    "Fong et al. 2006 (doi: 10.1074/jbc.M510016200)"
                 ],
                 "Growth rate": {
                     "vals.Experimental": [
@@ -985,7 +1043,7 @@
             "notes": [
                 "(Data shown in Fig S8) Comparison between turnover numbers from the in vitro curated data set (cf. Sheet 1) and a data set derived from a machine learning ensemble model published by Heckmann et al. (2018) (doi: 10.1038/s41467-018-07652-6)",
                 "kapp,max values were taken from Heckmann et al. 2018 (doi: 10.1038/s41467-018-07652-6) and base on a machine learning ensemble model",
-                "Reaction IDs were taken from the BIGG database (http://bigg.ucsd.edu/)",
+                "Reaction IDs were taken from the BIGG database (http://bigg.ucsd.edu/)"
 
             ],
             "data": {
