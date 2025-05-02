@@ -73,7 +73,7 @@
                 "Basis stoichiometric reconstruction: iML1515 (Escherichia coli K12 MG1655)"
             ], 
             "data": {
-                "PaperSON.file": "./msystems.00625-20-sd001.xlsx.sheet1.dat.csv"
+                "PaperSON.file": "raw.msystems.00625-20-sd001.xlsx.sheet1.dat.csv"
             }
         }, 
         "Sheet 2": {
