@@ -54,6 +54,44 @@
                 }
                 
             }
+        }, 
+
+        "Main text": {
+            "glucose.max.exchange.flux": {
+                "val": 10.5, 
+                "units": "mmol/gDW/h", 
+                "meta.location.section": "7.3 Metabolic Constraints"
+            },
+            "acetate.max.exchange.flux": {
+                "val": 2.5, 
+                "units": "mmol/gDW/h", 
+                "meta.location.section": "7.3 Metabolic Constraints"
+            },
+            "glucose.initial.conc": {
+                "val": 10.4, 
+                "units": "mM", 
+                "meta.location.section": "7.1 Batch Culture Medium - Initial Concentrations"
+            },
+            "acetate.initial.conc": {
+                "val": 0.3, 
+                "units": "mM", 
+                "meta.location.section": "7.1 Batch Culture Medium - Initial Concentrations"
+            },
+            "biomass.initial.conc": {
+                "val": 0.003, 
+                "units": "g/L", 
+                "meta.location.section": "7.1 Batch Culture Medium - Initial Concentrations"
+            }, 
+            "oxigen.max.exchange.flux": {
+                "val": 10.0, 
+                "units": "mmol/gDW/h", 
+                "meta.location.section": "3.3 Metabolic Constraints"
+            }, 
+            "glucose.KM": {
+                "val": 0.015 , 
+                "units": "mM", 
+                "meta.location.section": "3.3 Metabolic Constraints"
+            }
         }
     }
 }
