@@ -1,0 +1,50 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "../../schemas/scatter-plot-schema.v1.json",
+  "title": "Scatter Plot Data Schema",
+  "description": "Schema for defining scatter plot data with x and y axes",
+  "type": "object",
+  "properties": {
+    "x.label": {
+      "type": "string",
+      "description": "Label for the x-axis",
+      "minLength": 1
+    },
+    "x.units": {
+      "type": "string",
+      "description": "Measurement units for x-axis values"
+    },
+    "x.vals": {
+      "type": "array",
+      "description": "Array of numerical values for the x-axis",
+      "items": {
+        "type": "number"
+      },
+      "minItems": 1
+    },
+    "y.label": {
+      "type": "string",
+      "description": "Label for the y-axis",
+      "minLength": 1
+    },
+    "y.units": {
+      "type": "string",
+      "description": "Measurement units for y-axis values"
+    },
+    "y.vals": {
+      "type": "array",
+      "description": "Array of numerical values for the y-axis",
+      "items": {
+        "type": "number"
+      },
+      "minItems": 1
+    }
+  },
+  "required": [
+    "x.label",
+    "x.vals",
+    "y.label",
+    "y.vals"
+  ],
+  "additionalProperties": false
+}

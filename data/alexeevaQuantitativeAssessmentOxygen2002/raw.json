@@ -1,0 +1,164 @@
+{
+    "PaperSON.dev": {
+        "notes": [
+            "#TODO: double check with paper",
+            "#TODO: Create automatic tests, reproduce table/plots (visually)"
+        ]
+    }, 
+
+    "data": {
+
+        "Fig 1": {
+            "meta": {
+                "caption": "FIG. 1. Effect of oxygen supply on steady-state acetate production rate (qAcet) in two chemostats. The agitation rate was fixed at 500 rpm. Solid circles, Bioflo 3000 (A); open circles, Bioflo III (B). Lines are linear regressions through the two sets of data points."
+            },
+            "data": {
+                "A": {
+                    "PaperSON.notes": [
+                        "#TODO Reproduce and compare"
+                    ],
+                    "data": {
+                        "x.labels": "% O_2 in the input gas",
+                        "x.units": "% O_2",
+                        "x.vals": [
+                            0.08398367626251287, 3.987976644817936, 4.973996669465574, 2.0528549062588466, 2.951242224933151, 5.878181627282506, 7.108464568965443, 8.590627362003328, 10.621131605396236, 12.060775847301693, 20.991265959601648, 28.969312814788125
+                        ],
+                        "y.labels": "q_acet, mmol/g/h",
+                        "y.units": "mmol/g/h",
+                        "y.vals": [
+                            5.67252684508697, 5.89718161665762, 5.814422197186688, 5.275390893823801, 5.081132258531185, 4.4319666241479165, 4.311964774099682, 3.759222359339287, 4.083768130932979, 3.9212850225261224, 1.7339134093738864, 0.004830210372689316
+                        ]
+                    }
+                },
+                "B": {
+                    "data": {
+                        "x.labels": "% O_2 in the input gas",
+                        "x.units": "% O_2",
+                        "x.vals": [
+                            0.48984688721948455, 3.1665359269040034, 3.988952250160647, 2.9997434765329425, 3.5339016371537086, 6.066006534467925, 7.553361483955198, 7.378490869501301, 9.823020002788256, 12.910776747300785, 13.037759185107605, 13.985791339465326
+                        ],
+                        "y.labels": "q_acet, mmol/g/h",
+                        "y.units": "mmol/g/h",
+                        "y.vals": [
+                            6.264654755949013, 4.21360603356744, 4.154087817147838, 3.8532657340437386, 3.639880411900184, 3.6004162496944714, 3.124589980828345, 2.8993054340926734, 2.4826102997809008, 0.47289196739295564, 0.25484336323370577, 0.007078833534545606
+                        ]
+                    }
+                }
+            }
+        },
+
+        "Fig 2": {
+            "meta": {
+                "caption": "FIG. 2. Effect of agitation rate on steady state acetate production (qAcet) in a Bioflo 3000 at fixed oxygen supply (air, 20.95% O2). Open circles, stepped-up agitation rate; solid circles, stepped-down agitation rate."
+            },
+            "data": {
+                "stepped-down": {
+                    "$schema": "../../schemas/scatter-plot-schema.v1.json",
+                    "x.label": "Agitation rate, rpm",
+                    "x.units": "rpm",
+                    "x.vals": [
+                        490.0589025205059, 510.0490332452515, 520.0829801722998, 530.1214907693449, 540.0605314344008, 549.9741872499103, 557.1786858898689, 562.1710516832916, 567.1868322667374
+                    ],
+                    "y.label": "q_acet, mmol/g/h",
+                    "y.units": "mmol/g/h",
+                    "y.vals": [
+                        2.7163313057498675, 1.9350295032041114, 1.5816742553728378, 1.3001060207072148, 0.9281415960063757, 0.6783095388123452, 0.36489411732796817, 0.20149068310948223, 0.07340042650449874
+                    ]
+                },
+                "stepped-up": {
+                    "x.label": "Agitation rate, rpm",
+                    "x.units": "rpm",
+                    "x.vals": [
+                        568.1746815631483, 566.075528919186, 566.075528919186, 564.0680021170007, 560.1149602027643, 559.8136856872148, 539.8280734476145
+                    ], 
+                    "y.label": "q_acet, mmol/g/h",
+                    "y.units": "mmol/g/h",
+                    "y.vals": [
+                        0.008485821849371165, 0.05132932724557815, 0.10210244535380839, 0.20756655596406434, 0.30559943352298236, 0.3616126577778466, 1.0016536130588063
+                    ]
+                }
+            }
+        },
+
+        "Fig 3": {
+            "meta": {
+                "caution": "FIG. 3. Effect of oxygen supply on the steady-state acetate production rate (qAcet) in two chemostats. Solid circles, Bioflo 3000; open circles, Applicon type. In the initial phase of each run cells were supplied with air (20.95% O2). Agitation rate was fixed at the minimal value at which cells produce no acetate (i.e., 568 and 610 rpm for the two chemostats, respectively). This point is defined as 100% aerobiosis. Next oxygen availability was varied by varying oxygen percentage in the input gas."
+            },
+
+            "data": {
+                "Applicon type": {
+                    "marker": "open circle",
+                    "x.label": "% O_2 in the input gas",
+                    "x.vals": [
+                        0.12378098803581795, 0.11363642702719177, 2.0152517318247467, 2.0254328059503806, 4.968097931831126, 10.122703343957468, 10.098346052153612, 18.93997603623846
+                    ],
+                    "y.label": "q_acet, mmol/g/h",
+                    "y.vals": [
+                        6.002207275350605, 5.906850094187112, 5.350192954017384, 4.352537227204268, 3.9756008349389003, 3.399095638303891, 2.6825320191747695, 0.3512804018392025
+                    ],
+                    "z.label": "% of aerobiosis",
+                    "z.vals": [
+                        140.05150309151412, 137.8265021976993, 124.83783559373899, 101.5592019680996, 92.76401948190768, 79.31223156042414, 62.592413780744636, 8.196542709581394
+                    ]
+                }, 
+                "Bioflo 3000": {
+                    "marker": "solid circle",
+                    "x.label": "% O_2 in the input gas",
+                    "x.vals": [
+                        0.11343457799805691, 2.1133977204034657, 5.013688331875529, 7.039503573892091, 10.06618832007196, 10.06618832007196, 10.020801695327508, 15.098425769489863, 18.975421315051562, 20.955219393308763
+                    ],
+                    "y.label": "q_acet, mmol/g/h",
+                    "y.vals": [
+                        5.079739691792703, 4.282901147834215, 4.221310721739268, 3.8573001677145635, 3.048043302226817, 3.048043302226817, 3.0048438457835505, 1.5653166880522311, 0.46164522522945817, 0.012064256472619833
+                    ],
+                    "z.label": "% of aerobiosis",
+                    "z.vals": [
+                        118.52725947516309, 99.9343601161317, 98.49725017391629, 90.0036705800065, 71.12101038529242, 71.12101038529242, 70.11302306828286, 36.52405605455207, 10.771721922020692, 0.0
+                    ]
+                }
+            }
+        }, 
+
+        "Fig 4": {
+            "meta": {
+                "caption": "FIG. 4. Contribution of cytochrome d (open squares) and cytochrome o (open circles) to total respiratory activity, calculated on the basis of measured cytochrome d content (1), rDOT values (Fig. 5), respiration rates (qO2, closed squares), and known Km and Vmax values for the cytochrome bd oxidase (14) (see also Materials and Methods)."
+            }, 
+
+            "data": {
+                "respiration rate": {
+                    "marker": "closed square",
+                    "x.label": "% of aerobiosis",
+                    "x.vals": [
+                        0.14775190906183489, 3.467959264715505, 20.965791217473935, 35.42564790673756, 49.62681300989697, 53.33641230735704, 71.09560513144187, 92.70747293290003, 99.62743551111483
+                    ],
+                    "y.label": "qO_2 (mmol/g/h)",
+                    "y.vals": [
+                        0.0, 0.6690735913205206, 2.6091039311753654, 4.0407021374286485, 4.998242355735577, 4.768003759719423, 5.26676750346533, 6.035772229900909, 5.417039119856032
+                    ]
+                },
+                "cytochrome d": {
+                    "marker": "open square",
+                    "x.label": "% of aerobiosis",
+                    "x.vals": [
+                        0.07444118563673557, 3.568724781853163, 20.89973636824423, 35.57579520048573, 49.55307898564372, 53.29670170966722, 71.2365394071657, 92.9203882694476, 99.99912351828524
+                    ],
+                    "y.label": "qO_2 (mmol/g/h)",
+                    "y.vals": [
+                        0.0026402693898680794, 0.6758137236278363, 2.849718037578014, 4.529116448455953, 5.189157340317864, 3.6809966128794294, 2.416731620688793, 2.1727648332444156, 0.6637038593578459
+                    ]
+                },
+                "cytochrome o": {
+                    "marker": "open circle",
+                    "x.label": "% of aerobiosis",
+                    "x.vals": [
+                        0.28894016528253935, 21.241245516372725, 35.70409021148209, 49.862317670638284, 53.28479948638171, 71.21749584990887, 92.70936533660233, 99.82271165315306
+                    ],
+                    "y.label": "qO_2 (mmol/g/h)",
+                    "y.vals": [
+                        0.028946967235725155, 0.02933170732145171, 0.015112953387066242, 0.01411444326281324, 1.0856390141186478, 2.866732393097978, 3.8633626576393842, 4.77776738975347
+                    ]
+                }
+            }
+        }
+    }
+}
