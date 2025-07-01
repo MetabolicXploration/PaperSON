@@ -1,0 +1,95 @@
+{
+    "meta": {
+        "PaperSON.notes": [
+            "run raw.make.ipynb for producing the csv files from msb201066-sup-0002.xls"
+        ]
+    }, 
+
+    "data": {
+        "ReadMe": {
+            "Strains used in this study" : {
+                "Mutations": [
+                    "ppc", "argB", "argC", "argE", "argH", "proC", "icd", "nadC", "panB", "panD", "serC", "cysC", "cysE", "cysH", "glnA", "serA", "hisB", "hisC", "hisD", "hisI", "metA", "guaA", "guaB", "purA", "purC", "purD", "purF", "purL", "purM", "pyrB", "pyrC", "pyrD", "pyrE", "pyrF", "lysA", "tyrA", "trpA", "trpB", "trpC", "trpD", "trpE", "ilvC", "ilvE", "leuB", "leuD", "leuC", "Negative", "Positive"                
+                ], 
+                "#" : [
+                    1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48
+                ]
+            }, 
+
+            "Note": [
+                "Note: The positive control strain carries a deletion at the pfs locus, and is viable in M9 media"
+            ],
+
+            "Methods": [
+                "Cells were inoculated on day 0 at a total initial density of 1.5E7 cells/ml, or 7.5E6 cells/ml for each individual strain. Cell density was measured by OD each day over 4 days, in two biological replicates. At the end of 4 days cultures were diluted 1:100 and the ratio of mCherry-labeled to Venus-labeled strains was determined by flow cytometry of 50μl samples. See the manuscript text for additional details."
+            ], 
+
+            "Data key": [
+                "Sheets Day1_Rep1 through Day4_Rep2 report the total cell density in each coculture after each day and for each biological replicate. Units are cells/ml. The row of each matrix corresponds to the mCherry-labeled strain and the column to the venus-labeled strain. Sheets Venus_Counts and mCherry_Counts report the total counts of Venus and mCherry labeled cells, after 4 days, in each well of the first biological replicate."
+            ]
+        }, 
+
+        "Day1_Rep1": {
+            "data": {
+                "PaperSON.file": "raw.msb201066-sup-0002.Day1_Rep1.csv"
+            }
+        },
+        "Day1_Rep2": {
+            "data": {
+                "PaperSON.file": "raw.msb201066-sup-0002.Day1_Rep2.csv"
+            }
+        },
+        "Day2_Rep1": {
+            "data": {
+                "PaperSON.file": "raw.msb201066-sup-0002.Day2_Rep1.csv"
+            }
+        },
+        "Day2_Rep2": {
+            "data": {
+                "PaperSON.file": "raw.msb201066-sup-0002.Day2_Rep2.csv"
+            }
+        },
+        "Day3_Rep1": {
+            "data": {
+                "PaperSON.file": "raw.msb201066-sup-0002.Day3_Rep1.csv"
+            }
+        },
+        "Day3_Rep2": {
+            "data": {
+                "PaperSON.file": "raw.msb201066-sup-0002.Day3_Rep2.csv"
+            }
+        },
+        "Day4_Rep1": {
+            "data": {
+                "PaperSON.file": "raw.msb201066-sup-0002.Day4_Rep1.csv"
+            }
+        },
+        "Day4_Rep2": {
+            "data": {
+                "PaperSON.file": "raw.msb201066-sup-0002.Day4_Rep2.csv"
+            }
+        },
+        "mCherry_Counts": {
+            "data": {
+                "PaperSON.file": "raw.msb201066-sup-0002.mCherry_Counts.csv"
+            }
+        },
+        "Venus_Counts": {
+            "data": {
+                "PaperSON.file": "raw.msb201066-sup-0002.Venus_Counts.csv"
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+

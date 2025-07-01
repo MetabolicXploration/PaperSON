@@ -1,0 +1,44 @@
+,0,1,2,3
+0,Strains used in this study:,,,
+1,,,,
+2,#,Mutation,#,Mutation
+3,1,ppc,25,purC
+4,2,argB,26,purD
+5,3,argC,27,purF
+6,4,argE,28,purL
+7,5,argH,29,purM
+8,6,proC,30,pyrB
+9,7,icd,31,pyrC
+10,8,nadC,32,pyrD
+11,9,panB,33,pyrE
+12,10,panD,34,pyrF
+13,11,serC,35,lysA
+14,12,cysC,36,tyrA
+15,13,cysE,37,trpA
+16,14,cysH,38,trpB
+17,15,glnA,39,trpC
+18,16,serA,40,trpD
+19,17,hisB,41,trpE
+20,18,hisC,42,ilvC
+21,19,hisD,43,ilvE
+22,20,hisI,44,leuB
+23,21,metA,45,leuD
+24,22,guaA,46,leuC
+25,23,guaB,47,Negative
+26,24,purA,48,Positive
+27,,,,
+28,"Note: The positive control strain carries a deletion at the pfs locus, and is viable in M9 media",,,
+29,,,,
+30,,,,
+31,Methods:,,,
+32,,,,
+33,"Cells were inoculated on day 0 at a total initial density of 1.5E7 cells/ml, or 7.5E6 cells/ml for each individual strain. Cell density was measured by OD each day over 4 days, in two biological replicates. At the end of 4 days cultures were diluted 1:100 and the ratio of mCherry-labeled to Venus-labeled strains was determined by flow cytometry of 50μl samples. See the manuscript text for additional details.",,,
+34,,,,
+35,,,,
+36,,,,
+37,,,,
+38,,,,
+39,,,,
+40,Data key:,,,
+41,,,,
+42,"Sheets Day1_Rep1 through Day4_Rep2 report the total cell density in each coculture after each day and for each biological replicate. Units are cells/ml. The row of each matrix corresponds to the mCherry-labeled strain and the column to the venus-labeled strain. Sheets Venus_Counts and mCherry_Counts report the total counts of Venus and mCherry labeled cells, after 4 days, in each well of the first biological replicate.",,,
