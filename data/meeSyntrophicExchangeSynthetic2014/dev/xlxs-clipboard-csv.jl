@@ -52,7 +52,7 @@ let
         xlsx_name, ".", sheet_name, ".csv"
     ))
     
-    tbl = XLSX.gettable(sheet, "A:I";
+    tbl = XLSX.gettable(sheet, "A:G";
         header=false,
         infer_eltypes=false, 
         keep_empty_rows=true
