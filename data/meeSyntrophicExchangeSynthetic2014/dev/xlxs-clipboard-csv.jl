@@ -45,7 +45,7 @@ let
     xlsx = XLSX.readxlsx(xlsx_file)
 
     # Select a specific sheet by name or index
-    sheet_name = "3-member"
+    sheet_name = "2-member"
     sheet = xlsx[sheet_name]  # or xlsx[1] for the first sheet
 
     csv_file = joinpath(data_folder, string(
