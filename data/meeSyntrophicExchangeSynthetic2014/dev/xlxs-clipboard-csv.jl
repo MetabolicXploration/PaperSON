@@ -45,15 +45,23 @@ let
     xlsx = XLSX.readxlsx(xlsx_file)
 
     # Select a specific sheet by name or index
-    sheet_name = "2-member"
+    # sheet_name = "2-member"
+    # sheet_range = "A:G"
+
+    sheet_name = "3-member"
+    sheet_range = "A:H"
+
+    # sheet_name = "14&13-member mean"
+    # sheet_range = "A:AO"
     sheet = xlsx[sheet_name]  # or xlsx[1] for the first sheet
 
     csv_file = joinpath(data_folder, string(
         xlsx_name, ".", sheet_name, ".csv"
     ))
     
-    tbl = XLSX.gettable(sheet, "A:G";
+    tbl = XLSX.gettable(sheet, sheet_range;
         header=false,
+        first_row=1, 
         infer_eltypes=false, 
         keep_empty_rows=true
     )
