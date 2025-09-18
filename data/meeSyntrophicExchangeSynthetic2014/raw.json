@@ -1,0 +1,19 @@
+{
+    "data": {
+        "pnas.1405641111.sd03": {
+            "3-member": {
+
+                "meta": {
+                    "PaperSON.readme": [
+                        "# README for pnas.1405641111.sd03\n\nThis document provides clarification and context for the data contained in the `pnas.1405641111.sd03` file, which is part of the supporting information for the paper \"Syntrophic exchange in synthetic microbial communities\" by Mee et al..\n\n## 1. File Purpose and Content\n\nThis file contains **fold growth values for 364 three-member synthetic consortia** of *Escherichia coli*. Crucially, it also includes the **fold growth values for the corresponding two-member subsets** that constitute these three-member groups, derived from pairwise interaction experiments.\n\nThe table's columns are:\n*   `Co-culture ID`: A unique identifier for each consortium.\n*   `Strain 1`, `Strain 2`, `Strain 3`: These are single letters representing the three unique amino acids that define the consortium.\n*   `\"Strain 1+2+3 fold growth (T84)\"`: The total observed fold growth of the three-member consortium after 84 hours of coculture.\n*   `\"Strain 1+2 fold growth (T84)\"`: The observed fold growth of the two-member subset defined by \"Strain 1\" and \"Strain 2\" after 84 ho"
+                    ]
+                }, 
+
+                "data": {
+                    "file": "./pnas.1405641111.sd03.xlsx.3-member.csv",
+                    "format": "csv"
+                }
+            }
+        }
+    }
+}
