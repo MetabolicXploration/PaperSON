@@ -1,4 +1,4 @@
-# PaperSON: A Human-Readable Knowledge Graph for Scientific Data
+# PaperSON
 
 ## Overview
 
