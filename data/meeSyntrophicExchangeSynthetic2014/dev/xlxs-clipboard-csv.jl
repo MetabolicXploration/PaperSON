@@ -16,44 +16,35 @@ using CSV
 
 ## ---.... .. - . .-  . -. . . - .  . . - -
 # MARK: Utils
-function sheet_to_matrix(file::AbstractString; sheet=1, range=nothing)
-    XLSX.openxlsx(file) do xf
-        sname = sheet isa Integer ? XLSX.sheetnames(xf)[sheet] : String(sheet)
-        sh = xf[sname]
-
-        # This is the right way to get the sheet's used range
-        used_ref = XLSX.used_range(sh)
-
-        if range === nothing
-            return XLSX.readdata(sh, used_ref)
-        else
-            return XLSX.readdata(sh, range)
-        end
-    end
-end
-
 
 ## ---.... .. - . .-  . -. . . - .  . . - -
 let
     data_folder = "/Users/pereiro/University/CODE/PaperSON/data/meeSyntrophicExchangeSynthetic2014/dev"
     
-    xlsx_name = "pnas.1405641111.sd03.xlsx"
-    xlsx_file = joinpath(data_folder, xlsx_name)
+    # Select a specific file, sheet by name or index
     
+    # "pnas.1405641111.sd01.xlsx"
+    xlsx_name = "pnas.1405641111.sd01.xlsx"
+    sheet_name = "Utilization-Cost"
+    sheet_range = "A:D"
 
-    # Open the Excel file
-    xlsx = XLSX.readxlsx(xlsx_file)
-
-    # Select a specific sheet by name or index
+    # "pnas.1405641111.sd03.xlsx"
+    # xlsx_name = "pnas.1405641111.sd03.xlsx"
     # sheet_name = "2-member"
     # sheet_range = "A:G"
 
-    sheet_name = "3-member"
-    sheet_range = "A:H"
+    # sheet_name = "3-member"
+    # sheet_range = "A:H"
 
     # sheet_name = "14&13-member mean"
     # sheet_range = "A:AO"
+
+
+    # Open the Excel file
+    xlsx_file = joinpath(data_folder, xlsx_name)
+    xlsx = XLSX.readxlsx(xlsx_file)
     sheet = xlsx[sheet_name]  # or xlsx[1] for the first sheet
+
 
     csv_file = joinpath(data_folder, string(
         xlsx_name, ".", sheet_name, ".csv"
